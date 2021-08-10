@@ -1,0 +1,162 @@
+.bm-burger-button {
+    width: 36px;
+    height: 30px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #ffffff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #ffffff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 48px;
+    width: 48px;
+
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #112152;
+    right: 15%;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: relative;
+    top: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #ffffff;
+    font-size: 1.15em;
+    border-radius: 0 0 0 35px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 24px 0;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+    list-style: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(5,4,36,.88) !important;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.bm-logo{
+    margin-left: 64px;
+    margin-bottom: 24px;
+    width: 132px;
+    height: 32px;
+    background: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-4f4e860/wp-content/plugins/pb-dynamic-snippets/img/pb-logo.svg") no-repeat;
+}
+
+.bm-cross-buton-icon{
+    margin-top: 17px;
+    margin-right: 10%;
+    height: 36px;
+    width: 36px;
+}
+
+.bm-item > li {
+    padding: 16px 64px;
+    border-top: 1px solid #f5f5f5;
+}
+.bm-item a{
+    font-size: 14px;
+    color: #112152;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bm-item a.active{
+
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.bm-item-accordion{
+    font-size: 14px;
+    color: #112152;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    font-weight: 500;
+}
+
+.menu__item{
+    font-weight: 500;
+    padding: 24px 64px;
+}
+
+.bm-arrow{
+    background: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-2ccdc07/wp-content/plugins/pb-dynamic-snippets/img/chevron-down.svg") center no-repeat;
+    position: absolute;
+    transition: .4s;
+    margin-left: 352px;
+}
+
+.bm-sub-menu{
+    list-style: none;
+    animation-name: show-menu;
+
+    animation-iteration-count: 5;
+}
+.bm-sub-menu li{
+    padding: 16px 64px;
+}
+
+.re-card-header{
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.bm-sub-menu-link.active{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.bm-sub-menu-link {
+    font-weight: 500;
+}
+
+@media (max-width: 767px){
+    .bm-menu-wrap{
+        width: 380px !important;
+    }
+    .bm-item > li {
+        padding: 16px 24px;
+    }
+    .bm-arrow{
+        margin-left: 285px;
+    }
+    .bm-logo{
+        margin-left: 24px;
+    }
+}

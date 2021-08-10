@@ -1,0 +1,64 @@
+.faq__accordion-title {
+	font-weight: 500 !important;
+	font-size: 20px !important;
+	line-height: 30px !important;
+	color: #112152;
+	padding: 0 0 24px 0;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.faq__accordion-card {
+	border-bottom: 1px solid #bac1d0 !important;
+}
+
+.faq__accordion-card-toggle {
+	padding: 0;
+	border: none;
+	background: transparent;
+}
+
+.faq__accordion-arrow {
+	background: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-2ccdc07/wp-content/plugins/pb-dynamic-snippets/img/chevron-down.svg") center no-repeat;
+	background-size: 21px 21px;
+	top: 5px;
+	content: '|';
+	display: block;
+	margin: 0;
+	width: 20px !important;
+}
+
+.faq__accordion-text {
+	color: #6b6b6b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	padding: 0 0 24px;
+	word-break: break-word;
+}
+
+.faq__accordion-text a {
+	color: #112152;
+	text-decoration: underline;
+}
+
+@media (max-width: 1216px) {
+	.faq__accordion-title{
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+	.faq__accordion-text{
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.faq__accordion-title{
+		font-size: 16px !important;
+		line-height: 24px !important;
+	}
+}

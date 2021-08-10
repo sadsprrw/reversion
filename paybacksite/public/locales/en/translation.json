@@ -1,0 +1,33 @@
+{
+  "header.rc": "Recovery Services",
+  "header.rc.bo": "Binary Options",
+  "header.rc.c": "Cryptocurrency",
+  "header.rc.f": "Forex",
+  "header.rc.st": "Stock Trading",
+  "header.cu": "Contact Us",
+  "header.au": "About Us",
+  "header.b": "Blog",
+
+  "header.btn": "Get your money back",
+
+  "main.title1": "Been scammed by a broker?",
+  "main.title2": "Let's get your money back!",
+  "main.sub-title": "If you’ve been ripped off by scammers, get in touch and our team of experts will work to get your money back",
+
+  "rc.sub-title": "If you’ve lost money to scammers, contact us now and we’ll work with you to get your money back!",
+
+  "rc.title": " Get your money back!",
+
+  "bo.title": "Binary Options Scams -",
+
+  "c.title": "Bitcoin & Cryptocurrency Scams -",
+
+  "f.title": "Forex Trading Scams -",
+
+  "st.title": "Stock Market Scams -",
+
+  "cu.title1": "Contact us now! To get ",
+  "cu.title2": "your money Back!",
+
+  "blog.title": "Featured Articles"
+}

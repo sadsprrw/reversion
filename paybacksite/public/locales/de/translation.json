@@ -1,0 +1,32 @@
+{
+  "header.rc": "Wiederherstellungsdienste",
+  "header.rc.bo": "Binäre Optionen",
+  "header.rc.c": "Kryptowährung",
+  "header.rc.f": "Forex",
+  "header.rc.st": "Aktienhandel",
+  "header.cu": "Kontaktieren Sie uns",
+  "header.au": "Über uns",
+  "header.b": "Blog",
+
+  "header.btn": "Hol dein Geld zurück",
+
+  "main.title1": "Wurden Sie von einem Broker betrogen?",
+  "main.title2": " Holen wir uns Ihr Geld zurück!",
+  "main.sub-title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit Ihnen zusammenarbeiten, um Ihr Geld zurückzubekommen!",
+
+  "rc.sub-title": "Wenn Sie von Betrügern übers Ohr gehauen wurden, setzen Sie sich mit uns in Verbindung und unser Expertenteam wird daran arbeiten, Ihr Geld zurückzubekommen",
+  "rc.title": " Holen Sie sich Ihr Geld zurück!",
+
+  "bo.title": "Betrug mit binären Optionen -",
+
+  "c.title": "Betrügereien mit Bitcoin und Kryptowährungen -",
+
+  "f.title": "Betrug beim Devisenhandel -",
+
+  "st.title": "Börsenbetrug -",
+
+  "cu.title1": "Kontaktiere uns jetzt! Zu bekommen ",
+  "cu.title2": "Ihr Geld zurück!",
+
+  "blog.title": "Featured Articles"
+}

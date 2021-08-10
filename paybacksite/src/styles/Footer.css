@@ -1,0 +1,159 @@
+.pre-footer {
+	background-color: #050424;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 50px 20px 0px 20px;
+
+	color: #9f9f9f;
+	font-weight: 500;
+	line-height: 27px;
+	font-size: 18px;
+}
+.pre-footer a, .footer a{
+	color: #9f9f9f;
+	font-weight: 500;
+	line-height: 27px;
+	font-size: 18px;
+	width: 100%;
+}
+
+.pre-footer a, .pre-footer a:visited, .pre-footer a:active {
+	color: #9f9f9f;
+    text-decoration: none;
+}
+
+.footer a, .footer a:visited, .footer a:active {
+	color: #9f9f9f;
+    text-decoration: none;
+}
+
+.pre-footer a:hover, .footer a:hover {
+	text-decoration: underline;
+}
+
+.pre-footer__column {
+	width: 33.3%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.pre-footer__col-header {
+
+	position: relative;
+}
+.pf__header {
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 42px;
+	color: #fff;
+	margin-bottom: 32px;
+}
+.pf-links {
+
+	position: relative;
+	display: block;
+}
+.pf-links div:not(:last-child) {
+	margin-bottom: 16px;
+}
+.pf__location {
+	margin-bottom: 0;
+	max-width: 240px;
+}
+.pf__office-schedule{
+	margin-top: 48px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.footer {
+	background-color: #050424;
+	padding: 86px 20px 39px 20px;
+}
+.footer__logo {
+	width: 19.572%;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 1px;
+}
+.footer__logo-wrapper {
+	text-align: left;
+	width: 100%;
+}
+.footer__content {
+	width: 80.428%;
+	display: flex;
+	min-height: 1px;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0px 0px 0px 0px;
+}
+.footer__column {
+	width: 33.3%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.footer__text {
+	text-align: center;
+	color: #9f9f9f;
+	font-family: "Poppins",Sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+ }
+
+@media (max-width: 1216px){
+	.pf__header{
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	.pf-links a{
+		font-size: 16px;
+	}
+	.footer__text a{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px){
+	.pre-footer__column{
+		width: 100%;
+		max-width: 350px;
+		align-items: center;
+	}
+	.pf__office-schedule{
+		text-align: center;
+	}
+	.pf__header{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.pf-links a{
+		font-size: 16px;
+	}
+	.footer__text a{
+		font-size: 16px;
+	}
+	.footer__content{
+		flex-direction: column;
+	}
+	.footer__column{
+		margin-top: 10px;
+		width: 100%;
+	}
+	.footer__logo{
+		max-width: 350px;
+		width: auto;
+		align-items: center;
+	}
+	.pf__location{
+		text-align: center;
+	}
+	.pf-links{
+		text-align: center;
+	}
+}
