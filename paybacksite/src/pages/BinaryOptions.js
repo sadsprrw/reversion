@@ -113,7 +113,9 @@ const BinaryOptions = () => {
                                                 <Card.Body className={"faq__accordion-text"}>
                                                     If you were scammed out of your money due to a dishonest binary
                                                     options broker or a service that lied about its performance, you still have{"\t"}
-                                                    <a href="">options to recover some or all of your money</a>.
+                                                    <a href="/article/if-you-get-scammed-can-you-get-your-money-back">
+                                                        options to recover some or all of your money
+                                                    </a>.
                                                     Payback is a company that specializes in the recovery of your money.
                                                 </Card.Body>
                                             </Accordion.Collapse>

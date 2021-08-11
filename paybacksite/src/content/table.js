@@ -1,5 +1,9 @@
 //----------Main----------
 
+import Card from "react-bootstrap/Card";
+import Accordion from "react-bootstrap/Accordion";
+import React from "react";
+
 export const mtocLinks = [
     {to: "p1", text: "Learn more about Payback and the chargeback industry right here"},
     {to: "p2", text: "The chargeback industry"},
@@ -53,7 +57,8 @@ export const mtocParagraphs = [
             " on rare occasions, any consumer can file for a return of funds from the shop or merchant," +
             " either due to error in processing, disagreements, or possible fraud.",
 
-            "<a href=''>The chargeback method</a> is created in consideration of the customer’s safety and " +
+            "<a href=\"/article/a-guide-to-chargebacks-recover-your-funds-after-a-scam\">The chargeback method</a>" +
+            " is created in consideration of the customer’s safety and " +
             "protection from scams or any fraudulent scams in the marketplace. There are " +
             "consumer protection codes in some parts of the world that make sure of the return" +
             " of products in the case of detection of a scam.",
@@ -107,7 +112,7 @@ export const mtocParagraphs = [
             "<ul class='main__marker-list'>" +
             "    <li>" +
             "        <div>" +
-            "            <a href=''>How can I recover my lost money from Forex?</a>" +
+            "            <a href='/forex'>How can I recover my lost money from Forex?</a>" +
             "        </div>" +
             "    </li>" +
             "    <li>" +
@@ -147,7 +152,7 @@ export const mtocParagraphs = [
             "                                        online to recover what is rightfully theirs with their wealth recovery experts, scam\n" +
             "                                        money recovery professionals, and fund recovery specialists.",
 
-            "The company focuses on <a href=' '>unregulated Forex and Binary Options Brokers</a> and has already handled millions of victims around the globe with a high turnover.\n" +
+            "The company focuses on <a href='/articles/blacklisted-brands'>unregulated Forex and Binary Options Brokers</a> and has already handled millions of victims around the globe with a high turnover.\n" +
             "                                        In July alone, we have recovered more than $300,000 funds and money from frauds." ,
 
             "Our team is composed of skilled experts and professionals\n" +
@@ -158,7 +163,7 @@ export const mtocParagraphs = [
 
             "As a fund recovery agency, PayBack helps people conduct safe online transactions and\n" +
             "                                        provide services in the area of refunds and cancellations, " +
-            "<a href=''>forex</a> and <a href=''>binary options scams</a>, and other types of online frauds.",
+            "<a href='/forex'>forex</a> and <a href='/binary_options'>binary options scams</a>, and other types of online frauds.",
 
             "Where recovery scams are\n" +
             "prevalent, PayBack is the safer choice. We specialize in recovery funds in the UK\n" +
@@ -169,7 +174,7 @@ export const mtocParagraphs = [
             "        <ul class='main__marker-list'>\n" +
             "            <li>\n" +
             "                <div>\n" +
-            "                    <a href=''>Online trading scams</a>\n" +
+            "                    <a href='/forex'>Online trading scams</a>\n" +
             "                </div>\n" +
             "            </li>\n" +
             "            <li>\n" +
@@ -177,7 +182,7 @@ export const mtocParagraphs = [
             "            </li>\n" +
             "            <li>\n" +
             "                <div>\n" +
-            "                    <a href=''>Trade platform scams</a>\n" +
+            "                    <a href='/forex'>Trade platform scams</a>\n" +
             "                </div>\n" +
             "            </li>\n" +
             "            <li>\n" +
@@ -189,12 +194,12 @@ export const mtocParagraphs = [
             "        <ul class='main__marker-list'>\n" +
             "            <li>\n" +
             "                <div>\n" +
-            "                    <a href=''>Crypto scam recovery</a>\n" +
+            "                    <a href='/cryptocurrency'>Crypto scam recovery</a>\n" +
             "                </div>\n" +
             "            </li>\n" +
             "            <li>\n" +
             "                <div>\n" +
-            "                    <a href=''>Recover scammed bitcoin</a>\n" +
+            "                    <a href='/cryptocurrency'>Recover scammed bitcoin</a>\n" +
             "                </div>\n" +
             "            </li>\n" +
             "            <li>\n" +
@@ -413,7 +418,7 @@ export const botocParagraphs = [
     },
 ]
 
-//---------BinaryOptions---------
+//---------Crypto---------
 
 export const ctocLinks = [
     {to: "p1", text: "What is cryptocurrency?"},
@@ -1089,3 +1094,124 @@ export const sttocParagraphs = [
       ]
     }
 ]
+
+export const blacklist = (
+    <Accordion defaultActiveKey="0">
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"}
+                              variant="link" eventKey="0">
+
+                <div className="faq__accordion-title">
+                    FOREX
+                    <span className="arrow faq__accordion-arrow"/>
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="0">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                    <tbody>
+                    <tr>
+                        <td>70trades</td>
+                        <td>31fx</td>
+                        <td>forex ukraine</td>
+                    </tr>
+                    <tr>
+                        <td>ashokfx</td>
+                        <td>fibo group</td>
+                        <td>fxonus</td></tr><tr><td>atfx</td>
+                        <td>ads prime</td><td>fxopen</td>
+                    </tr>
+                    <tr>
+                        <td>atirox</td>
+                        <td>ag markets</td>
+                        <td>fxoptimax</td>
+                    </tr>
+                    <tr>
+                        <td>atom8</td>
+                        <td>alvexo</td><td>myfxchoice</td></tr><tr><td>axecc</td><td>kvb kunlun</td><td>forexee</td></tr><tr><td>axeinvest</td><td>avafx</td><td>fto capital</td></tr><tr><td>axiory</td><td>london equity</td><td>ftocapital</td></tr><tr><td>beneforex</td><td>orbex</td><td>wisetrader</td></tr><tr><td>berndalecapital</td><td>ot capital</td><td>worldwidemarkets</td></tr><tr><td>blueberrymarkets</td><td>lite forex</td><td>1 billion signals</td></tr><tr><td>bmfn</td><td>synergy fx</td><td>capxm</td></tr><tr><td>cambridgefx</td><td>mutual broker</td><td>cccapital</td></tr><tr><td>capitalspreads</td><td>phillipcapital</td><td>prestige financial markets</td></tr><tr><td>cashbackforex</td><td>rbfx</td><td>fintechfx</td></tr><tr><td>charterprime</td><td>safemarkets</td><td>forex4money</td></tr><tr><td>circlemarkets</td><td>simplefx</td><td>fxgrow</td></tr><tr><td>cmsfx</td><td>stofs</td><td>iba markets</td></tr><tr><td>compassfx</td><td>svsfx</td><td>ibcfx</td></tr><tr><td>coperstone</td><td>usgfx</td><td>ufxmarkets</td></tr><tr><td>currenex</td><td>xcfd</td><td>ecncapital</td></tr><tr><td>deltastock</td><td>ecn capital</td><td>fideliscm</td></tr><tr><td>directfx</td><td>eu capital</td><td>hercules.finance</td></tr><tr><td>easymarkets</td><td>trade 24</td><td>highfxmarkets</td></tr><tr><td>europacbank</td><td>amarkets</td><td>traderplace</td></tr><tr><td>everfx</td><td>traders way</td><td>alphabetfx</td></tr><tr><td>fgmarkets</td><td>markets capital</td><td>emporiotrading</td></tr><tr><td>finq</td><td>pwrtrade</td><td>soarfx</td></tr><tr><td>firewoodfx</td><td>suretrader</td><td>auctionscm</td></tr><tr><td>fixi</td><td>acy capital</td><td>capital markets trading</td></tr><tr><td>fondex</td><td>fx market pro</td><td>bluemaxcapital</td></tr><tr><td>forex4you</td><td>gcg trading</td><td>bluetrading</td></tr><tr><td>forexchief</td><td>iqoption</td><td>larson&amp;holz</td></tr><tr><td>forextime</td><td>keymarkets</td><td>master4x</td></tr><tr><td>fpmarkets</td><td>olympus markets</td><td>maxcfd</td></tr><tr><td>freshforex</td><td>10markets</td><td>mbcfx</td></tr><tr><td>fullertonmarkets</td><td>tallinex</td><td>deltafx markets</td></tr><tr><td>fxcc</td><td>forex metal</td><td>deltafxmarkets</td></tr><tr><td>fxchoice</td><td>metainvesting</td><td>destek markets</td></tr><tr><td>fxclearing</td><td>land fx</td><td>dfmarkets</td></tr><tr><td>fxdd</td><td>tradecapital</td><td>fxsystems</td></tr><tr><td>fxglobe</td><td>solid fx</td><td>youtradefx</td></tr><tr><td>fxgm</td><td>trade ltd</td><td>dinerolibre</td></tr><tr><td>fxlider</td><td>finix capital</td><td>swissxm</td></tr><tr><td>fxnet</td><td>fxfway</td><td>trade12</td></tr><tr><td>fxpig</td><td>liteforex</td><td>xglobalmarkets</td></tr><tr><td>fxrenew</td><td>td markets</td><td>tradex options</td></tr><tr><td>fxsol</td><td>forex ltd</td><td>harborx</td></tr><tr><td>highsky</td><td>xprotrade</td><td>hbc broker</td></tr><tr><td>hqbroker</td><td>assetsfx</td><td>tpfx</td></tr><tr><td>icmarkets</td><td>forexstart</td><td>siifx</td></tr><tr><td>ifx</td><td>forextrading</td><td>colmexpro</td></tr><tr><td>igofx</td><td>gainsy</td><td>commexfx</td></tr><tr><td>intfx</td><td>finspreads</td><td>evenforex</td></tr><tr><td>investaz</td><td>fintech fx</td><td>immfx</td></tr><tr><td>itrader</td><td>fintech trade</td><td>tradecapital.com</td></tr><tr><td>lionsfx</td><td>litefintech</td><td>10tradefx</td></tr><tr><td>littinvest</td><td>tri leading trader</td><td>10trading</td></tr><tr><td>marketscube</td><td>admiralmarkets</td><td>1118 capital</td></tr><tr><td>maximusfx</td><td>capotrade</td><td>algotechs</td></tr><tr><td>nordfx</td><td>ct broker</td><td>fbs</td></tr><tr><td>npbfx</td><td>trader vc</td><td>fcmarket</td></tr><tr><td>gwfx global</td><td>novatrades</td><td>markets unlimited</td></tr><tr><td>capital.com</td><td>landfx</td><td>tradefintech</td></tr><tr><td>fmfx</td><td>teletrade</td><td>cfxmarkets</td></tr><tr><td>forex macro</td><td>onyxcapital</td><td>championfx</td></tr><tr><td>four markets</td><td>europe forex</td><td>bankinvestcapital</td></tr><tr><td>trade.com</td><td>goforex</td><td>cititrader</td></tr><tr><td>bosscapital</td><td>ct-trade</td><td>cliqfx</td></tr><tr><td>admiral markets</td><td>fm fx</td><td>gcitrading</td></tr><tr><td>xmarkets</td><td>gelber group</td><td>prestigefinancialmarkets</td></tr><tr><td>zurich prime</td><td>xfx trading</td><td>titantrade.com</td></tr><tr><td>trade24</td><td>avaoption</td><td>milleniumfx</td></tr><tr><td>blackwellglobal</td><td>avatrade ca</td><td>argusfx</td></tr><tr><td>kontofx</td><td>forextrada</td><td>corsaforex</td></tr><tr><td>12trader</td><td>fortfs</td><td>cpt systems</td></tr><tr><td>2dots</td><td>fx leaders</td><td>forex</td></tr><tr><td>aaafx</td><td>poloinvest</td><td>forex investment services</td></tr><tr><td>accentforex</td><td>weissfinance</td><td>forexbull</td></tr><tr><td>alpari</td><td>orion service eood</td><td>fxcmarkets</td></tr><tr><td>aswaq</td><td>sunbirdfx</td><td>ecnpro</td></tr><tr><td>atcbrokers</td><td>utc broker</td><td>a3trading</td></tr><tr><td>avatrade</td><td>fxarena</td><td>exxonfx</td></tr><tr><td>axitrader</td><td>fxbmtrade</td><td>ezinvest</td></tr><tr><td>bdswiss</td><td>bealgo</td><td>evolvemarkets</td></tr><tr><td>bforex</td><td>brokerjet</td><td>forexprince</td></tr><tr><td>blackbull markets</td><td>brokerz</td><td>isgxchange</td></tr><tr><td>brightertrade</td><td>marketct</td><td>itcfx</td></tr><tr><td>brokerxp</td><td>24fxm</td><td>kbcapitals</td></tr><tr><td>capital traders</td><td>promfx</td><td>belforfx</td></tr><tr><td>capitalindex</td><td>ifx4u</td><td>baxterfx</td></tr><tr><td>cibfx</td><td>obroker</td><td>fsmsmart</td></tr><tr><td>cityindex</td><td>xpofx</td><td>fxedge</td></tr><tr><td>clmforex</td><td>edealfx</td><td>zurichprime</td></tr><tr><td>cmcmarkets</td><td>eightcap</td><td>alpha financial group</td></tr><tr><td>cmstrader</td><td>gfbroker</td><td>angelo fx</td></tr><tr><td>cmtrading</td><td>gftrades</td><td>conotoxia ltd</td></tr><tr><td>compassmarkets</td><td>gmo trading</td><td>forexbit</td></tr><tr><td>dukascopy</td><td>xtrade</td><td>fx trader</td></tr><tr><td>equiti</td><td>investingpro</td><td>fxone</td></tr><tr><td>europefx</td><td>tdmarkets</td><td>nessfx</td></tr><tr><td>eurotrader</td><td>bfsforex</td><td>reliantco investments ltd</td></tr><tr><td>exante</td><td>buzzfx</td><td>trade limited</td></tr><tr><td>exness</td><td>c7traders</td><td>tradetime</td></tr><tr><td>finmarket</td><td>houseofborse</td><td>365invest</td></tr><tr><td>finotec</td><td>realforex</td><td>4xbankers</td></tr><tr><td>forexct</td><td>peregrine financial group</td><td>4xbanks</td></tr><tr><td>forexfs</td><td>boerum holdings</td><td>4xbrands</td></tr><tr><td>fxall</td><td>boomforex</td><td>caesartrade</td></tr><tr><td>fxcitizen</td><td>capitalcitymarkets</td><td>capital city markets</td></tr><tr><td>fxcm</td><td>capitalmarketsbanc</td><td>fxgiants</td></tr><tr><td>fxfair</td><td>capitalstreetfx</td><td>ifafx</td></tr><tr><td>fxflat</td><td>etxcapital</td><td>fibogroup</td></tr><tr><td>fxglory</td><td>eucapital</td><td>fin techprime</td></tr><tr><td>fxleader</td><td>euromaxfx</td><td>empfx</td></tr><tr><td>fxpremax</td><td>instafx24</td><td>fxlift</td></tr><tr><td>fxprimus</td><td>accfx</td><td>fxlite</td></tr><tr><td>fxpro</td><td>easylinepro</td><td>fxmarketpro</td></tr><tr><td>gdmfx</td><td>finanzasforex</td><td>fxnobel</td></tr><tr><td>getfinancial</td><td>ihforex</td><td>fxntrade</td></tr><tr><td>goldenmarkets</td><td>oxmarkets</td><td>alfaforex</td></tr><tr><td>highfx</td><td>pbn capital trading</td><td>cwmfx</td></tr><tr><td>hitbtc</td><td>pbntrade</td><td>lottmarket</td></tr><tr><td>hycm</td><td>fortfx</td><td>simplfx</td></tr><tr><td>icfx</td><td>fortisfx</td><td>tradaxa</td></tr><tr><td>iforex</td><td>fxbtrading</td><td>aurafx</td></tr><tr><td>ikofx</td><td>fxcast</td><td>automatafx</td></tr><tr><td>jafx</td><td>brocompany</td><td>ava</td></tr><tr><td>kayafx</td><td>broker official</td><td>fxpmarkets</td></tr><tr><td>mifx</td><td>brokerz.com</td><td>centrofx</td></tr><tr><td>dubaifxm</td><td>olofx</td><td>cfhclearing</td></tr><tr><td>ironfx</td><td>efxco</td><td>cfmerchants</td></tr><tr><td>fxtm</td><td>60op</td><td>crownforex</td></tr><tr><td>trade360</td><td>fxoro</td><td>gsi markets</td></tr><tr><td>tradeo</td><td>n1cm</td><td>mci investments</td></tr><tr><td>myfx</td><td>forexgrand</td><td>deltafx</td></tr><tr><td>nasdaq500</td><td>forexltd</td><td>finpro trading</td></tr><tr><td>nsfx</td><td>wisebanc</td><td>finprotrading</td></tr><tr><td>olympusfx</td><td>fxgtrade</td><td>fxtime</td></tr><tr><td>spreadco</td><td>fxtradingrevolution</td><td>xtrades</td></tr><tr><td>blue broker</td><td>fxvip</td><td>yestrading</td></tr><tr><td>cedar finance</td><td>touchtrades</td><td>coin brokerz</td></tr><tr><td>forex grand</td><td>sgmfx</td><td>direktbroker</td></tr><tr><td>markets.com</td><td>shtern group</td><td>ksftrade</td></tr><tr><td>markets.online</td><td>sigma forex</td><td>spot fn</td></tr><tr><td>activtrades</td><td>imarketslive</td><td>starfishfx</td></tr><tr><td>zxmarkets</td><td>pfgfx</td><td>xm</td></tr><tr><td>bktrading</td><td>tradeinvest90</td><td>joe lewis trading</td></tr><tr><td>juno markets</td><td>cfxpoint</td><td>jones mutual</td></tr><tr><td>easyinvest</td><td>chronofm</td><td>justrader</td></tr><tr><td>icm capital</td><td>axnfx</td><td>tradewisefx</td></tr><tr><td>intertrader</td><td>gcg24</td><td>blackpearlfx</td></tr><tr><td>hdforex</td><td>swipestox</td><td>forexmart</td></tr><tr><td>vxmarkets</td><td>tmarkets</td><td>exclusivecapital</td></tr><tr><td>pratconi</td><td>torrentfx</td><td>forexmetal</td></tr><tr><td>rfxt</td><td>brand scammed me</td><td>forexoma</td></tr><tr><td>rlfx</td><td>brfxtrade</td><td>forexoptimum</td></tr><tr><td>rubixfx</td><td>mrtmarkets</td><td>forexrobot</td></tr><tr><td>s2trade</td><td>cornertrader</td><td>kabkg</td></tr><tr><td>stoxmarket</td><td>credo trade</td><td>aafxtrading</td></tr><tr><td>tfxi</td><td>crescofx</td><td>friedbergdirect</td></tr><tr><td>tifx</td><td>fxcentral</td><td>fsm smart</td></tr><tr><td>tixfx</td><td>fxclub</td><td>fxfinpro</td></tr><tr><td>ufx</td><td>continuefx</td><td>24cryptomarket</td></tr><tr><td>universe markets</td><td>eginets</td><td>10 capital.com</td></tr><tr><td>upfx</td><td>gicmarkets</td><td>aafx</td></tr><tr><td>xtb</td><td>gmfx24</td><td>alpha fx group plc</td></tr><tr><td>zoomtrader</td><td>gmimarkets</td><td>everfx global</td></tr><tr><td>zulutrade</td><td>gtfx</td><td>forexbit.com</td></tr><tr><td>hotforex</td><td>gulffx</td><td>golden trade</td></tr><tr><td>gcc investing</td><td>xtraderfx</td><td>golden trading option</td></tr><tr><td>markets gbp</td><td>daxmarkets</td><td>ifgm</td></tr><tr><td>profit trade</td><td>roboforex</td><td>millenium fx</td></tr><tr><td>videforex</td><td>bfp markets</td><td>omc markets</td></tr><tr><td>cmc markets</td><td>bulbrokers</td><td>omegafx</td></tr><tr><td>trade-24</td><td>bullwins</td><td>procapital markets</td></tr><tr><td>pwr trade</td><td>royal capital pro</td><td>tradefred</td></tr><tr><td>goldenfx</td><td>rtc finance</td><td>vantagefx</td></tr><tr><td>grandcapital</td><td>jcmfx</td><td>cannontrading</td></tr><tr><td>hq broker</td><td>tradovest</td><td>fxgim</td></tr><tr><td>easytrade</td><td>4xfx trading</td><td>fxginvest</td></tr><tr><td>fx choice</td><td>4xincome</td><td>fxprivate</td></tr><tr><td>fxb trading</td><td>etomarkets</td><td>isfx</td></tr><tr><td>31fx</td><td>procapital trade</td><td>fxone finance</td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"} variant="link" eventKey="1">
+
+                <div className={"faq__accordion-title"}>
+                    BINARY
+                    <span className="arrow faq__accordion-arrow"/>
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="1">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                        <tbody><tr><td>24option</td><td>optionweb</td><td>30daychange</td></tr><tr><td>365binaryoption</td><td>optionyard</td><td>leaderoption</td></tr><tr><td>72option</td><td>toroption</td><td>invest binary</td></tr><tr><td>beeoptions</td><td>xb24</td><td>interactive option</td></tr><tr><td>bigoption</td><td>winmarkets</td><td>poweropt</td></tr><tr><td>ateh</td><td>club epargne</td><td>tradewell</td></tr><tr><td>bbbmarkets</td><td>cma cap</td><td>ikkotrader</td></tr><tr><td>bbinary</td><td>mayfair options</td><td>ls traders</td></tr><tr><td>bidtopia</td><td>glenridge capital</td><td>oracle options</td></tr><tr><td>bifobroker</td><td>magnum options</td><td>planet option</td></tr><tr><td>binarium</td><td>markets world</td><td>positiva ad</td></tr><tr><td>binarycent</td><td>profit binary signals</td><td>binary options robot</td></tr><tr><td>buzztrade</td><td>algobit</td><td>gfmtrader</td></tr><tr><td>closeoption</td><td>marketpunter</td><td>optiongenius</td></tr><tr><td>exbino</td><td>binary options platinum signals</td><td>prestige option</td></tr><tr><td>finmax</td><td>qbits megaprofit</td><td>lbinary</td></tr><tr><td>ctoption</td><td>quickoption</td><td>lionexo</td></tr><tr><td>skyline markets</td><td>pro binary</td><td>rb options</td></tr><tr><td>superoptions</td><td>grandoptions</td><td>redwood binary options</td></tr><tr><td>capital bank markets</td><td>cst financial services</td><td>sigma option</td></tr><tr><td>sue brand</td><td>vip brokers</td><td>tradesolid</td></tr><tr><td>janus option</td><td>stern option</td><td>tradethunder</td></tr><tr><td>365trading</td><td>the option pro</td><td>btg option</td></tr><tr><td>53option</td><td>anyoption</td><td>titan trading</td></tr><tr><td>67option</td><td>ashford investment</td><td>b4trade</td></tr><tr><td>optionow</td><td>allday option</td><td>barkley capital</td></tr><tr><td>options rider</td><td>alphabinary</td><td>bforbroker</td></tr><tr><td>wmoption</td><td>askoption</td><td>big option</td></tr><tr><td>wynnfinance</td><td>autobinarysignals</td><td>ct option</td></tr><tr><td>yes option</td><td>banco binario</td><td>asset signals</td></tr><tr><td>sternoptions</td><td>banco capital</td><td>goldex technology limited</td></tr><tr><td>finance group corp</td><td>banqueoption</td><td>optionsroom</td></tr><tr><td>scottoption</td><td>beeoption</td><td>traderush</td></tr><tr><td>signals binary</td><td>tropicaltrade</td><td>prime binary</td></tr><tr><td>ivory options</td><td>excitingmarkets</td><td>optionm</td></tr><tr><td>aaoption</td><td>forward option</td><td>bocapital</td></tr><tr><td>99binary</td><td>atos limited</td><td>xfr financial</td></tr><tr><td>ayrex</td><td>collinsgestion</td><td>infinitechtrading</td></tr><tr><td>b4binary</td><td>optek</td><td>mayfair trading</td></tr><tr><td>capitaloption</td><td>optionet</td><td>ibl markets</td></tr><tr><td>binarymate</td><td>optionfm</td><td>traderxp</td></tr><tr><td>binaryonline</td><td>nrg binary</td><td>cherry trade</td></tr><tr><td>binarytilt</td><td>swiftoption</td><td>planetoption</td></tr><tr><td>binatex</td><td>cpt trading</td><td>plus option</td></tr><tr><td>binomo</td><td>2 options</td><td>24winner</td></tr><tr><td>bulltraders</td><td>gointrading</td><td>2options</td></tr><tr><td>finpari</td><td>instant options</td><td>nrgbinary</td></tr><tr><td>finrally</td><td>uk options</td><td>olympoption</td></tr><tr><td>firstrade</td><td>index option</td><td>omega options</td></tr><tr><td>highlow</td><td>betonmarkets</td><td>omenda</td></tr><tr><td>optimarkets</td><td>unitedoptions</td><td>eztrader</td></tr><tr><td>option king</td><td>vip binary</td><td>faceoption</td></tr><tr><td>optioncm</td><td>opteck</td><td>fmtrader</td></tr><tr><td>optionfair</td><td>tradervc</td><td>banc de options</td></tr><tr><td>optionint</td><td>empireoption</td><td>banque investissement</td></tr><tr><td>edgedale finance</td><td>myoption</td><td>barclays traders</td></tr><tr><td>elite options</td><td>option500</td><td>gt options</td></tr><tr><td>imperial options</td><td>pocketoption</td><td>startoptions</td></tr><tr><td>inside option</td><td>quick option</td><td>stichting wst capital</td></tr><tr><td>investocopy</td><td>ten option</td><td>binamax</td></tr><tr><td>ioption</td><td>vxx options</td><td>binareo</td></tr><tr><td>morton finance</td><td>youoption</td><td>rbinary</td></tr><tr><td>netotrade</td><td>quantum binary signals</td><td>refco</td></tr><tr><td>marketoptions</td><td>scoptions</td><td>tradorax</td></tr><tr><td>tradequicker</td><td>stern options</td><td>topbinary</td></tr><tr><td>tradersleader</td><td>citrades</td><td>gmsa investments</td></tr><tr><td>vision binary</td><td>trader’s community signals</td><td>liteoptions</td></tr><tr><td>cherrytrade</td><td>mystockoptions</td><td>gtimarkets</td></tr><tr><td>citrade</td><td>no1options</td><td>marketsking</td></tr><tr><td>profitmarket</td><td>boss capital</td><td>regal options</td></tr><tr><td>raceoption</td><td>titan trade</td><td>rmcas ltd</td></tr><tr><td>privat epargne</td><td>fmcapital</td><td>blackopt24</td></tr><tr><td>nadex</td><td>automatedbinary</td><td>bmarkets</td></tr><tr><td>olimp finance</td><td>b4 binary</td><td>direct options</td></tr><tr><td>olymptrade</td><td>bbb markets</td><td>eclipse finance</td></tr><tr><td>starling capital</td><td>ub4trade</td><td>wynn finance</td></tr><tr><td>stockpair</td><td>zeoption</td><td>be2market</td></tr><tr><td>bullbinary</td><td>optionsmarter</td><td>bo markets</td></tr><tr><td>capital de binary</td><td>binary mate</td><td>tp markets</td></tr><tr><td>gtinvestors</td><td>gfm trader</td><td>etrade securities</td></tr><tr><td>gtoptions</td><td>7 traders</td><td>binary uno</td></tr><tr><td>fmarketcapital</td><td>icbc invest</td><td>binarybook</td></tr><tr><td>53capitaltrade</td><td>qbits</td><td>binarybrokerz</td></tr><tr><td>tr binary options</td><td>bp direct</td><td>bossoptions</td></tr><tr><td>tradarea</td><td>brooks partners</td><td>milanotrader</td></tr><tr><td>trade financials</td><td>tradequal</td><td>500option</td></tr><tr><td>72options</td><td>traders king</td><td>epargnefacile</td></tr><tr><td>optionrally</td><td>traderworld</td><td>axetrades</td></tr><tr><td>optionrobot</td><td>cbf financial</td><td>carmigestion</td></tr><tr><td>optionstarsglobal</td><td>pip365</td><td>nextoption</td></tr><tr><td>optionsxo</td><td>porter finance</td><td>binary tilt</td></tr><tr><td>winning binary signals</td><td>poweroption</td><td>privilege market</td></tr><tr><td>world binary exchange</td><td>23traders</td><td>en utrader</td></tr><tr><td>xfrfinancial</td><td>24xp</td><td>tradabank</td></tr><tr><td>xpmarkets</td><td>nobleoption</td><td>lionive</td></tr><tr><td>zoneoptions</td><td>onetwotrade</td><td>directepargne</td></tr><tr><td>quantumbinarysignals</td><td>binary8</td><td>stbinary</td></tr><tr><td>blackoption</td><td>binrobot-lady</td><td>ihoptions</td></tr><tr><td>bloombex options</td><td>bintrader</td><td>phenixoption</td></tr><tr><td>sc options</td><td>everyoption</td><td>banc de binary</td></tr><tr><td>option star global</td><td>barclays broker</td><td>bank partners</td></tr><tr><td>option888</td><td>safe option</td><td>monatrade</td></tr><tr><td>dragonoptions</td><td>spot2trade</td><td>angels investors</td></tr><tr><td>dynamic option</td><td>ubinary</td><td>777binary</td></tr><tr><td>global trader 365</td><td>ukoptions</td><td>binary book</td></tr><tr><td>grandoption</td><td>empire options</td><td>beast options</td></tr><tr><td>bestocopy</td><td>miller options</td><td>brook trade limited</td></tr><tr><td>betonfinance</td><td>aos holding</td><td>one touch trading</td></tr><tr><td>bfmmarkets</td><td>ask options</td><td>option xo</td></tr><tr><td>binary boom</td><td>askobid</td><td>alphatradex</td></tr><tr><td>utrader</td><td>binaryrobot365</td><td>legendoptions</td></tr><tr><td>vulkantrade</td><td>binoa</td><td>microption</td></tr><tr><td>titantrade</td><td>copyprofitshare</td><td>binary</td></tr><tr><td>vgfx</td><td>financial futures ltd</td><td>binary freedom</td></tr><tr><td>expertoption</td><td>option giants</td><td>binary home</td></tr><tr><td>goptions</td><td>capital epargne</td><td>optionstars.com</td></tr><tr><td>interactive options</td><td>success broker</td><td>stratx markets</td></tr><tr><td>iq option</td><td>sw1 options</td><td>swift trade</td></tr><tr><td>option house</td><td>optiontime</td><td> </td></tr><tr><td>optionbit</td><td>optiontrade</td><td> </td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"} variant="link" eventKey="2">
+
+                <div className={"faq__accordion-title"}>
+                    CFD
+                    <span className="arrow faq__accordion-arrow" />
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="2">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                        <tbody><tr><td>365markets</td><td>trades capital</td><td>cbf invest</td></tr><tr><td>aaatrade</td><td>sogotrade</td><td>teramusu</td></tr><tr><td>ainvestments</td><td>crown forex</td><td>royalcfds</td></tr><tr><td>darwinex</td><td>tradersfly</td><td>netcfd</td></tr><tr><td>fineco</td><td>trading floor</td><td>cfdcorporate</td></tr><tr><td>kawase</td><td>wealth from trading</td><td>greenfieldscapital</td></tr><tr><td>olsson capital</td><td>trading 212</td><td>hanover investments</td></tr><tr><td>jfd brokers</td><td>crown finance</td><td>plus500</td></tr><tr><td>corespreads</td><td>bitcoinoie</td><td>ayondo</td></tr><tr><td>finexo</td><td>tickmill</td><td>swiss cfd</td></tr><tr><td>greenfields capital</td><td>tradex1</td><td>swissmarkets</td></tr><tr><td>tradedirect365</td><td>ufinancion</td><td>arotrade</td></tr><tr><td>max cfd</td><td>ad baxton</td><td>becfd</td></tr><tr><td>k2 investing</td><td>solid cfd</td><td>terratradex</td></tr><tr><td>roiteks</td><td>ashford investments</td><td>traderur.com</td></tr><tr><td>hedgestone</td><td>solidcfd</td><td>cfdglobal</td></tr><tr><td>crownfinance</td><td>financialspreads</td><td>ccfdbank</td></tr><tr><td>primecfds</td><td>financikatrade</td><td>xcoinbroker</td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"} variant="link" eventKey="3">
+
+                <div className={"faq__accordion-title"}>
+                    CRYPTO
+                    <span className="arrow faq__accordion-arrow" style={{top: "20px"}}/>
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="3">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                        <tbody><tr><td>anybits</td><td>metatrada</td><td>coinstec</td></tr><tr><td>betacrypto</td><td>bit crypto</td><td>primarycrypto</td></tr><tr><td>coinbull</td><td>bitconnect</td><td>eco crypto</td></tr><tr><td>emarketstrade</td><td>coinspace</td><td>darknet market</td></tr><tr><td>etoro</td><td>hopearea</td><td>crypteo io</td></tr><tr><td>1broker</td><td>crypto sfs</td><td>crypto capitals.com</td></tr><tr><td>coinexx</td><td>btc rise</td><td>01crypto</td></tr><tr><td>cryptobanc</td><td>cryptogenius</td><td>xecryptobank</td></tr><tr><td>cryptopoint</td><td>ccx capital</td><td>avenir crypto</td></tr><tr><td>ddfutures.com</td><td>gmt crypto</td><td>vipcrypto</td></tr><tr><td>whaleclub</td><td>crypto institute</td><td>blockchain whispers</td></tr><tr><td>crypto zoo</td><td>quadrigacx</td><td>cryptogain</td></tr><tr><td>cryptoexp</td><td>coinurl</td><td>tradewell.io</td></tr><tr><td>gainbitcoin</td><td>capital coins</td><td>blockchainetrader</td></tr><tr><td>ddfutures</td><td>beta venture</td><td>iqtradechain</td></tr><tr><td>blue lexus</td><td>futur solution</td><td>alter capital</td></tr><tr><td>cryptalgo</td><td>originalcrypto</td><td>akj crypto</td></tr><tr><td>cryptorobot365</td><td>pbmining</td><td>ltcgear</td></tr><tr><td>poloniex</td><td>bitsevens</td><td>crypto eco</td></tr><tr><td>quoinex</td><td>tradinglive.io</td><td>coinbrokerz</td></tr><tr><td>sfox</td><td>bitcoincloudminer</td><td>kryptowize</td></tr><tr><td>usitech</td><td>cryptofast</td><td>bitcoin dragons den</td></tr><tr><td>crypto soft</td><td>cryptos house</td><td>cryptoallday</td></tr><tr><td>verticoins</td><td>binex.trade</td><td>cryptonix</td></tr><tr><td>bitcoin hausse</td><td>cryptofxonline</td><td>exycrypto</td></tr><tr><td>10 capital</td><td>cryptomonaies</td><td>trading royals</td></tr><tr><td>cryptogo</td><td>bitvc</td><td>rimarkets</td></tr><tr><td>crypto next</td><td>okex</td><td>capital coventry</td></tr><tr><td>bitcoin wealth</td><td>bitcoin wealth club</td><td> </td></tr><tr><td>euro crypto</td><td>stox</td><td> </td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"} variant="link" eventKey="4">
+
+                <div className={"faq__accordion-title"}>
+                    EXCHANGE
+                    <span className="arrow faq__accordion-arrow" style={{top: "20px"}}/>
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="4">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                        <tbody><tr><td>bitfinex</td><td>liqui</td><td>bitgold</td></tr><tr><td>bitsane</td><td>okcoin</td><td>cryptsy</td></tr><tr><td>choicetrade</td><td>bitmarket</td><td>goex invest</td></tr><tr><td>eurex</td><td>bittrex</td><td>goldxcash</td></tr><tr><td>huobi</td><td>coinbase</td><td>bitlaunder</td></tr><tr><td>liqui</td><td>wex</td><td> </td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+        <Card style={{ border: 'none', padding: '0'}} className="faq__accordion-card" >
+            <Accordion.Toggle as={Card.Header} className={"faq__accordion-card-toggle"} variant="link" eventKey="5">
+
+                <div className={"faq__accordion-title"}>
+                    SOFTWARE
+                    <span className="arrow faq__accordion-arrow" style={{top: "20px"}}/>
+                </div>
+
+            </Accordion.Toggle>
+            <Accordion.Collapse style={{marginTop: "0"}} eventKey="5">
+                <Card.Body className={"faq__accordion-text"}>
+                    <table>
+                        <tbody><tr><td>butterflylabs</td><td>cryptosoft</td><td>bitclub network</td></tr><tr><td>lucrosa</td><td>gladiacoin</td><td>bitcoinex</td></tr><tr><td>bitcointrader</td><td>naga trader</td><td>hashocean</td></tr><tr><td>btc4gen</td><td>binbot pro</td><td>global autotrading</td></tr><tr><td>centobot</td><td>livetrader</td><td>byrix</td></tr><tr><td>bitcoincode</td><td>bannerbit</td><td>bitclub.io</td></tr><tr><td>bitcoinmixer</td><td>acbs trade</td><td>cloudminr.io</td></tr><tr><td>profitcoins</td><td>bitrush cc</td><td>torwallet</td></tr><tr><td>tradeking</td><td>bitcoinvanitygen</td><td>maximus edge</td></tr></tbody></table>
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+    </Accordion>
+)

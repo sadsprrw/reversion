@@ -17,10 +17,11 @@ import {ParagraphGeneration, RightSideGeneration} from "../widgets/ScrollGenerat
 
 import { Link, useHistory } from 'react-router-dom';
 import useWindowDimensions from "../properities/windowProps";
+import {useTranslation} from "react-i18next";
 
 const Main = () => {
     const { height, width } = useWindowDimensions();
-
+    const {t, i18n} = useTranslation();
     return(
         <>
             <Header state={0}/>

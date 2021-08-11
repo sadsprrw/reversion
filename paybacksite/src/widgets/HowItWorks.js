@@ -1,7 +1,9 @@
 import React from 'react'
 import '../styles/HowItWorks.css';
+import {useTranslation} from "react-i18next";
 
 const HowItWorks = () => {
+    const {t, i18n} = useTranslation();
     return(
         <div className="how-it-works">
             <link rel="preconnect" href="https://fonts.googleapis.com"/>

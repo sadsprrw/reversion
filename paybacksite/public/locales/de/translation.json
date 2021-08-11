@@ -1,32 +1,259 @@
 {
-  "header.rc": "Wiederherstellungsdienste",
-  "header.rc.bo": "Binäre Optionen",
-  "header.rc.c": "Kryptowährung",
-  "header.rc.f": "Forex",
-  "header.rc.st": "Aktienhandel",
-  "header.cu": "Kontaktieren Sie uns",
-  "header.au": "Über uns",
-  "header.b": "Blog",
+  "header":{
+    "rc": "Wiederherstellungsdienste",
+    "bo": "Binäre Optionen",
+    "c": "Kryptowährung",
+    "f": "Forex",
+    "st": "Aktienhandel",
+    "cu": "Kontaktieren Sie Uns",
+    "au": "Über uns",
+    "b": "Blog",
+    "btn": "Holen Sie sich Ihr Geld zurück"
+  },
 
-  "header.btn": "Hol dein Geld zurück",
+  "main": {
+    "title1": "Wurden Sie von einem Broker betrogen?",
+    "title2": "Lass uns dein Geld zurückbekommen!",
+    "sub-title": "Wenn Sie von Betrügern abgezockt wurden, kontaktieren Sie uns und unserExpertenteam wird daran arbeiten, Ihr Geld zurückzubekommen",
+    "business": "UNTERNEHMEN, VON DENEN WIR ERFOLGREICH GELD ABGERUFEN HABEN"
+  },
 
-  "main.title1": "Wurden Sie von einem Broker betrogen?",
-  "main.title2": " Holen wir uns Ihr Geld zurück!",
-  "main.sub-title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit Ihnen zusammenarbeiten, um Ihr Geld zurückzubekommen!",
+  "form": {
+    "title": "Stellen Sie Ihr Geld wieder her",
+    "subtitle": "Geben Sie Ihre Daten an, um eine kostenlose Beratung zu erhalten",
+    "fname": "Vorname",
+    "sname": "Nachname",
+    "case": "Skizzieren Sie Ihren Fall",
+    "btn": "Holen Sie sich eine kostenlose Beratung"
+  },
 
-  "rc.sub-title": "Wenn Sie von Betrügern übers Ohr gehauen wurden, setzen Sie sich mit uns in Verbindung und unser Expertenteam wird daran arbeiten, Ihr Geld zurückzubekommen",
-  "rc.title": " Holen Sie sich Ihr Geld zurück!",
+  "rc": {
+    "title": " Holen Sie sich Ihr Geld zurück!",
+    "sub-title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit\nIhnen zusammenarbeiten, um Ihr Geld zurückzubekommen!"
+  },
 
-  "bo.title": "Betrug mit binären Optionen -",
+  "key_points": "Wichtige Punkte",
 
-  "c.title": "Betrügereien mit Bitcoin und Kryptowährungen -",
+  "bo": {
+    "title": "Betrug mit binären Optionen - ",
+    "exp-header": "Betrug mit binären Optionen: Betrug im Jahr 2021 vermeiden",
+    "exp-title": "Tausende von betrügerischen Brokern für binäre Optionen erscheinen jedes Jahr und es ist\nunsere Mission, zurückzuschlagen. Wenn Sie von Ihrem Broker betrogen wurden, kontaktieren\nSie uns bitte so schnell wie möglich. Je früher wir sie konfrontieren, desto eher können wir Ihr\nGeld zurückbekommen.",
+    "tocLinks": [
+      {"to": "p1", "text": "Was sind binäre Optionen?"},
+      {"to": "p2", "text": "Gängige binäre Optionstypen"},
+      {"to": "p3", "text": "Sind binäre Optionen ein Betrug oder legitim?"},
+      {"to": "p4", "text": "Been Scammed? Here’s what you can do next!"},
+      {"to": "p5", "text": "FAQ"}
+    ],
 
-  "f.title": "Betrug beim Devisenhandel -",
+    "tocParagraphs": [
+      {
+        "name": "p1",
+        "header": "Was sind binäre Optionen?",
+        "indents": [
+          "Binäre Optionen sind eine Art von Finanzprodukt, das als exotische Option eingestuft wird. Der\nHandel mit binären Optionen mag wie ein neuer spekulativer Markt erscheinen, aber er\nexistiert seit 1974. Er wurde von einem der größten Derivatemärkte weltweit, CBOE (Chicago\nBoard Options Exchange), geschaffen. Erst 2008 wurden binäre Optionen in erster Linie der\nÖffentlichkeit zugänglich, und viele Unternehmen kopierten die ursprüngliche Auflistung der\nCBOE-Anlagentypen.",
 
-  "st.title": "Börsenbetrug -",
+          "Binäre Optionen sind eine Art von Option, mit der Sie erraten können, ob die Option im Geld\nverfällt – das war&#39;s. Einige unregulierte Broker für binäre Optionen ermöglichen das Erraten von\nErgebnissen aus dem Geld. Es wird eine einfache Ja- oder Nein-Wette abgeschlossen, daher der\nName Binär. Zeitgenössische binäre Optionen haben Verfallszeiten zwischen einer Woche und\neinigen Minuten, wobei sich die meisten modernen Plattformen für binäre Optionen auf\nVerfallszeiten von weniger als einem Tag spezialisiert haben."
+        ]
+      },
+      {
+        "name": "p2",
+        "header": "Gängige binäre Optionstypen",
+        "indents": [
+          "Es gibt drei primäre binäre Call/Put-Optionen:",
 
-  "cu.title1": "Kontaktiere uns jetzt! Zu bekommen ",
-  "cu.title2": "Ihr Geld zurück!",
+          "<ul class='main__marker-list'> <li> <div> Hoch/Niedrig-Binäroption </div> Sie wetten, ob der Preis über einem bestimmten Preis oder unter einem bestimmten Preis\nschließt </li> <li> <div> Berührung/keine Berührung </div> Sie wetten, ob der Preis mindestens einmal vor Ablauf der Option ein definiertes Preisniveau\nerreicht oder nicht. Es spielt keine Rolle, ob er über oder unter dem Preis schließt, nur dass er\ndieses Preisniveau vor dem Verfall erreicht hat. </li> <li> <div> Grenze </div> Sie wetten, dass der Preis ein bestimmtes Niveau über oder unter dem aktuell gehandelten\nPreis nicht erreichen wird. Sie möchten beispielsweise darauf wetten, dass XYZ über einen\nbestimmten Zeitraum nicht über 2,00 USD und nicht unter 1,00 USD gehandelt wird – wenn die\nPreise zwischen diesen beiden Werten bleiben, gewinnen Sie. </li></ul>",
 
-  "blog.title": "Featured Articles"
+          {
+            "keypoint": true,
+            "points": [
+              "Binäre Optionen sind ein extrem volatiler und fragwürdiger Spekulationsmarkt, da sowohl die\nEU als auch das Vereinigte Königreich binäre Optionen in den letzten drei Jahren verboten\nhaben.",
+
+              "Es gibt nur sehr wenige regulierte Broker für binäre Optionen, was das Risiko für Ihr Geld\nerhöht.",
+
+              "Unternehmen wie Payback können helfen, Geld für Opfer von Betrug mit binären Optionen\nzurückzubekommen.",
+
+              "Führen Sie Ihre eigene Due Diligence durch und recherchieren Sie jede Handelsplattform für\nbinäre Optionen sowie finden Sie Bewertungen von verschiedenen Benutzern.",
+
+              "Riskieren Sie nie mehr, als Sie sich leisten können zu verlieren."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "p3",
+        "header": "Sind binäre Optionen ein Betrug oder legitim?",
+        "indents": [
+          "Binäre Optionen sind überwiegend ein Betrug und ein illegitimer Markt. Wenn Sie die\nverschiedenen rechtlichen Unterschiede zwischen den Finanzvorschriften der USA,\nGroßbritanniens und der EU berücksichtigen, werden Sie vielleicht überrascht sein, dass die\nMärkte für binäre Optionen in den USA legal sind, aber jetzt in der EU und im Vereinigten\nKönigreich illegal sind. Tatsächlich sind die Verbote, die auf den Märkten für binäre Optionen in\nder EU und im Vereinigten Königreich verhängt wurden, noch ganz neu – 2018 für erstere und\n2019 für letztere.",
+
+          "Ein wichtiger Grund für das Verbot von binären Optionen in der EU war die zweifelhafte Natur\nder CySEC (Cyprus Securities and Exchange Commission), die einer großen Anzahl unethischer\nBroker für binäre Optionen eine nationale behördliche Genehmigung erteilt hat.",
+
+          "Das hohe regulatorische Umfeld der USA macht die Teilnahme an binären Optionen aus\nCompliance-Sicht geringfügig sicherer, beseitigt jedoch nicht den inhärenten zu hohen\nRisikocharakter von binären Optionen. Es gibt vielleicht keinen Markt im Bereich der\nFinanzmärkte, den professionelle Spekulanten und Anleger mehr verspotten als den Markt für\nbinäre Optionen. Wissen Sie, dass binäre Optionen eher Glücksspiel als Spekulation sind und\ndass es sich um ein echtes Nullsummeninstrument handelt."
+        ]
+      },
+      {
+        "name": "",
+        "header": "Roboterbetrug mit binären Optionen",
+        "indents": [
+          "Wenn Sie ein Daytrader oder ein aufstrebender Daytrader sind und mit einigen der größten\nspekulativen und hochfrequenten Handelsmärkte der Welt wie Forex oder Futures vertraut\nsind, sind Sie wahrscheinlich mit der Verbreitung von Robotern (allgemein als &quot;Bots&quot; bekannt)\nvertraut. . Roboter für binäre Optionen werden oft verkauft, um Ihr Konto zu verwalten. Dies\nbeinhaltet die Weitergabe Ihrer Kontoinformationen oder einer API, um es einer Person oder\neinem automatisierten System zu ermöglichen, Trades in Ihrem Namen auszuführen.\nRoboterbetrug mit binären Optionen beinhaltet viele Hochdruck-Verkaufstaktiken, falsche\nAussagen über die Kapitalrendite und Erfolgsraten sowie Grafiken, die einen wohlhabenden\nLebensstil als Ergebnis der Verwendung ihres Systems darstellen."
+        ]
+      },
+      {
+        "name": "",
+        "header": "Softwarebetrug mit binären Optionen",
+        "indents": [
+          "Software-Betrügereien im Bereich der binären Optionen sind weit verbreitet und fallen direkt in\nden gleichen Bereich wie Roboter. Abhängig von der Software, die für binäre Optionen\nverwendet wird (die meisten werden über einen Webbrowser ausgeführt), wird einige Software\nals „fortgeschrittene künstliche Intelligenz (KI)“ oder „Software für maschinelles Lernen“\nangepriesen, was Sie glauben lässt, dass es sich um einen äußerst ausgeklügelten Algorithmus\nhandelt, der wird erhebliche Gewinne erzielen. Viele Softwareanbieter berichten von hohen\nRenditen - die Renditen, die der Softwareanbieter erzielt, beziehen sich auf den Verkauf seiner\nSoftware an andere."
+        ]
+      }
+    ]
+  },
+
+  "c": {
+    "title": "Bitcoin & Cryptocurrency Scams -"
+  },
+
+  "f": {
+    "title": "Forex Trading Scams -"
+  },
+
+  "st": {
+    "title": "Stock Market Scams -"
+  },
+
+  "cu": {
+    "title1": "Contact us now! To get ",
+    "title2": "your money Back!"
+  },
+
+
+  "how-it-works": {
+    "header": "Wie es funktioniert",
+    "title1": "Überprüfen Sie Ihren Fall",
+    "title2": "Sammeln Sie die Beweise",
+    "title3": "Konfrontieren Sie die Entitäten",
+    "title4": "Holen Sie sich Ihr Geld zurück",
+    "text1": "Durchführung von Vorprüfungen, um zu beurteilen, ob der vorliegende Fall auf der Grundlage unserer Erfahrung plausibel gewinnbar ist.",
+    "text2": "Sammeln Sie alle Informationen und Unterlagen, die für die erfolgreiche Verfolgung Ihres Falls erforderlich sind.",
+    "text3": "Systematische Konfrontation mit allen Entitäten, die den illegalen Transfer Ihres Vermögens erleichtert haben.",
+    "text4": "Wir sind stolz auf unsere Erfolgsbilanz und versichern Ihnen, dass wir großeAnstrengungen unternehmen werden, um Ihr Geld zurückzubekommen."
+  },
+
+  "money-info": {
+    "header": "Geld, das im Juni 2021 abgerufen wurde",
+    "title": "Unser Expertenteam sichert täglich Rückerstattungen. Wir unterstützen sowohl Unternehmen als auch Einzelpersonen bei der Verfolgung von Geldern, die an Betrüger verloren gegangen sind. Unser Ziel ist es, unsere Bemühungen kontinuierlich zu verbessern, und wir sind immer hier, um Ihnen in Ihrem Kampffür das, was Ihnen rechtmäßig gehört, zu helfen."
+  },
+
+  "about-us": {
+    "header": "Warum mit uns arbeiten?",
+    "title": "Die kurze Antwort: Wir werden niemals einen Fall annehmen, von dem wirdenken, dass wir ihn nicht gewinnen können. Ihre Zeit ist genauso wertvoll wieunsere, und deshalb sind wir in unserer Bewertung jedes Falles völligtransparent. Wenn es nicht möglich ist, werden wir es Ihnen sagen. Aber wennwir das Gefühl haben, dass es einen Fall zu beantworten gibt, dann werden wirsofort mit der Arbeit beginnen.",
+    "btn": "Über uns"
+  },
+
+  "money-back": {
+    "header": "Lass uns dein Geld zurückbekommen!",
+    "title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit Ihnen zusammenarbeiten, um Ihr Geld zurückzubekommen!",
+    "btn": "Holen Sie sich eine kostenlose Beratung"
+  },
+
+  "exp": {
+    "header": "Wie wir arbeiten, um das Geld unserer Kunden zurückzubekommen",
+    "title1": "Unser Team besteht aus Experten für Finanzbetrug sowie einer äußerst erfahrenen und erfolgreichen Legel-Abteilung und zusammen verfügen sie über jahrelange Expertise auf diesem Gebiet. Aus diesem Grund sind wir ideal positioniert, um Ihren Fall zu bekämpfen und Online-Trading-Betrüger zu besiegen.",
+    "title2": "Wir sind Spezialisten in den Bereichen binäre Optionen, Forex und Kryptowährung und das bedeutet, dass wir betrüger angreifen und sie in ihrem eigenen Spiel schlagen können, während wir versuchen, jeden einzelnen Cent, den Sie verloren haben, zurückzubekommen."
+  },
+
+  "cu-banner": {
+    "header": "",
+    "title": ""
+  },
+
+  "mtocLinks": [
+  {"to": "p1", "text": "Erfahren Sie hier mehr über Reversion und die Chargeback-Branche"},
+  {"to": "p2", "text": "Die Chargeback-Branche"},
+  {"to": "p3", "text": "Geldrückgewinnung mit Reversion"},
+  {"to": "p4", "text": "Erholen Sie sich von Online-Trading-Betrügereien"},
+  {"to": "p5", "text": "Über Reversion"}
+],
+  "mtocParagraphs": [
+  {
+    "name": "p1",
+    "header": "Erfahren Sie hier mehr über Reversion und die Chargeback-Branche",
+    "indents": [
+      "Online-Betrügereien sind heute unter illegitimen Geschäften und Händlern im Internet weit verbreitet. Es ist mit nicht vertrauenswürdigen Transaktionen beladen, die versuchen, diejenigen zu schikanieren, die verwundbar sind. Während wir uns vor diesen gefährlichen Handelsbeziehungen schützen, gibt es Zeiten, in denen sie nicht verhindert werden können.",
+
+      "Zum Beispiel gibt es viele Online-Märkte und Händler, die Menschen leicht täuschen können, indem sie sich als legitime Autorität ausgibt. Sie können so real sein, dass nicht viele Menschen ihre wahren Motive erkennen können. Opfer dieser Art von Betrug zu werden, kann wirklich frustrierend und schmerzhaft sein, nicht nur in unseren Krediten, sondern auch in unserer Integrität als Käufer oder Händler. Während wir denken, dass alle Hoffnung verloren ist, ist es noch nicht ganz vorbei.",
+
+      "Das Wiederherstellungsprogramm von Reversion hat Verbrauchern und Nutzern online geholfen, das wiederherzustellen, was ihnen rechtmäßig gehört, nachdem sie Opfer von Handelsbetrügereien, Handelsplattformbetrug und dergleichen geworden sind.",
+
+      "Die Wiederherstellung von Geldern war eine prominente Methode zur Vermögensrückgewinnung und Betrugsgeldrückgewinnung. Aus diesem Zusammenhang gibt es auch Wiederherstellungsbetrügereien, die sich online verbreitet haben. Bei all den Täuschungen und Betrügereien, die im Internet zirkulieren, müssen Sie klug sein.",
+
+      "Für einen legitimen Experten für Vermögenswiederherstellung kann Reversion Ihnen helfen Reversion Scam Recovery hat Opfern auf der ganzen Welt geholfen, ihr Geld mit ihren Vermögenswiederherstellungsexperten für Betrügereien abzurufen. Für Rückforderungsfonds in Großbritannien sind sie in der Region versiert. Um mehr über sie und die Handelsbranche zu erfahren, finden Sie hier alles, was Sie wissen müssen."
+    ]
+  },
+  {
+    "name": "p2",
+    "header": "Die Chargeback-Branche",
+    "indents": [
+      "In erster Linie wird eine Rückbuchung als die Handlung oder der Prozess der Einreichung eines Antrags auf Abruf von Geldern durch den Kunden entweder bei einer Bank charakterisiert.",
+      "Wenn ein Verbraucher etwas kauft, stellt er natürlich den Geldpreis des Artikels oder der Dienstleistung zur Verfügung, der für die Geschäftstransaktion erforderlich ist. In seltenen Fällen kann jedoch jeder Verbraucher eine Rückgabe von Geldern vom Shop oder Händler beantragen, entweder aufgrund von Verarbeitungsfehlern, Meinungsverschiedenheiten oder möglichem Betrug.",
+      "<a href=\"/article/a-guide-to-chargebacks-recover-your-funds-after-a-scam\">Die Rückbuchungsmethode</a> wird unter Berücksichtigung der Sicherheit und des Schutzes des Kunden vor Betrügereien oder betrügerischen Betrügereien auf dem Markt erstellt. In einigen Teilen der Welt gibt es Verbraucherschutzgesetze, die im Falle der Entdeckung eines Betrugs die Rückgabe von Produkten sicherstellen.",
+      "Einige Geschäfte erfordern einen langwierigen Rückerstattungsprozess, um zu verhindern, dass Verbraucher um eine Rückerstattung bitten, da sie nur für die Rückzahlung viel Mühe auf sich ziehen müssten. Daher ist die Rückbuchungsbranche in diesem Konto nützlich.",
+      "Anstatt das herkömmliche Mittel, um das Geld zurück zu verlangen, fragt die Rückbuchungsmethode die Bank direkt nach einer Rückerstattung und nicht den Shop oder Händler selbst. Rückbuchungen sollen den Verbrauchern Sicherheit beim Online-Einkauf bieten und sicherstellen, dass Verkäufer transparent bleiben und verhindern, dass sie gefälschte Produkte oder Dienstleistungen verkaufen."
+    ]
+  },
+  {
+    "name": "p3",
+    "header": "Geldrückgewinnung mit Reversion",
+    "indents": [
+      "Reversion bietet diese Art von Service mit Vermögenswiederherstellungsexperten und Fondswiederherstellungsspezialisten an - um sicherzustellen, dass Sie Ihre Investitionen von Betrügern zurückbekommen. Doch was ist wirklich Mittelrückgewinnung?",
+
+      "Kurz gesagt, die Mittelrückgewinnung ist eine Dienstleistung, die in ihrem Ansatz sowohl beratend als auch investigativ ist. Dies ist ein Dienst, der von Opfern eingesetzt wird, die durch betrügerische Online-Verbrechen getäuscht wurden, um ihr Geld von gefälschten Händlern und Händlerbetrügereien abzurufen.",
+
+      "Fondswiederherstellungsdienste wie Reversion sind auf den Umgang mit Internet-Betrügereien online spezialisiert und helfen bei der Bereitstellung von Rückerstattungen und Rückerstattungen an die Ziele durch die Verwendung von Argumenten und Streitigkeiten, zusammen mit digitalen Fingerabdruck-Aufspürungen, Analyse von Cyber-Transaktionen und einer eingehenden Untersuchung.",
+
+      "Unternehmen, die Geldwiederherstellungsdienste anbieten, haben eine hohe Chance auf eine erfolgreiche Krypto-Betrugswiederherstellung, Bitcoin-Betrugswiederherstellung, Betrugsgeldwiederherstellung und Vermögenswiederherstellung.",
+
+      "Wenn Reversion eine Beschwerde von Opfern erhält, arbeiten sie sofort und überprüfen die Details der Situation. Für eine erfolgreiche Rückforderung müssen eine Überprüfung der Ansprüche auf die Mittelrückforderung oder die Betrugswiederherstellung durchgeführt und Beweisstücke gesammelt werden.",
+
+      "Die Beschwerde muss gültig sein und die Geschäftsbedingungen des Unternehmens müssen befolgt werden."
+    ]
+  },
+  {
+    "name": "p4",
+    "header": "Erholen Sie sich von Online-Trading-Betrügereien",
+    "indents": [
+      "<ul class='main__marker-list'><li><div><a href='/forex'>Wie kann ich mein verlorenes Geld von Forex zurückgewinnen?</a></div></li><li><div>Wie kann man Handelsverluste wiederherstellen?</div></li></ul>",
+
+      "Diese Fragen bleiben bei denen, die auf Online-Trading-Betrügereien zurückgefallen sind. Forex und Cryptocurrencies haben die Handelsmärkte ganz unterschiedlich geprägt. Heutzutage sind immer mehr Menschen anfällig für diese Betrügereien.",
+
+      "Mit Reversion ist es jedoch kein Problem, Ihr Geld schnell zurückzubekommen.",
+
+      "Betrügereien im Online-Handel sind mit Anlagebetrügereien verbunden, die auf den Handelsmärkten weit verbreitet sind. Sie werden oft auf Social-Media-Sites gepostet und weiterentwickelt, wobei Betrugshändler hohe Renditen versprechen, zusammen mit beliebten Bestätigungen von prominenten Personen, um Menschen zu ermutigen und anzuziehen, mit ihnen zu handeln und zu investieren.",
+
+      "Sie geben sich als Profis mit legitim aussehenden Websites aus, um Menschen zu ihren Betrügereien zu verleiten.",
+
+      "Reversion bietet Trost für alle Online-Trading-Betrügereien. Das Unternehmen hilft Menschen aus Handelsplattform-Betrügereien und lässt Opfer Geld von Bitcoin-Betrug zurückgewinnen."
+    ]
+  },
+  {
+    "name": "p5",
+    "header": "Über Reversion",
+    "indents": [
+      "Reversion hat nur eine Mission: Menschen vor Betrug und Betrug online weltweit zu schützen, was auch immer es braucht. Wir helfen Opfern von Online-Betrug, mit ihren Experten für Vermögenswiederherstellung, Betrugsgeldrückgewinnungsprofis und Fondswiederherstellungsspezialisten das, was ihnen rechtmäßig gehört, wiederherzustellen.",
+
+      "Das Unternehmen konzentriert sich auf <a href='/articles/blacklisted-brands'>unregulierte Forex- und Binary Options Broker</a> und hat bereits Millionen von Opfern auf der ganzen Welt mit einem hohen Umsatz behandelt. Allein im Juli haben wir mehr als 300.000 US Dollar und Geld aus Betrügereien zurückgewonnen." ,
+
+      "Unser Team besteht aus qualifizierten Experten und Fachleuten mit langjähriger Erfahrung. Wir helfen Ihnen, Recovery-Betrügereien zu vermeiden, da wir legitime Feldspezialisten mit viel Wissen und Erfahrung im Umgang mit der Forex-Branche, dem internationalen Bankwesen und dem Im Internet durchgesetzten Gesetz der Cyberkriminalität sind.",
+
+      "Als Fondswiederherstellungsagentur hilft Reversion Menschen, sichere Online-Transaktionen durchzuführen und Dienstleistungen im Bereich Rückerstattungen und Stornierungen,  <a href='/forex'>forex</a> und <a href='/binary_options'>Binäroptionen-Betrug</a>, und andere Arten von Online-Betrug anzubieten.",
+
+      "Wo Wiederherstellungsbetrug weit verbreitet ist, ist Reversion die sicherere Wahl. Wir sind spezialisiert auf Recovery Funds in Großbritannien und erweitern ihre Dienstleistungen auf:",
+
+      "<div class='row'><div class='col-md-6 col-sm-12'><ul class='main__marker-list'><li><div><a href='/forex'>Online-Trading-Betrug</a></div></li><li><div>Mittelrückforderung</div></li><li><div><a href='/forex'>Trade-Plattform-Betrug</a></div></li><li><div>Experte für Vermögensrückgewinnung</div></li></ul></div><div class='col-md-6 col-sm-12' style='margin: 0'><ul class='main__marker-list'><li><div><a href='/cryptocurrency'> Krypto-Betrug Wiederherstellung</a></div></li><li><div><a href='/cryptocurrency'>Betrügerische Bitcoin wiederherstellen</a></div></li><li><div>Betrug Geldrückgewinnung</div></li></ul></div></div>",
+
+      "Fondswiederherstellungsüberprüfungen sowie Betrugswiederherstellungsüberprüfungen sind auf ihrer Website und anderen Bewertungsseiten verfügbar. Darüber hinaus sind wir ein zertifiziertes Unternehmen von TrustPilot als Fondsrückforderungskuppel." ,
+
+      "Wenn Sie Opfer geworden sind, haben Sie das Recht, das zurückzufordern, was Sie verloren haben. Mit der Rückbuchungsbranche und den Profis von Reversion erhalten Sie zurück, was Ihnen gehört."
+    ]
+  }
+]
 }

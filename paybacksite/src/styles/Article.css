@@ -117,6 +117,16 @@
     color: #6b6b6b;
 }
 
+.ab__rs-wrap img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .ab__rs-wrap h5 a{
     color: #112152;
     text-decoration: underline;
@@ -204,10 +214,20 @@
 .la-post-info{
     padding: 20px 0 20px 16px;
     position: relative;
+    height: 117px;
 }
 
 .la-wrap .la-post-info{
     padding: 16px 24px;
+}
+
+.faq__accordion-text td + td{
+    padding: 0 15px;
+}
+
+.ab__rs-wrap h1 {
+    border-bottom: 1px solid silver;
+    margin-bottom: 15px;
 }
 
 .la-post-info-title{

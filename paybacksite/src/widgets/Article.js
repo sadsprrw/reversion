@@ -1,4 +1,6 @@
 import React from "react";
+import Accordion from 'react-bootstrap/Accordion'
+import Card from 'react-bootstrap/Card'
 
 import Header from "../widgets/Header";
 import Footer from "../widgets/Footer";
@@ -18,13 +20,18 @@ import {getLastArticles} from "./ArticlesGeneration";
 import ContactUsBanner from "./ContactUsBanner";
 import useWindowDimensions from "../properities/windowProps";
 
-
+import {articles} from "../content/blog_articles";
+import { blacklist } from "../content/table"
 
 const Article = () => {
     let history = useHistory();
-    let article = history.location.state
+
+    let sh_c = history.location.pathname.slice(9)
+    let article = articles.find(x => x.short_code === sh_c)
+    console.log(sh_c)
     const {t, i18n} = useTranslation();
     let other_articles = getLastArticles(article);
+    console.log(other_articles)
     const { height, width } = useWindowDimensions();
     return(
         <>
@@ -37,6 +44,7 @@ const Article = () => {
                     <div className={"ab__right-side"}>
                         <div className={"ab__rs-wrap"}>
                             {parse(article.text)}
+                            {article.short_code === "blacklisted-brands" ? blacklist : <></>}
                         </div>
                     </div>
                     <div className={"ab__left-side"} style={width > 767 ? {} : {display: "none"}}>
@@ -76,7 +84,9 @@ const Article = () => {
                 <div className={"latest-articles"}>
                     <div className={"main__container"}>
                         <div className={"la-wrap"}>
-                            <div className={"la-post"}>
+                            <div className={"la-post"} onClick={() => history.push({
+                                pathname: `/article/${other_articles[0].short_code}`
+                            })}>
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[0].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
@@ -84,7 +94,9 @@ const Article = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={"la-post"} style={width > 767 ? {} : {display: "none"}}>
+                            <div className={"la-post"} style={width > 767 ? {} : {display: "none"}} onClick={() => history.push({
+                                pathname: `/article/${other_articles[1].short_code}`
+                            })}>
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[1].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
@@ -92,7 +104,9 @@ const Article = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={"la-post"} style={width > 1216 ? {} : {display: "none"}}>
+                            <div className={"la-post"} style={width > 1216 ? {} : {display: "none"}} onClick={() => history.push({
+                                pathname: `/article/${other_articles[2].short_code}`
+                            })}>
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[2].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
