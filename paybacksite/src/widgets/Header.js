@@ -25,7 +25,7 @@ const Header = ({state}) => {
     return(
         <>
 
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
             <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet"/>
             <meta name={"viewport"} content={"width=device-width"}/>
             <header className="header unstyled">

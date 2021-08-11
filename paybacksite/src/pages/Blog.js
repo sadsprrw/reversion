@@ -14,16 +14,19 @@ import {MainArticles} from "../widgets/ArticlesGeneration";
 import {Trans, useTranslation} from "react-i18next";
 import {articles} from "../content/blog_articles";
 import ReactPaginate from 'react-paginate';
-import {useHistory} from "react-router-dom";
+import {Link, useHistory, useParams} from "react-router-dom";
 
 const handlePageClick = ({event, setPage}) => {
-    setPage(event.selected)
+
 }
 
-const ArticleGeneration = ({article}) => {
+const ArticleGeneration = ({article, history}) => {
     return(
-        <div className="col-12 col-md-6 col-lg-4 pb-blog-link">
-            <div className="la-post">
+        <div className="col-12 col-md-6 col-lg-4">
+            <div className="la-post"  onClick={() => history.push({
+                pathname: `/article/${article.short_code}`,
+                state: article
+            })}>
                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${article.short_code}.jpg)`}}/>
                 <div className={"la-post-info"}>
                     <div className={"la-post-info-title"}>{article.header}</div>
@@ -33,27 +36,72 @@ const ArticleGeneration = ({article}) => {
     )
 }
 
-const ArticlesPageGeneration = ({articles, page}) =>{
+const ArticlesPageGeneration = ({articles, page, history}) =>{
     let _articles = []
 
     for(let i = articles.length - 12*(page - 1) - 1; i > articles.length- 1 - 12*page && i >= 0; i--)
         _articles[i] = articles[i];
 
     return  (_articles.map((a) => {
-            return <ArticleGeneration article={a}/>
+            return <ArticleGeneration article={a} history={history}/>
         }
     ).reverse())
 }
 
+const PagesBarGeneration = ({articles, page, setPage, history}) => {
+    let j = 0;
+    let i = articles.length/12;
+    let result = [];
+
+    for(; i > 0; i--, j++){
+        result[j] = j+1;
+    }
+
+    return(
+
+        <ul className={"blog-pagination-container"}>
+            <a tabIndex="0" role="button" aria-disabled="true" aria-label="Previous page" rel="prev"
+               style={ page === 1 ? {cursor: "default"} : {}}>
+                <li className={ page === 1 ? "bp-prev disabled" : "bp-prev"}
+                    onClick={() => {
+                        history.push({pathname: `/blog/?page=${page-1}`,
+                            state: page-1})
+                    }}
+                />
+            </a>
+            {
+                result.map((res)=> {
+                    return <li className={res === page ? "bp-page active" : "bp-page"}
+                                 onClick={() => {
+                                     history.push({pathname: `/blog/?page=${res}`,
+                                         state: res})
+                                 }}>
+                        {res}
+                    </li>
+                })
+            }
+            <a tabIndex="0" role="button" aria-disabled="true" aria-label="Previous page" rel="prev"
+                style={ page === result.length ? {cursor: "default"} : {}}>
+                <li className={ page === result.length ? "bp-next disabled" : "bp-next"}
+                    onClick={() => {
+                        history.push({pathname: `/blog/?page=${page+1}`,
+                            state: page+1})
+                    }}
+                />
+            </a>
+        </ul>
+    )
+}
+
 const Blog = () => {
     let history = useHistory();
+    let id = parseInt(history.location.search.slice(6))
+    console.log(id)
     let lang = history.location.state
     const {t, i18n} = useTranslation();
-    const [page, setPage] = useState(1);
+    const [page, setPage] = useState(id ? id : 1);
     let blog_article = articles
-    // i18n.language === 'de' ? (blog_article = de) :
-    //     i18n.language === 'ru' ? (blog_article = ru): (blog_article = pol)
-    console.log(blog_article)
+
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&display=swap" rel="stylesheet"/>
@@ -71,25 +119,12 @@ const Blog = () => {
             </div>
             <div className={"main__container"}>
                 <div className={"row blog-posts"}>
-                    <ArticlesPageGeneration articles={blog_article} page={page} />
+                    <ArticlesPageGeneration articles={blog_article} page={page} history={history} />
                 </div>
             </div>
             <div className={"main__container"}>
                 <div className={"col bp-wrap"}>
-                    <ReactPaginate
-
-                        breakLabel={'...'}
-                        breakClassName={'break-me'}
-                        pageCount={5}
-                        marginPagesDisplayed={2}
-                        pageRangeDisplayed={5}
-                        onPageChange={handlePageClick}
-                        containerClassName={'blog-pagination-container'}
-                        activeClassName={'active'}
-                        pageClassName={'bp-page'}
-                        previousClassName={'bp-prev'}
-                        nextClassName={'bp-next'}
-                    />
+                    <PagesBarGeneration articles={articles} page={page} setPage={setPage} history={history} />
                 </div>
             </div>
             <ContactUsBanner/>

@@ -22,6 +22,10 @@
     margin-left: -15px;
 }
 
+.blog-la-first{
+    cursor: pointer;
+}
+
 .blog-la-first .blog-la-post-image {
     height: 415px;
     min-width: 100%;
@@ -48,6 +52,7 @@
 }
 .blog-la-post{
     display: flex;
+    cursor: pointer;
 }
 .blog-post-info {
     padding: 20px 0 20px 16px;
@@ -130,6 +135,8 @@
 
 .bp-prev.disabled, .bp-next.disabled {
     opacity: 0.5;
+    pointer-events: none;
+    cursor: none;
 }
 
 .bp-page{
@@ -141,6 +148,7 @@
     display: flex;
     align-items: center;
     margin: 0 40px;
+    cursor: pointer;
 }
 
 .bp-page:first-child{
@@ -152,7 +160,8 @@
 }
 
 .bp-page.active{
-    opacity: 1  ;
+    opacity: 1;
+    cursor: text;
 }
 
 @media (max-width: 1216px) {

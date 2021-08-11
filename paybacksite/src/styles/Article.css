@@ -91,6 +91,37 @@
     line-height: 42px;
 }
 
+.ab__rs-wrap table{
+    margin-top: 50px;
+    color: #112152;
+    font-weight: 400;
+}
+
+.ab__rs-wrap h5{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #6b6b6b;
+    margin: 0;
+}
+
+.ab__rs-wrap ol {
+    padding-left: 2em;
+    margin: 16px 0;
+    color: #6b6b6b;
+}
+
+.ab__rs-list{
+    padding-left: 2em;
+    margin: 16px 0;
+    color: #6b6b6b;
+}
+
+.ab__rs-wrap h5 a{
+    color: #112152;
+    text-decoration: underline;
+}
+
 .ab__left-side{
     width: 34%;
     display: flex;
@@ -160,6 +191,7 @@
     background: #fff;
     box-shadow: 8px 16px 30px rgb(0 0 0 / 4%);
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .la-post-image{
