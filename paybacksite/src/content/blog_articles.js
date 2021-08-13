@@ -5728,6 +5728,156 @@ export const articles = [
         short_code: "nigerian-scams-past-and-present"
     },
     {
+        header: "12 Easy Ways To Check If A Website Is Legit Or A Scam",
+        text: "<h1 class=\"how-it-works__major-text\">12 Easy Ways To Check If A Website Is Legit Or A Scam</h1>" +
+            "<p>The internet is a cruel mistress that can chew up and spit out even the initiated when we drop guard. Sometimes, websites aren’t what they seem to be – people spend a lot of time and resources imitating legit services in order to commit fraud or for other nefarious reasons. </p>" +
+            "<p>Scams are plentiful online so it’s important for you to know how to check if a website is legit or not. If you’re reading this because you’ve been scammed or are cautious that it might happen to you, you’re certainly not alone there. </p>" +
+            "<h2>The Dangers Of A Scam Website</h2>" +
+            "<p>When you look at the numbers, you’ll find that the amount of scams out there online is actually quite disturbing. For example, anyone who uses dating websites should be able to identify a scam profile, or has at least seen some in their time online. That’s because 1 in 10 profiles is a scam. And this isn’t the only place you need to look – just check your spam folder in your email inbox. In 2019 alone, phishing attempts rose by 65%; imposter fraud is responsible for just shy of $500 million each year. The list really does go on. </p>" +
+            "<p>There are steps you can take, as an everyday internet user, to know how to tell if a website is legit, as well as protect yourself and ensure you’re never made a victim of fraud or hacking. </p>" +
+            "<h2>12 Ways To Check If A Website Is Legit</h2>" +
+            "<h3>1. Check URLs Carefully:</h3>" +
+            "<p>Sometimes, it can be all too easy to mistype or fail to notice the slightest difference from a legit URL. That’s precisely what scam sites are banking on here. Many sites are made to perfectly mimic the real Facebook, for example, in order to phish your details. Use a scam website checker if you’re ever unsure.</p>" +
+            "<h3>2. SSL Certificates:</h3>" +
+            "<p>An SSL certificate is what gives you the little padlock in the top left of your URL bar. It’s also what turns a website from HTTP to HTTPS. All eCommerce, online banking, social media sites – or any that wants to be trustworthy – will have an SSL certificate. HTTPS is much more secure and should appease anyone wondering ‘is this website legit?’. Sites like Reversion can help should you fall foul to a broker that doesn’t have SSL encryption, for example.</p>" +
+            "<h3>3. View Certificate Details:</h3>" +
+            "<p>If you want to see for yourself if an SSL certificate is legit, you need only click the padlock in the URL bar and hit ‘View Certificate’. This will show you when the certificate was added to the website. And for added peace of mind, this can’t be faked – it’s displayed by your browser and added by the site’s hosting company.</p>" +
+            "<h3>4. Check Contact Information:</h3>" +
+            "<p>No scam website is going to give out their own contact information, but go careful: they’ll likely use the same details of the site they’re the impostor of. You can always use these details to verify the website for yourself, or simply run the URL checker for a proper website review.</p>" +
+            "<h3>5. Read The About Us Page:</h3>" +
+            "<p>Companies like to scream from the rooftops about their heritage, as well as the journey that led them to where they are now. Even if they haven’t been live long, you’ll still find it there. The absence of this information is a massive red flag – you’ll likely want to avoid that website. </p>" +
+            "<h3>6. Look For A Privacy Policy and Read It:</h3>" +
+            "<p>It’s common to not read privacy policies – we’re all guilty of it. But if you’re doubting the integrity of a website, you should check to see if it even has one. If it does, read it. You’ll soon find out whether a website is authentic or not when you see how the owners approach legalese. </p>" +
+            "<h3>7. Read Online Reviews:</h3>" +
+            "<p>Word of mouth is a powerful thing, and people like to share their experiences – often, it’s to vent, not to warn others. But a lot can be learned by what other people have to say about your suspected scammer, so check popular review websites.</p>" +
+            "<h3>8. Can The Site Be Verified On Social Media?:</h3>" +
+            "<p>Social presence is important for building an audience or readership, and can do wonders for online popularity. That isn’t to say every company or site owner has social profiles but plenty to do. Check popular social media sites and see how active their profiles are, as well as when they were established. </p>" +
+            "<h3>9. Look For Trust Badges:</h3>" +
+            "<p>Trust badges offer a surefire way for websites to prove their legitimacy. All major eCommerce websites will have them, displayed pride of place so as not to prevent any potential sales. They’re also used to promote USPs. Be sure that these can be verified, however. </p>" +
+            "<h3>10. Check Domain Ages:</h3>" +
+            "<p>The length of domain ownership can show you not only when it was purchased but also when since when it was made active. What’s more, you can see the platform that hosts it, and look to verify this also. Use a domain checker to learn all you need to. </p>" +
+            "<h3>11. Spelling and Grammar:</h3>" +
+            "<p>The longer a scammer spends on the finer details, the longer they have to wait to unleash their scam. Plus, the teams running these nefarious websites are often small, so the small details like spelling and grammar tend to be overlooked. You wouldn’t see a spelling mistake on your online banking platform, would you?</p>" +
+            "<h3>12. If It Doesn’t Seem Right, Don’t Risk It:</h3>" +
+            "<p>For all the reasons above, and any others you can think of – gut feeling, even- don’t bother with it. Anything you’re looking for can be found elsewhere anyway, whether it’s online shopping, social media, news, or anything else. </p>" +
+            "<h3>What To Do If You Get Scammed</h3>" +
+            "<p>If you find that you’ve been scammed by a website, whether it’s a forex broker, binary options scammer, or any other type of fraud, get your free consultation with Reversion today. We’ll swiftly get to work on your case, pulling together the evidence before seeking to get your money back. </p>",
+        header2: "12 einfache Möglichkeiten, um zu überprüfen, ob eine Website legitim oder ein Betrug ist",
+        de: "<h1 class=\"how-it-works__major-text\">12 einfache Möglichkeiten, um zu überprüfen, ob eine Website legitim oder ein Betrug ist</h1>" +
+            "<p>Das Internet ist eine grausame Geliebte, die selbst eingeweihte Zerkauen und " +
+            "Ausspucken kann, wenn wir die Wache fallen lassen. Manchmal sind " +
+            "Websites nicht das, was sie zu sein scheinen - Menschen verbringen viel Zeit " +
+            "und Ressourcen damit, legitime Dienste zu imitieren, um Betrug oder aus " +
+            "anderen ruchlosen Gründen zu begehen.</p>" +
+            "<p>Betrügereien gibt es online reichlich, daher ist es wichtig für Sie zu wissen, " +
+            "wie Sie überprüfen können, ob eine Website legitim ist oder nicht. Wenn Sie " +
+            "dies lesen, weil Sie betrogen wurden oder vorsichtig sind, dass es Ihnen " +
+            "passieren könnte, sind Sie sicherlich nicht allein.</p>" +
+            "<h2>Die Gefahren einer betrügerischen " +
+            "Website</h2>" +
+            "<p>Wenn Sie sich die Zahlen ansehen, werden Sie feststellen, dass die Anzahl " +
+            "der Betrügereien online tatsächlich ziemlich beunruhigend ist. Zum Beispiel " +
+            "sollte jeder, der Dating-Websites verwendet, in der Lage sein, ein " +
+            "Betrugsprofil zu identifizieren oder zumindest einige in seiner Zeit online " +
+            "gesehen zu haben. Das liegt daran, dass 1 von 10 Profilen ein Betrug ist. Und " +
+            "dies ist nicht der einzige Ort, an dem Sie suchen müssen - überprüfen Sie " +
+            "einfach Ihren Spam-Ordner in Ihrem E-Mail-Posteingang. Allein im Jahr 2019 " +
+            "stiegen die Phishing-Versuche um 65%; Betrügereien sind für knapp 500 " +
+            "Millionen Dollar pro Jahr verantwortlich. Die Liste geht wirklich weiter.</p>" +
+            "<p>Es gibt Schritte, die Sie als alltäglicher Internetnutzer unternehmen können, " +
+            "um festzustellen, ob eine Website legitim ist, sich selbst zu schützen und " +
+            "sicherzustellen, dass Sie niemals Opfer von Betrug oder Hacking werden.</p>" +
+            "<h2>12 Möglichkeiten, um zu überprüfen, ob " +
+            "eine Website legitim ist</h2>" +
+            "<h3>1. Überprüfen Sie URLs sorgfältig:</h3>" +
+            "<p>Manchmal kann es allzu leicht sein, sich zu vertiehlen oder den geringsten " +
+            "Unterschied zu einer legitimen URL nicht zu bemerken. Genau darauf setzen " +
+            "Betrugsseiten hier. Viele Websites sind so gemacht, dass sie das echte " +
+            "Facebook perfekt nachahmen, um beispielsweise Ihre Daten zu " +
+            "phishen. Verwenden Sie einen Betrugs-Website-Checker wenn Sie sich " +
+            "jemals unsicher sind.</p>" +
+            "<h3>2. SSL-Zertifikate:</h3>" +
+            "<p>Ein SSL-Zertifikat gibt Ihnen das kleine Vorhängeschloss oben links in Ihrer " +
+            "URL-Leiste. Es ist auch das, was eine Website von HTTP zu HTTPS " +
+            "macht. Alle E-Commerce-, Online-Banking-, Social-Media-Sites - oder alle, " +
+            "die vertrauenswürdig sein möchten - verfügen über ein SSL-Zertifikat. HTTPS " +
+            "ist viel sicherer und sollte jeden besänftigen, der sich fragt: &quot;Ist diese Website " +
+            "legitim?&quot;. Websites wie Reversion können helfen, wenn Sie beispielsweise mit " +
+            "einem Broker in Konflikt geraten, der keine SSL-Verschlüsselung hat.</p>" +
+            "<h3>3. Zertifikatsdetails anzeigen:</h3>" +
+            "<p>Wenn Sie selbst sehen möchten, ob ein SSL-Zertifikat legitim ist, müssen Sie " +
+            "nur auf das Vorhängeschloss in der URL-Leiste klicken und auf &quot;Zertifikat " +
+            "anzeigen&quot; klicken. Dadurch wird angezeigt, wann das Zertifikat der Website " +
+            "hinzugefügt wurde. Und für zusätzliche Sicherheit kann dies nicht gefälscht " +
+            "werden - es wird von Ihrem Browser angezeigt und vom Hosting- " +
+            "Unternehmen der Website hinzugefügt.</p>" +
+            "<h3>4. Überprüfen Sie die Kontaktinformationen:</h3>" +
+            "<p>Keine betrügerische Website wird ihre eigenen Kontaktinformationen " +
+            "herausgeben, aber seien Sie vorsichtig: Sie werden wahrscheinlich die " +
+            "gleichen Details der Website verwenden, deren Betrüger sie sind. Sie können " +
+            "diese Details jederzeit verwenden, um die Website für sich selbst zu " +
+            "überprüfen, oder einfach den URL-Checker für eine ordnungsgemäße " +
+            "Website-Überprüfung ausführen.</p>" +
+            "<h3>5. Lesen Sie die Seite Über uns:</h3>" +
+            "<p>Unternehmen schreien gerne von den Dächern über ihr Erbe und die Reise, " +
+            "die sie dorthin geführt hat, wo sie jetzt sind. Auch wenn sie noch nicht lange " +
+            "gelebt haben, werden Sie es immer noch dort finden. Das Fehlen dieser " +
+            "Informationen ist eine massive rote Flagge - Sie werden diese Website " +
+            "wahrscheinlich vermeiden wollen.</p>" +
+            "<h3>6. Suchen Sie nach einer Datenschutzrichtlinie " +
+            "und lesen Sie sie:</h3>" +
+            "<p>Es ist üblich, Datenschutzrichtlinien nicht zu lesen – wir sind alle schuldig " +
+            "daran. Wenn Sie jedoch an der Integrität einer Website zweifeln, sollten Sie " +
+            "überprüfen, ob sie überhaupt eine hat. Wenn dies der Fall ist, lesen Sie " +
+            "es. Sie werden bald herausfinden, ob eine Website authentisch ist oder nicht, " +
+            "wenn Sie sehen, wie die Eigentümer legales vorgehen.</p>" +
+            "<h3>7. Lesen Sie Online-Bewertungen:</h3>" +
+            "<p>Mundpropaganda ist eine mächtige Sache, und die Menschen teilen gerne " +
+            "ihre Erfahrungen - oft geht es darum, andere zu entlüften, nicht um andere zu " +
+            "warnen. Aber viel kann durch das gelernt werden, was andere Leute über " +
+            "Ihren mutmaßlichen Betrüger zu sagen haben, also überprüfen Sie " +
+            "beliebte Bewertungswebsites .</p>" +
+            "<h3>8. Kann die Website in sozialen Medien " +
+            "verifiziert werden?:</h3>" +
+            "<p>Soziale Präsenz ist wichtig für den Aufbau eines Publikums oder einer " +
+            "Leserschaft und kann Wunder für die Online-Popularität bewirken. Das soll " +
+            "nicht heißen, dass jedes Unternehmen oder jeder Website-Besitzer soziale " +
+            "Profile hat, aber es gibt viel zu tun. Überprüfen Sie beliebte Social-Media- " +
+            "Sites und sehen Sie, wie aktiv ihre Profile sind und wann sie eingerichtet " +
+            "wurden. </p>" +
+            "<h3>9. Suchen Sie nach Vertrauensabzeichen:</h3>" +
+            "<p>Trust Badges bieten eine todsichere Möglichkeit für Websites, ihre Legitimität " +
+            "zu beweisen. Alle großen E-Commerce-Websites werden sie haben, die einen " +
+            "Ehrenplatz haben, um potenzielle Verkäufe nicht zu verhindern. Sie werden " +
+            "auch verwendet, um USPs zu fördern. Stellen Sie jedoch sicher, dass diese " +
+            "verifiziert werden können. </p>" +
+            "<h3>10. Überprüfen Sie das Domain-Alter:</h3>" +
+            "<p>Die Dauer des Domainbesitzes kann Ihnen nicht nur anzeigen, wann sie " +
+            "gekauft wurde, sondern auch, seit wann sie aktiv wurde. Darüber hinaus " +
+            "können Sie die Plattform sehen, auf der es gehostet wird, und dies auch " +
+            "überprüfen. Verwenden einer Domänenprüfung um alles zu lernen, was Sie " +
+            "brauchen.</p>" +
+            "<h3>11. Rechtschreibung und Grammatik:</h3>" +
+            "<p>Je länger ein Betrüger mit den feineren Details verbringt, desto länger muss " +
+            "er warten, um seinen Betrug zu entfesseln. Außerdem sind die Teams, die " +
+            "diese ruchlosen Websites betreiben, oft klein, so dass die kleinen Details wie " +
+            "Rechtschreibung und Grammatik tendenziell übersehen werden. Sie würden " +
+            "auf Ihrer Online-Banking-Plattform keinen Rechtschreibfehler sehen, oder?</p>" +
+            "<h3>12. Wenn es nicht richtig erscheint, riskieren " +
+            "Sie es nicht:</h3>" +
+            "<p>Aus all den oben genannten Gründen und allen anderen, die Sie sich " +
+            "vorstellen können - Bauchgefühl, sogar - kümmern Sie sich nicht " +
+            "darum. Alles, wonach Sie suchen, kann sowieso anderswo gefunden werden, " +
+            "sei es Online-Shopping, Social Media, Nachrichten oder irgendetwas anderes. </p>" +
+            "<h3>Was zu tun ist, wenn Sie betrogen werden</h3>" +
+            "<p>Wenn Sie feststellen, dass Sie von einer Website betrogen wurden, sei es " +
+            "ein  Forex-Broker, ein, Betrüger für binäre Optionenoder eine andere Art " +
+            "vonBetrug, holen Sie sich noch heute Ihre kostenlose Beratung " +
+            "mit Reversion. Wir werden uns schnell an Ihren Fall machen und die Beweise " +
+            "zusammenziehen, bevor wir versuchen, Ihr Geld zurückzubekommen. </p>",
+        short_code: "12-easy-ways-to-check-if-a-website-is-legit-or-a-scam"
+    },
+    {
         header: "Ponzi Schemes & Using Reputable Brokers",
         text: "<h1 class=\"how-it-works__major-text\">Ponzi Schemes & Using Reputable Brokers</h1>" +
             "<h2>Police Arrest Two & End $1.7 Million Forex Scam In India</h2>" +
@@ -6125,156 +6275,7 @@ export const articles = [
             "kostenloses Beratungsgespräch zu vereinbaren.</p>" ,
         short_code: "learn-about-mail-fraud-so-you-dont-get-scammed-in-2021"
     },
-    {
-        header: "12 Easy Ways To Check If A Website Is Legit Or A Scam",
-        text: "<h1 class=\"how-it-works__major-text\">12 Easy Ways To Check If A Website Is Legit Or A Scam</h1>" +
-            "<p>The internet is a cruel mistress that can chew up and spit out even the initiated when we drop guard. Sometimes, websites aren’t what they seem to be – people spend a lot of time and resources imitating legit services in order to commit fraud or for other nefarious reasons. </p>" +
-            "<p>Scams are plentiful online so it’s important for you to know how to check if a website is legit or not. If you’re reading this because you’ve been scammed or are cautious that it might happen to you, you’re certainly not alone there. </p>" +
-            "<h2>The Dangers Of A Scam Website</h2>" +
-            "<p>When you look at the numbers, you’ll find that the amount of scams out there online is actually quite disturbing. For example, anyone who uses dating websites should be able to identify a scam profile, or has at least seen some in their time online. That’s because 1 in 10 profiles is a scam. And this isn’t the only place you need to look – just check your spam folder in your email inbox. In 2019 alone, phishing attempts rose by 65%; imposter fraud is responsible for just shy of $500 million each year. The list really does go on. </p>" +
-            "<p>There are steps you can take, as an everyday internet user, to know how to tell if a website is legit, as well as protect yourself and ensure you’re never made a victim of fraud or hacking. </p>" +
-            "<h2>12 Ways To Check If A Website Is Legit</h2>" +
-            "<h3>1. Check URLs Carefully:</h3>" +
-            "<p>Sometimes, it can be all too easy to mistype or fail to notice the slightest difference from a legit URL. That’s precisely what scam sites are banking on here. Many sites are made to perfectly mimic the real Facebook, for example, in order to phish your details. Use a scam website checker if you’re ever unsure.</p>" +
-            "<h3>2. SSL Certificates:</h3>" +
-            "<p>An SSL certificate is what gives you the little padlock in the top left of your URL bar. It’s also what turns a website from HTTP to HTTPS. All eCommerce, online banking, social media sites – or any that wants to be trustworthy – will have an SSL certificate. HTTPS is much more secure and should appease anyone wondering ‘is this website legit?’. Sites like Reversion can help should you fall foul to a broker that doesn’t have SSL encryption, for example.</p>" +
-            "<h3>3. View Certificate Details:</h3>" +
-            "<p>If you want to see for yourself if an SSL certificate is legit, you need only click the padlock in the URL bar and hit ‘View Certificate’. This will show you when the certificate was added to the website. And for added peace of mind, this can’t be faked – it’s displayed by your browser and added by the site’s hosting company.</p>" +
-            "<h3>4. Check Contact Information:</h3>" +
-            "<p>No scam website is going to give out their own contact information, but go careful: they’ll likely use the same details of the site they’re the impostor of. You can always use these details to verify the website for yourself, or simply run the URL checker for a proper website review.</p>" +
-            "<h3>5. Read The About Us Page:</h3>" +
-            "<p>Companies like to scream from the rooftops about their heritage, as well as the journey that led them to where they are now. Even if they haven’t been live long, you’ll still find it there. The absence of this information is a massive red flag – you’ll likely want to avoid that website. </p>" +
-            "<h3>6. Look For A Privacy Policy and Read It:</h3>" +
-            "<p>It’s common to not read privacy policies – we’re all guilty of it. But if you’re doubting the integrity of a website, you should check to see if it even has one. If it does, read it. You’ll soon find out whether a website is authentic or not when you see how the owners approach legalese. </p>" +
-            "<h3>7. Read Online Reviews:</h3>" +
-            "<p>Word of mouth is a powerful thing, and people like to share their experiences – often, it’s to vent, not to warn others. But a lot can be learned by what other people have to say about your suspected scammer, so check popular review websites.</p>" +
-            "<h3>8. Can The Site Be Verified On Social Media?:</h3>" +
-            "<p>Social presence is important for building an audience or readership, and can do wonders for online popularity. That isn’t to say every company or site owner has social profiles but plenty to do. Check popular social media sites and see how active their profiles are, as well as when they were established. </p>" +
-            "<h3>9. Look For Trust Badges:</h3>" +
-            "<p>Trust badges offer a surefire way for websites to prove their legitimacy. All major eCommerce websites will have them, displayed pride of place so as not to prevent any potential sales. They’re also used to promote USPs. Be sure that these can be verified, however. </p>" +
-            "<h3>10. Check Domain Ages:</h3>" +
-            "<p>The length of domain ownership can show you not only when it was purchased but also when since when it was made active. What’s more, you can see the platform that hosts it, and look to verify this also. Use a domain checker to learn all you need to. </p>" +
-            "<h3>11. Spelling and Grammar:</h3>" +
-            "<p>The longer a scammer spends on the finer details, the longer they have to wait to unleash their scam. Plus, the teams running these nefarious websites are often small, so the small details like spelling and grammar tend to be overlooked. You wouldn’t see a spelling mistake on your online banking platform, would you?</p>" +
-            "<h3>12. If It Doesn’t Seem Right, Don’t Risk It:</h3>" +
-            "<p>For all the reasons above, and any others you can think of – gut feeling, even- don’t bother with it. Anything you’re looking for can be found elsewhere anyway, whether it’s online shopping, social media, news, or anything else. </p>" +
-            "<h3>What To Do If You Get Scammed</h3>" +
-            "<p>If you find that you’ve been scammed by a website, whether it’s a forex broker, binary options scammer, or any other type of fraud, get your free consultation with Reversion today. We’ll swiftly get to work on your case, pulling together the evidence before seeking to get your money back. </p>",
-        header2: "12 einfache Möglichkeiten, um zu überprüfen, ob eine Website legitim oder ein Betrug ist",
-        de: "<h1 class=\"how-it-works__major-text\">12 einfache Möglichkeiten, um zu überprüfen, ob eine Website legitim oder ein Betrug ist</h1>" +
-            "<p>Das Internet ist eine grausame Geliebte, die selbst eingeweihte Zerkauen und " +
-            "Ausspucken kann, wenn wir die Wache fallen lassen. Manchmal sind " +
-            "Websites nicht das, was sie zu sein scheinen - Menschen verbringen viel Zeit " +
-            "und Ressourcen damit, legitime Dienste zu imitieren, um Betrug oder aus " +
-            "anderen ruchlosen Gründen zu begehen.</p>" +
-            "<p>Betrügereien gibt es online reichlich, daher ist es wichtig für Sie zu wissen, " +
-            "wie Sie überprüfen können, ob eine Website legitim ist oder nicht. Wenn Sie " +
-            "dies lesen, weil Sie betrogen wurden oder vorsichtig sind, dass es Ihnen " +
-            "passieren könnte, sind Sie sicherlich nicht allein.</p>" +
-            "<h2>Die Gefahren einer betrügerischen " +
-            "Website</h2>" +
-            "<p>Wenn Sie sich die Zahlen ansehen, werden Sie feststellen, dass die Anzahl " +
-            "der Betrügereien online tatsächlich ziemlich beunruhigend ist. Zum Beispiel " +
-            "sollte jeder, der Dating-Websites verwendet, in der Lage sein, ein " +
-            "Betrugsprofil zu identifizieren oder zumindest einige in seiner Zeit online " +
-            "gesehen zu haben. Das liegt daran, dass 1 von 10 Profilen ein Betrug ist. Und " +
-            "dies ist nicht der einzige Ort, an dem Sie suchen müssen - überprüfen Sie " +
-            "einfach Ihren Spam-Ordner in Ihrem E-Mail-Posteingang. Allein im Jahr 2019 " +
-            "stiegen die Phishing-Versuche um 65%; Betrügereien sind für knapp 500 " +
-            "Millionen Dollar pro Jahr verantwortlich. Die Liste geht wirklich weiter.</p>" +
-            "<p>Es gibt Schritte, die Sie als alltäglicher Internetnutzer unternehmen können, " +
-            "um festzustellen, ob eine Website legitim ist, sich selbst zu schützen und " +
-            "sicherzustellen, dass Sie niemals Opfer von Betrug oder Hacking werden.</p>" +
-            "<h2>12 Möglichkeiten, um zu überprüfen, ob " +
-            "eine Website legitim ist</h2>" +
-            "<h3>1. Überprüfen Sie URLs sorgfältig:</h3>" +
-            "<p>Manchmal kann es allzu leicht sein, sich zu vertiehlen oder den geringsten " +
-            "Unterschied zu einer legitimen URL nicht zu bemerken. Genau darauf setzen " +
-            "Betrugsseiten hier. Viele Websites sind so gemacht, dass sie das echte " +
-            "Facebook perfekt nachahmen, um beispielsweise Ihre Daten zu " +
-            "phishen. Verwenden Sie einen Betrugs-Website-Checker wenn Sie sich " +
-            "jemals unsicher sind.</p>" +
-            "<h3>2. SSL-Zertifikate:</h3>" +
-            "<p>Ein SSL-Zertifikat gibt Ihnen das kleine Vorhängeschloss oben links in Ihrer " +
-            "URL-Leiste. Es ist auch das, was eine Website von HTTP zu HTTPS " +
-            "macht. Alle E-Commerce-, Online-Banking-, Social-Media-Sites - oder alle, " +
-            "die vertrauenswürdig sein möchten - verfügen über ein SSL-Zertifikat. HTTPS " +
-            "ist viel sicherer und sollte jeden besänftigen, der sich fragt: &quot;Ist diese Website " +
-            "legitim?&quot;. Websites wie Reversion können helfen, wenn Sie beispielsweise mit " +
-            "einem Broker in Konflikt geraten, der keine SSL-Verschlüsselung hat.</p>" +
-            "<h3>3. Zertifikatsdetails anzeigen:</h3>" +
-            "<p>Wenn Sie selbst sehen möchten, ob ein SSL-Zertifikat legitim ist, müssen Sie " +
-            "nur auf das Vorhängeschloss in der URL-Leiste klicken und auf &quot;Zertifikat " +
-            "anzeigen&quot; klicken. Dadurch wird angezeigt, wann das Zertifikat der Website " +
-            "hinzugefügt wurde. Und für zusätzliche Sicherheit kann dies nicht gefälscht " +
-            "werden - es wird von Ihrem Browser angezeigt und vom Hosting- " +
-            "Unternehmen der Website hinzugefügt.</p>" +
-            "<h3>4. Überprüfen Sie die Kontaktinformationen:</h3>" +
-            "<p>Keine betrügerische Website wird ihre eigenen Kontaktinformationen " +
-            "herausgeben, aber seien Sie vorsichtig: Sie werden wahrscheinlich die " +
-            "gleichen Details der Website verwenden, deren Betrüger sie sind. Sie können " +
-            "diese Details jederzeit verwenden, um die Website für sich selbst zu " +
-            "überprüfen, oder einfach den URL-Checker für eine ordnungsgemäße " +
-            "Website-Überprüfung ausführen.</p>" +
-            "<h3>5. Lesen Sie die Seite Über uns:</h3>" +
-            "<p>Unternehmen schreien gerne von den Dächern über ihr Erbe und die Reise, " +
-            "die sie dorthin geführt hat, wo sie jetzt sind. Auch wenn sie noch nicht lange " +
-            "gelebt haben, werden Sie es immer noch dort finden. Das Fehlen dieser " +
-            "Informationen ist eine massive rote Flagge - Sie werden diese Website " +
-            "wahrscheinlich vermeiden wollen.</p>" +
-            "<h3>6. Suchen Sie nach einer Datenschutzrichtlinie " +
-            "und lesen Sie sie:</h3>" +
-            "<p>Es ist üblich, Datenschutzrichtlinien nicht zu lesen – wir sind alle schuldig " +
-            "daran. Wenn Sie jedoch an der Integrität einer Website zweifeln, sollten Sie " +
-            "überprüfen, ob sie überhaupt eine hat. Wenn dies der Fall ist, lesen Sie " +
-            "es. Sie werden bald herausfinden, ob eine Website authentisch ist oder nicht, " +
-            "wenn Sie sehen, wie die Eigentümer legales vorgehen.</p>" +
-            "<h3>7. Lesen Sie Online-Bewertungen:</h3>" +
-            "<p>Mundpropaganda ist eine mächtige Sache, und die Menschen teilen gerne " +
-            "ihre Erfahrungen - oft geht es darum, andere zu entlüften, nicht um andere zu " +
-            "warnen. Aber viel kann durch das gelernt werden, was andere Leute über " +
-            "Ihren mutmaßlichen Betrüger zu sagen haben, also überprüfen Sie " +
-            "beliebte Bewertungswebsites .</p>" +
-            "<h3>8. Kann die Website in sozialen Medien " +
-            "verifiziert werden?:</h3>" +
-            "<p>Soziale Präsenz ist wichtig für den Aufbau eines Publikums oder einer " +
-            "Leserschaft und kann Wunder für die Online-Popularität bewirken. Das soll " +
-            "nicht heißen, dass jedes Unternehmen oder jeder Website-Besitzer soziale " +
-            "Profile hat, aber es gibt viel zu tun. Überprüfen Sie beliebte Social-Media- " +
-            "Sites und sehen Sie, wie aktiv ihre Profile sind und wann sie eingerichtet " +
-            "wurden. </p>" +
-            "<h3>9. Suchen Sie nach Vertrauensabzeichen:</h3>" +
-            "<p>Trust Badges bieten eine todsichere Möglichkeit für Websites, ihre Legitimität " +
-            "zu beweisen. Alle großen E-Commerce-Websites werden sie haben, die einen " +
-            "Ehrenplatz haben, um potenzielle Verkäufe nicht zu verhindern. Sie werden " +
-            "auch verwendet, um USPs zu fördern. Stellen Sie jedoch sicher, dass diese " +
-            "verifiziert werden können. </p>" +
-            "<h3>10. Überprüfen Sie das Domain-Alter:</h3>" +
-            "<p>Die Dauer des Domainbesitzes kann Ihnen nicht nur anzeigen, wann sie " +
-            "gekauft wurde, sondern auch, seit wann sie aktiv wurde. Darüber hinaus " +
-            "können Sie die Plattform sehen, auf der es gehostet wird, und dies auch " +
-            "überprüfen. Verwenden einer Domänenprüfung um alles zu lernen, was Sie " +
-            "brauchen.</p>" +
-            "<h3>11. Rechtschreibung und Grammatik:</h3>" +
-            "<p>Je länger ein Betrüger mit den feineren Details verbringt, desto länger muss " +
-            "er warten, um seinen Betrug zu entfesseln. Außerdem sind die Teams, die " +
-            "diese ruchlosen Websites betreiben, oft klein, so dass die kleinen Details wie " +
-            "Rechtschreibung und Grammatik tendenziell übersehen werden. Sie würden " +
-            "auf Ihrer Online-Banking-Plattform keinen Rechtschreibfehler sehen, oder?</p>" +
-            "<h3>12. Wenn es nicht richtig erscheint, riskieren " +
-            "Sie es nicht:</h3>" +
-            "<p>Aus all den oben genannten Gründen und allen anderen, die Sie sich " +
-            "vorstellen können - Bauchgefühl, sogar - kümmern Sie sich nicht " +
-            "darum. Alles, wonach Sie suchen, kann sowieso anderswo gefunden werden, " +
-            "sei es Online-Shopping, Social Media, Nachrichten oder irgendetwas anderes. </p>" +
-            "<h3>Was zu tun ist, wenn Sie betrogen werden</h3>" +
-            "<p>Wenn Sie feststellen, dass Sie von einer Website betrogen wurden, sei es " +
-            "ein  Forex-Broker, ein, Betrüger für binäre Optionenoder eine andere Art " +
-            "vonBetrug, holen Sie sich noch heute Ihre kostenlose Beratung " +
-            "mit Reversion. Wir werden uns schnell an Ihren Fall machen und die Beweise " +
-            "zusammenziehen, bevor wir versuchen, Ihr Geld zurückzubekommen. </p>",
-        short_code: "12-easy-ways-to-check-if-a-website-is-legit-or-a-scam"
-    },
+
     {
         header: "Is Online Shopping Safe? Tips To Avoid Scam Online Stores",
         text: "<h1 class=\"how-it-works__major-text\">Is Online Shopping Safe? Tips To Avoid Scam Online Stores</h1>" +

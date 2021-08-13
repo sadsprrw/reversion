@@ -27,7 +27,10 @@
     "btn": "Get a free consultation",
     "err1": "The field is required.",
     "err2": "Invalid phone.",
-    "err3": "The e-mail address entered is invalid."
+    "err3": "The e-mail address entered is invalid.",
+    "thank.header": "Thank you for reaching out",
+    "thank.subtitle": "We're on it! One of our representatives will contact you shortly.",
+    "thank.btn": "Back to form"
   },
 
   "rc": {
@@ -36,6 +39,8 @@
   },
 
   "key_points": "Key Points",
+
+  "toc": "Table of Contents",
 
   "bo": {
     "title": "Binary Options Scams -",

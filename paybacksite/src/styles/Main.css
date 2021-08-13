@@ -29,7 +29,7 @@
 	line-height: 48px;
 	margin: 0 0 24px 0;
 	font-weight: bold;
-	color: #112152;
+	color: #49b622;
 }
 .main__info-text {
 	color: #6b6b6b;
@@ -82,6 +82,10 @@
 	text-align: center;
 	width: 100%;
 	position: relative;
+
+}
+.main__about-us-img-container img{
+	height: 300px;
 }
 .main__about-us-info {
 	justify-content: center;
@@ -103,14 +107,14 @@
 	line-height: 48px;
 	margin: 0;
  	font-weight: bold;
- 	color: #112152;
+ 	color: #49b622;
 }
 .main__text-content-header{
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 36px;
 	margin: 0;
-	color: #112152;
+	color: #49b622;
 }
 .btn-outline, .btn-outline:visited {
 	display: inline-block;
@@ -119,15 +123,15 @@
 	font-size: 16px;
 	line-height: 24px;
 	background: transparent;
-	border: 1px solid #586385;
+	border: 1px solid #4fad42;
 	border-radius: 8px;
-	color: #112152;
+	color: #49b622;
 	min-width: 128px;
 	text-align: center;
 	text-decoration: none;
 }
 .btn-outline:hover{
-	background-color: #586385;
+	background-color: #4fad42;
 	color: #f5f5f5;
 	text-decoration: none;
 }
@@ -145,7 +149,7 @@
 	position: relative;
 	align-content: center;
 	align-items: center;
-	background-color: #112152;
+	background-color: #49b622;
 	justify-content: center;
 	padding: 64px 0px 64px 0px;
 	flex-wrap: wrap;
@@ -323,7 +327,7 @@ ul{
 	top: 5px;
 }
 .main__marker-list a, .main__marker-list a:visited{
-	color: #112152;
+	color: #49b622;
  	text-decoration: underline;
  	box-shadow: none;
 	font-weight: 600;
@@ -339,7 +343,7 @@ ul{
 }
 
 .main__content-info-text a, .main__content-info-text a:visited{
-	color: #112152;
+	color: #49b622;
 	text-decoration: underline;
 	box-shadow: none;
 
@@ -381,7 +385,7 @@ ul{
 	font-weight: 600;
     font-size: 28px;
     line-height: 42px;
-    color: #112152;
+    color: #49b622;
 }
 .tof-links {
 	padding: 0;
@@ -406,7 +410,7 @@ ul{
 }
 
 .tof-links li a.active{
-	color: #112152;
+	color: #49b622;
 }
 
 p.main__content-info-text{
@@ -425,12 +429,11 @@ p.main__content-info-text{
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 27px;
-	color: #112152;
+	color: #49b622;
 	margin-top: -5px;
 }
 
 .cu__info{
-	margin-top: 272px;
 	margin-bottom: 128px;
 	position: relative;
 }
@@ -460,8 +463,12 @@ p.main__content-info-text{
 	padding-bottom: 24px;
 }
 
+.contact-us-info{
+	color: #49b622;
+}
+
 .cu__info a{
-	color: #112152;
+	color: #49b622;
 	text-decoration: underline;
 }
 
@@ -733,7 +740,7 @@ p.main__content-info-text{
 	}
 	.tof-links li a{
 		text-decoration: underline;
-		color: #112152;
+		color: #49b622;
 	}
 	.cu__info-ls-content{
 		padding: 0;
@@ -741,6 +748,7 @@ p.main__content-info-text{
 	}
 	.contact-us-info{
 		width: 100%;
+		color: #49b622;
 	}
 	.cu__info{
 		margin-top: -100px;

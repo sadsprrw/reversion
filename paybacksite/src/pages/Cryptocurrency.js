@@ -1,6 +1,4 @@
-import React from "react";
-import Accordion from 'react-bootstrap/Accordion'
-import Card from 'react-bootstrap/Card'
+import React, {useContext, useEffect} from "react";
 
 import Header from "../widgets/Header"
 import MainForm from '../widgets/MainForm'
@@ -15,19 +13,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/FAQlist.css"
 import "../styles/Main.css"
 
-import {settings} from "../properities/sliderSetings";
-import {rcHeader, cHeader, ceHeader, ceParagraph} from "../content/text";
-import { ctocLinks, ctocParagraphs} from "../content/table";
+
 import {ParagraphGeneration, RightSideGeneration} from "../widgets/ScrollGeneration";
-import {Element} from "react-scroll";
 import useWindowDimensions from "../properities/windowProps";
 import {useTranslation} from "react-i18next";
 import _ from "lodash";
+import {AuthContext} from "../properities/AuthContext";
 
 
 const Cryptocurrency = () => {
     const { height, width } = useWindowDimensions();
     const {t, i18n} = useTranslation();
+    const {auth, dispatch} = useContext(AuthContext)
+    useEffect( () => {
+        if(localStorage.Lang!=null || localStorage.Lang !== i18n.language) i18n.changeLanguage(localStorage.Lang)
+    },[i18n]);
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>

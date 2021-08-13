@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,6 +9,8 @@ import { slide as Menu} from "react-burger-menu"
 import { Link, useHistory } from 'react-router-dom';
 import {Trans, useTranslation} from "react-i18next";
 import {Dropdown} from "react-bootstrap";
+import {AuthContext} from "../properities/AuthContext";
+
 
 const handleBmMenu = (bmMenuOpened, setBmMenuOpened) => {
     if (bmMenuOpened) setBmMenuOpened(false);
@@ -19,8 +21,10 @@ const handleBmMenu = (bmMenuOpened, setBmMenuOpened) => {
 const Header = ({state}) => {
     const [bmMenuOpened, setBmMenuOpened] = useState(state > 0 && state < 5);
     const {t, i18n} = useTranslation();
+    const {auth, dispatch} = useContext(AuthContext)
     const changeLanguage = (language) => {
         i18n.changeLanguage(language);
+        localStorage.setItem('Lang', language);
     }
     return(
         <>
@@ -32,7 +36,7 @@ const Header = ({state}) => {
                 <div className='container' style={{padding: "0"}}>
                     <div className="header__body">
                         <Link to="/" className="header__logo">
-                            <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-0251d12/wp-content/uploads/2021/03/logo_pb.svg" alt=""/>
+                            <img src="/images/header-logo.png" alt=""/>
                         </Link>
                         <div className="header__white-space">
                         </div>
@@ -64,10 +68,6 @@ const Header = ({state}) => {
                                           className={ state === 5 ? "header__link active" : "header__link"}>
                                     <Trans i18nKey="header.cu"/></Link>
                                 </li>
-                                <li><Link to="/about_us"
-                                          className={ state === 6 ? "header__link active" : "header__link"}>
-                                    <Trans i18nKey="header.au"/></Link>
-                                </li>
                                 <li style={{margin: '0'}}><Link to="/blog"
                                                                 className={ state === 7 ? "header__link active" : "header__link"}>
                                     <Trans i18nKey="header.b"/></Link>
@@ -76,7 +76,7 @@ const Header = ({state}) => {
                         </nav>
                         <div className="header__widget">
 
-                                <a href={"tel:+0501678119"} className={"header__widget-icon-call"}/>
+                                <a href={"tel:+358942723485"} className={"header__widget-icon-call"}/>
 
                             <div>
                                 <Link href={"/contact_us"} className={"header__widget-btn-back"}>
@@ -106,7 +106,7 @@ const Header = ({state}) => {
                         </div>
                         <div className="header__burger">
                             <Menu width={"500px"} crossButtonClassName={ "bm-cross-buton-icon" } right>
-                                <Link href="/" className="bm-logo"/>
+                                <Link href="/" className="bm-logo"><img src="/images/dark-logo.png" alt=""/></Link>
                                 <ul className={"bm-list"}>
                                     <li style={bmMenuOpened ? {background: "#f5f5f5"} : {}}>
                                         <Accordion defaultActiveKey={state > 0 && state < 5 ? '1' : ''}>
@@ -146,10 +146,6 @@ const Header = ({state}) => {
                                     <li><Link to="/contact_us"
                                               className={ state === 5 ? "menu-item active" : "menu-item"}>
                                         <Trans i18nKey="header.cu"/></Link>
-                                    </li>
-                                    <li><Link to="/about_us"
-                                              className={ state === 6 ? "menu-item active" : "menu-item"}>
-                                        <Trans i18nKey="header.au"/></Link>
                                     </li>
                                     <li><Link to="/blog"
                                               className={ state === 7 ? "menu-item active" : "menu-item"}>

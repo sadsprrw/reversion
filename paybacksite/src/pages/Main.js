@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext, useEffect} from "react";
 
 import Header from "../widgets/Header"
 import MainForm from '../widgets/MainForm'
@@ -8,20 +8,26 @@ import Explanation from "../widgets/Explanation";
 import Footer from "../widgets/Footer";
 import _ from 'lodash';
 import "../styles/Main.css"
-import Slider from "react-slick";
 
-import {settings} from "../properities/sliderSetings";
-import {mfHeader1, mfHeader2, meHeader, meParagraph1, meParagraph2} from "../content/text";
-import {mtocLinks, mtocParagraphs} from "../content/table";
 import {ParagraphGeneration, RightSideGeneration} from "../widgets/ScrollGeneration";
 
 import { Link, useHistory } from 'react-router-dom';
 import useWindowDimensions from "../properities/windowProps";
 import {Trans, useTranslation} from "react-i18next";
+import {AuthContext} from "../properities/AuthContext";
 
 const Main = () => {
     const { height, width } = useWindowDimensions();
     const {t, i18n} = useTranslation();
+    const {auth, dispatch} = useContext(AuthContext)
+    // auth.language
+    // dispatch({
+    //     type: 'setLang',
+    //     payload: "ok"
+    // })
+    useEffect( () => {
+        if(localStorage.Lang!=null || localStorage.Lang !== i18n.language) i18n.changeLanguage(localStorage.Lang)
+    },[i18n]);
     return(
         <>
             <Header state={0}/>
@@ -54,7 +60,7 @@ const Main = () => {
                     <div className="column" style={width <= 767 ? {display:"none"} : {}}>
                         <div className="main__about-us-img-container">
                             <img
-                                src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/handshake2.svg"/>
+                                src="/images/hands.png"/>
                         </div>
                     </div>
                     <div className="column">
@@ -66,13 +72,10 @@ const Main = () => {
                             </div>
                             <div className="main__about-us-img-container" style={width > 767 ? {display:"none"} : {}}>
                                 <img
-                                    src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/handshake2.svg"/>
+                                    src="/images/hands.png"/>
                             </div>
                             <div className="main__about-us-descr">
                                 <p className="main__info-text"><Trans i18nKey="about-us.title"/></p>
-                            </div>
-                            <div className="main__about-us-descr">
-                                <Link to="/about_us" className="btn-outline"><Trans i18nKey="about-us.btn"/>s</Link>
                             </div>
                         </div>
                     </div>
@@ -95,50 +98,6 @@ const Main = () => {
                 </div>
             </div>
             <Explanation header={"exp.header"} firstParagraph={"exp.title1"} secondParagraph={"exp.title2"}/>
-            <div className="main__slider">
-                <div className="main__container">
-                    <div className="main__slider-content">
-                        <div className="main__slider-header">
-                            <h2 className="main__content-header text-center">
-                                Businesses we have successfully retrieved money from
-                            </h2>
-                        </div>
-                        <div className="main__exp-border">
-                            <span className="main__exp-border-divider"/>
-                        </div>
-                        <div className="main-form-ls__carousel">
-                            <Slider {...settings}
-                                    slidesToShow={width > 1216 ? 3 : width > 767 ? 2 : 1}
-                                    slidesToScroll={width > 1216 ? 3 : width > 767 ? 2 : 1}>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                                <div>
-                                    <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                </div>
-                            </Slider>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div className="main__table-of-content">
                 {width > 767 ?
                     <div className="main__container">

@@ -26,7 +26,7 @@ const MainForm = ({firstHeader, secondHeader, subHeader, state}) => {
                 width > 1216 && i18next.language === 'de' && (state === 1 || state === 3) ? {maxHeight: "630px"} :
                     width > 1216 && i18next.language === 'de' && (state === 4 || state === 5) ? {maxHeight: "530px"} :
                         width > 1216 && i18next.language === 'de' && state === 2 ? {maxHeight: "700px"} :
-                            width > 1216 && i18next.language === 'de' && state === 0 ? {maxHeight: "630px"} :
+                            width > 1216 && i18next.language === 'de' && state === 0 ? {maxHeight: "670px"} :
                                 width < 1216 && i18next.language === 'de' && state === 2 ? {maxHeight: "400px"} :
                                     width < 1216 && i18next.language === 'de' && state === 4 ? {maxHeight: "300px", minHeight: "300px"} : {}
         }>
@@ -40,43 +40,6 @@ const MainForm = ({firstHeader, secondHeader, subHeader, state}) => {
                         <div className="main-form-ls__add-text">
                             <p>{state === 5 || state === 0 ? <Trans i18nKey={"main.sub-title"} /> : <Trans i18nKey={"rc.sub-title"}/> }</p>
                         </div>
-                        {state === 5 ? <></> :
-                            <>
-                            <div className="main-form-ls__upp-text">
-                                <p>Businesses we have successfully retrieved money from</p>
-                            </div>
-                            <div className="main-form-ls__carousel main-form-carousel">
-                                <Slider {...settings}
-                                        slidesToShow={width > 1216 ? 3 : width > 767 ? 2 : 1}
-                                        slidesToScroll={width > 1216 ? 3 : width > 767 ? 2 : 1}>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                    <div>
-                                        <img className="slider-item" src="https://cdn.worldvectorlogo.com/logos/swift-logo-with-text.svg"/>
-                                    </div>
-                                </Slider>
-                            </div>
-                            </>
-                        }
                     </div>
                 </div>
                 <div className="main-form__right-side">

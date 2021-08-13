@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 
 import Header from "../widgets/Header";
 import Footer from "../widgets/Footer";
@@ -13,8 +13,8 @@ import PageShortCode from "../widgets/PageShortCode";
 import {MainArticles} from "../widgets/ArticlesGeneration";
 import {Trans, useTranslation} from "react-i18next";
 import {articles} from "../content/blog_articles";
-import ReactPaginate from 'react-paginate';
 import {Link, useHistory, useParams} from "react-router-dom";
+import {AuthContext} from "../properities/AuthContext";
 
 
 const ArticleGeneration = ({article, history, i18n}) => {
@@ -94,11 +94,15 @@ const Blog = () => {
     let history = useHistory();
     let id = parseInt(history.location.search.slice(6))
     console.log(id)
-    let lang = history.location.state
     const {t, i18n} = useTranslation();
     const [page, setPage] = useState(id ? id : 1);
     let blog_article = articles
-
+    const {auth, dispatch} = useContext(AuthContext)
+    useEffect( () => {
+        if(localStorage.Lang !== null || localStorage.Lang !== i18n.language) {
+            i18n.changeLanguage(localStorage.Lang)
+        }
+    },[i18n]);
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&display=swap" rel="stylesheet"/>

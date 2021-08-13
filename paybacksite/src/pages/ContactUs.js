@@ -1,24 +1,24 @@
-import React from "react";
-import Accordion from 'react-bootstrap/Accordion'
-import Card from 'react-bootstrap/Card'
-
+import React, {useContext, useEffect} from "react";
 import Header from "../widgets/Header"
 import MainForm from '../widgets/MainForm'
-import HowItWorks from "../widgets/HowItWorks";
 
-import Explanation from "../widgets/Explanation";
-import ContactUsBanner from "../widgets/ContactUsBanner";
 import Footer from "../widgets/Footer";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Main.css"
 import "../styles/FAQlist.css"
 import useWindowDimensions from "../properities/windowProps";
-import {Trans} from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
+import {AuthContext} from "../properities/AuthContext";
 
 
 const ContactUs = () => {
     const { height, width } = useWindowDimensions();
+    const {t, i18n} = useTranslation();
+    const {auth, dispatch} = useContext(AuthContext)
+    useEffect( () => {
+        if(localStorage.Lang!=null || localStorage.Lang !== i18n.language) i18n.changeLanguage(localStorage.Lang)
+    },[i18n]);
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&display=swap" rel="stylesheet"/>
@@ -39,44 +39,22 @@ const ContactUs = () => {
                                     <td style={{verticalAlign: "top", width: "35px"}}>
                                         <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/location_ico.svg"/>
                                     </td>
-                                    <td style={{textDecoration: "underline"}}>Ben Gurion Rd 38, Ramat Gan, Israel</td>
+                                    <td style={{textDecoration: "underline"}}>Bulevardi 15 B, 00120 Helsinki, Finland</td>
                                 </tr>
                                 <tr className="nitro-offscreen">
                                     <td style={{verticalAlign: "top", width: "35px"}}>
                                         <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/03/email.svg"/>
                                     </td>
-                                    <td><a href="mailto:support@payback-ltd.com">support@payback-ltd.com</a></td>
+                                    <td><a href="mailto:wecanhelp@revision.eu.com">wecanhelp@revision.eu.com</a></td>
                                 </tr>
                                 <tr className="nitro-offscreen">
                                     <td style={{verticalAlign: "top", width: "35px"}}>
                                         <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/03/Call33.svg"/>
                                     </td>
-                                    <td><a href="tel:+18457898055">Toll Free 1-845-789-8055</a></td>
+                                    <td><a href="tel:+358942723485">Finland 358942723485</a></td>
                                 </tr>
                                 </tbody>
                             </table>
-                        </div>
-                    </div>
-                    <div className={"cu__info-right-side"}>
-                        <div className={"cu__info-rs-content"}>
-                            <div className="cu__info-phones-wrapper">
-                                <div className="cu__info-phone-item">
-                                    <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/au_flag.svg"/>
-                                    <a href="tel:+61863654977">61-863-654-977</a>
-                                </div>
-                                <div className="cu__info-phone-item">
-                                    <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/il_flag.svg"/>
-                                    <a href="tel:+97233094596">972-3-309-4596</a>
-                                </div>
-                                <div className="cu__info-phone-item nitro-offscreen">
-                                    <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/gb_flag.svg"/>
-                                    <a href="tel:+441880930001">44-1880930001</a>
-                                </div>
-                                <div className="cu__info-phone-item nitro-offscreen">
-                                    <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/us_flag.svg"/>
-                                    <a href="tel:+18457898055">1-845-789-8055</a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

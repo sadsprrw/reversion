@@ -13,7 +13,7 @@
     line-height: 36px;
     font-weight: bold;
     font-size: 40px;
-    color: #112152;
+    color: #49b622;
 }
 .blog-la-posts {
     display: flex;
@@ -70,7 +70,7 @@
     max-width: 95%;
     word-break: break-word;
     line-height: 36px;
-    color: #112152;
+    color: #49b622;
     max-height: 180px;
 }
 
@@ -81,7 +81,8 @@
     content: "";
     width: 24px;
     height: 24px;
-    background: url(https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-f93d154/wp-content/plugins/pb-blog/images/chevron-right.svg) no-repeat;
+    background: url(/src/content/icons/arrow-left.png) center no-repeat;
+    background-size: 100%;
     transform: translate(0,-12px);
 }
 
@@ -102,7 +103,7 @@
 
 .bp-prev{
     display: block;
-    background: #112152;
+    background: #49b622;
     width: 64px;
     height: 64px;
     opacity: 1;
@@ -111,7 +112,7 @@
 
 .bp-next{
     display: block;
-    background: #112152;
+    background: #49b622;
     width: 64px;
     height: 64px;
     opacity: 1;
@@ -145,7 +146,7 @@
 .bp-page{
     padding: 0 7px;
     text-decoration: none;
-    color: #112152;
+    color: #49b622;
     opacity: 0.5;
     outline: none;
     display: flex;

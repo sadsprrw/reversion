@@ -22,7 +22,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-    background: #112152;
+    background: #49b622;
     right: 15%;
 }
 
@@ -61,7 +61,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
-    background: rgba(5,4,36,.88) !important;
+    background: rgba(4, 24, 2, 0.88) !important;
     left: 0;
     top: 0;
     cursor: pointer;
@@ -72,7 +72,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-bottom: 24px;
     width: 132px;
     height: 32px;
-    background: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-4f4e860/wp-content/plugins/pb-dynamic-snippets/img/pb-logo.svg") no-repeat;
 }
 
 .bm-cross-buton-icon{
@@ -88,7 +87,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .bm-item a{
     font-size: 14px;
-    color: #112152;
+    color: #49b622;
     text-decoration: none;
     font-weight: 500;
 }
@@ -101,7 +100,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .bm-item-accordion{
     font-size: 14px;
-    color: #112152;
+    color: #49b622;
     text-decoration: none;
     border: none;
     margin: 0;
@@ -114,10 +113,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .bm-arrow{
-    background: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-2ccdc07/wp-content/plugins/pb-dynamic-snippets/img/chevron-down.svg") center no-repeat;
+    background: url(/src/content/icons/arrow.png) center no-repeat;
     position: absolute;
     transition: .4s;
     margin-left: 352px;
+    background-size: 20px 20px;
 }
 
 .bm-sub-menu{

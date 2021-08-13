@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext, useEffect} from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 
@@ -22,17 +22,19 @@ import useWindowDimensions from "../properities/windowProps";
 
 import {articles} from "../content/blog_articles";
 import { blacklist } from "../content/table"
+import {AuthContext} from "../properities/AuthContext";
 
 const Article = () => {
     let history = useHistory();
-
     let sh_c = history.location.pathname.slice(9)
     let article = articles.find(x => x.short_code === sh_c)
-    console.log(sh_c)
     const {t, i18n} = useTranslation();
     let other_articles = getLastArticles(article);
-    console.log(other_articles)
     const { height, width } = useWindowDimensions();
+    const {auth, dispatch} = useContext(AuthContext)
+    useEffect( () => {
+        if(localStorage.Lang!=null || localStorage.Lang !== i18n.language) i18n.changeLanguage(localStorage.Lang)
+    },[i18n]);
     return(
         <>
             <Header/>

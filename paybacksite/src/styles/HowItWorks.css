@@ -23,7 +23,7 @@
 .how-it-works__major-text {
   font-size: 40px;
   line-height: 60px;
-  color: #112152;
+  color: #49b622;
   font-weight: bold;
   margin: 0;
 }
@@ -52,7 +52,7 @@
   font-size: 18px;
   line-height: 27px;
   letter-spacing: .0024em;
-  color: #112152;
+  color: #49b622;
   padding-left: 80px;
   margin-bottom: 16px;
 }
@@ -65,16 +65,16 @@
 }
 
 .how-it-works__cases-card.ryc{
-  background-image: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/icon1.svg");
+  background-image: url(/src/content/icons/ryc.png);
 }
 .how-it-works__cases-card.gte{
-  background-image: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/icon12.svg");
+  background-image: url(/src/content/icons/gte.png);
 }
 .how-it-works__cases-card.cts{
-  background-image: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/icon232323-1.svg");
+  background-image: url(/src/content/icons/cts.png);
 }
 .how-it-works__cases-card.gymb{
-  background-image: url("https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/icon32.svg");
+  background-image: url(/src/content/icons/gymb.png);
 }
 
 @media (max-width: 1216px) {

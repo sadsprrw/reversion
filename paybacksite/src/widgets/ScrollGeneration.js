@@ -1,6 +1,7 @@
 import {Link, Element} from "react-scroll";
 import React from "react";
 import parse from 'html-react-parser';
+import {Trans} from "react-i18next";
 
 const LinkGeneration = ({direction, text}) => {
     return (
@@ -20,7 +21,7 @@ export const RightSideGeneration = ({links}) => {
                     <div className="main__tof-rs-content">
                         <div className="main__tof-rs-header">
                             <div className="main__tof3-header text-center">
-                                Table of Contents
+                                <Trans i18nKey="toc"/>
                             </div>
                         </div>
                         <div>

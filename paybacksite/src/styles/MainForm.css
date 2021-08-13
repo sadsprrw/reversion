@@ -5,9 +5,9 @@ p {
 	margin-top: 80px;
 	min-height: 500px;
 	max-height: 500px;
-	margin-bottom: 250px;
+	margin-bottom: 200px;
 	padding-top: 64px;
-	background-color: #112152;
+	background-color: #49b622;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -50,7 +50,7 @@ p {
    	min-height: 252px;
 }
 .main-form-ls__add-text {
-	color: #bac1d0;
+	color: #e2ffde;
 
 	font-size: 20px;
 	font-weight: 400;
@@ -60,7 +60,7 @@ p {
 
 .main-form-ls__upp-text {
 	margin: 32px 0px 16px 0px;
-	color: #112152;
+	color: #49b622;
 	font-size: 19px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -87,7 +87,7 @@ p {
 	line-height: 1 !important;
 	font-size: 30px !important;
 	opacity: 1 !important;
-	color: #112152 !important;
+	color: #49b622 !important;
 	font-family: "Poppins", sans-serif !important;
 }
 .slider-item{
@@ -123,7 +123,7 @@ p {
 	font-size: 28px;
 	line-height: 42px;
 	margin: 0;
-	color: #112152;
+	color: #49b622;
 	cursor: default;
 }
 .main-form-rs__form-sub-header{
@@ -154,10 +154,10 @@ p {
 
 }
 .recover-form__form-control:focus {
-	border-color: #112152;
+	border-color: #49b622;
 }
 .recover-form__form-control:hover{
-	border-color: #112152;
+	border-color: #49b622;
 }
 :focus-visible {
 	outline: none;
@@ -180,20 +180,27 @@ input:focus textarea:focus{
 	font-weight: 550;
 	font-size: 16px;
 	line-height: 24px;
-	background: #fae12c;
+	background: #ffe11a;
 	border: 1px solid transparent;
 	border-radius: 8px;
 	text-decoration: none;
-	color: #112152;
+	color: #49b622;
 	min-width: 128px;
 	text-align: center;
 	cursor: pointer;
 }
 
+.main-form-thank{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 64px 0 59px;
+}
+
 .yellow-btn:hover{
-	background: #ecd427;
+	background: #dcc300;
 	text-decoration: none;
-	color: #112152;
+	color: #fcfcfc;
 }
 .recover-form__submit-holder input {
 	width: 100%;
@@ -223,11 +230,11 @@ input:focus textarea:focus{
 }
 
 .form-control:focus {
-	border-color:#112152 !important;
+	border-color:#49b622 !important;
 	box-shadow:0 0 0 1px transparent !important;
 }
 .form-control:hover{
-	border-color:#112152 !important;
+	border-color:#49b622 !important;
 }
 
 .form-control__wrong-input{

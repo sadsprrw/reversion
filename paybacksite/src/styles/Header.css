@@ -30,7 +30,7 @@ html,body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #112152;
+    background: #49b622;
 }
 .header__body {
     position: relative;
@@ -41,22 +41,27 @@ html,body{
     align-content: center;
 }
 .header__logo {
-    width: 14.244%;
+    width: 150px;
     flex: 0 0 120px;
     display: flex;
     align-items: center;
     align-content: center;
+    height: 25px;
 }
 .header__logo img{
-    max-width: 100%;
+    width: 150px;
     align-items: center;
     align-content: center;
+    height: 30px;
 }
 .header__burger {
     display: none;
 }
 
-
+.bm-item-list img{
+    width: 150px;
+    height: 30px;
+}
 
 
 .header__menu {
@@ -79,10 +84,10 @@ html,body{
 
 
 .header__list li{
-    margin: 0 50px 0 0;
+    margin: 0 100px 0 0;
 }
 .header__link {
-    color: #bac1d0;
+    color: #e2f5db;
     font-size: 16px;
     text-decoration: none !important;
 
@@ -98,7 +103,7 @@ html,body{
 }
 
 .header__link-contains-child{
-    color: #bac1d0;
+    color: #e2f5db;
     font-size: 16px;
     text-decoration: none !important;
 
@@ -145,7 +150,7 @@ html,body{
     display: block;
     position: absolute;
     background: white;
-    color: #112152;
+    color: #49b622;
     min-width: 18em;
     max-width: 1000px;
     padding: 10px 0;
@@ -194,7 +199,7 @@ html,body{
 }
 
 .header__sub-menu-link{
-    color: #112152;
+    color: #49b622;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -208,7 +213,7 @@ html,body{
 
 .header__sub-menu-link:hover {
     opacity: 1;
-    color: #112152;
+    color: #49b622;
     text-decoration: none;
 }
 
@@ -223,23 +228,23 @@ ul.header__sub-menu li:hover{
 }
 
 .header__dd-language{
-    background-color: #112152;
+    background-color: #49b622;
     border: none;
 }
 
 .header__dd-language:hover{
-    background-color: #112152;
+    background-color: #49b622;
 }
 
 .header__dd-language:focus{
-    background-color: #112152 !important;
+    background-color: #49b622 !important;
     border: none !important;
     box-shadow: none !important;
 }
 
 .header__dd-language:not(:disabled):not(.disabled).active, .header__dd-language:not(:disabled):not(.disabled):active, .show>.header__dd-language.dropdown-toggle {
     color: #fff;
-    background-color: #112152;
+    background-color: #49b622;
     border: none;
     box-shadow: none !important;
 }

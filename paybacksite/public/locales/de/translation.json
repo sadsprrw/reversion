@@ -27,7 +27,10 @@
     "btn": "Holen Sie sich eine kostenlose Beratung",
     "err1": "Dieses Feld ist erforderlich.",
     "err2": "Ungültiges Telefon.",
-    "err3": "Die eingegebene E-Mail-Adresse ist ungültig."
+    "err3": "Die eingegebene E-Mail-Adresse ist ungültig.",
+    "thank.header": "Vielen Dank, dass Sie sich gemeldet haben",
+    "thank.subtitle": "Wir sind dabei! Einer unserer Vertreter wird sich in Kürze mit Ihnen in Verbindung setzen.",
+    "thank.btn": "Zurück zum Formular"
   },
 
   "rc": {
@@ -36,6 +39,8 @@
   },
 
   "key_points": "Wichtige Punkte",
+
+  "toc": "Inhaltsverzeichnis",
 
   "bo": {
     "title": "Betrug mit binären Optionen - ",

@@ -2,7 +2,7 @@
 	font-weight: 500 !important;
 	font-size: 20px !important;
 	line-height: 30px !important;
-	color: #112152;
+	color: #49b622;
 	padding: 0 0 24px 0;
 	cursor: pointer;
 	display: flex;
@@ -40,7 +40,7 @@
 }
 
 .faq__accordion-text a {
-	color: #112152;
+	color: #49b622;
 	text-decoration: underline;
 }
 

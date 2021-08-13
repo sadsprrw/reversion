@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext, useEffect} from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 
@@ -15,18 +15,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/FAQlist.css"
 import "../styles/Main.css"
 
-import {rcHeader, fHeader, feHeader, feParagraph} from "../content/text";
-import { ftocLinks, ftocParagraphs} from "../content/table";
 import {ParagraphGeneration, RightSideGeneration} from "../widgets/ScrollGeneration";
 import {Element} from "react-scroll";
 import useWindowDimensions from "../properities/windowProps";
 import {Trans, useTranslation} from "react-i18next";
 import _ from "lodash";
 import parse from "html-react-parser";
+import {AuthContext} from "../properities/AuthContext";
 
 const Forex = () => {
     const { height, width } = useWindowDimensions();
     const {t, i18n} = useTranslation();
+    const {auth, dispatch} = useContext(AuthContext)
+    useEffect(() => {
+        i18n.changeLanguage(auth.language)
+    },[i18n]);
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>
