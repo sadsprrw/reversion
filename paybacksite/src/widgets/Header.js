@@ -36,7 +36,7 @@ const Header = ({state}) => {
                 <div className='container' style={{padding: "0"}}>
                     <div className="header__body">
                         <Link to="/" className="header__logo">
-                            <img src="/images/header-logo.png" alt=""/>
+                            <img src="/images/logo.png" alt=""/>
                         </Link>
                         <div className="header__white-space">
                         </div>
@@ -106,7 +106,7 @@ const Header = ({state}) => {
                         </div>
                         <div className="header__burger">
                             <Menu width={"500px"} crossButtonClassName={ "bm-cross-buton-icon" } right>
-                                <Link href="/" className="bm-logo"><img src="/images/dark-logo.png" alt=""/></Link>
+                                <Link href="/" className="bm-logo"><img src="/images/green-logo.png" alt=""/></Link>
                                 <ul className={"bm-list"}>
                                     <li style={bmMenuOpened ? {background: "#f5f5f5"} : {}}>
                                         <Accordion defaultActiveKey={state > 0 && state < 5 ? '1' : ''}>

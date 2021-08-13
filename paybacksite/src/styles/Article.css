@@ -307,4 +307,7 @@
         max-width: 272px;
         grid-template-columns: 1fr;
     }
+    .ab__right-side {
+        width: 80%;
+    }
 }

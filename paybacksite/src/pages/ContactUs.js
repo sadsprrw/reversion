@@ -35,21 +35,21 @@ const ContactUs = () => {
                             </div>
                             <table className="pb-table contact-us-info">
                                 <tbody>
-                                <tr>
+                                <tr className="nitro-offscreen">
                                     <td style={{verticalAlign: "top", width: "35px"}}>
-                                        <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/06/location_ico.svg"/>
+                                        <img src="/images/location.png"/>
                                     </td>
                                     <td style={{textDecoration: "underline"}}>Bulevardi 15 B, 00120 Helsinki, Finland</td>
                                 </tr>
                                 <tr className="nitro-offscreen">
                                     <td style={{verticalAlign: "top", width: "35px"}}>
-                                        <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/03/email.svg"/>
+                                        <img src="/images/post.png"/>
                                     </td>
                                     <td><a href="mailto:wecanhelp@revision.eu.com">wecanhelp@revision.eu.com</a></td>
                                 </tr>
                                 <tr className="nitro-offscreen">
                                     <td style={{verticalAlign: "top", width: "35px"}}>
-                                        <img src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/optimized/rev-eeb068e/wp-content/uploads/2021/03/Call33.svg"/>
+                                        <img src="/images/phone.png"/>
                                     </td>
                                     <td><a href="tel:+358942723485">Finland 358942723485</a></td>
                                 </tr>

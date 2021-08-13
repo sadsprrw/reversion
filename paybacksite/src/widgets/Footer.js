@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="main__container" style={width < 767 ? {flexDirection: "column", alignItems: "center"} : {}}>
                     <div className="footer__logo">
                         <div className="footer__logo-wrapper">
-                            <img src="/images/header-logo.png" alt=""/>
+                            <img src="/images/logo.png" alt=""/>
                         </div>
                     </div>
                     <div className="footer__content">

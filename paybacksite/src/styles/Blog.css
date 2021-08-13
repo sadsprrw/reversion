@@ -186,7 +186,7 @@
     }
     .blog-post-info {
         padding: 8px 0 0 0;
-
+        height: auto;
     }
     .blog-la-first .blog-post-info{
         min-height: 80px;
