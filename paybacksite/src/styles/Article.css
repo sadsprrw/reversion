@@ -138,15 +138,21 @@
     min-height: 1px;
 }
 .ab__ls-wrap{
-    height: 326px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 32px;
+
+
     position: sticky;
+    top: 128px;
+    display: flex;
+}
+
+.ab__ls-wrapper{
     top: 128px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     align-content: flex-start;
+    margin: 0;
+    padding: 0px 0px 0px 32px;
 }
 
 .ab__banner{
@@ -172,6 +178,7 @@
     font-size: 28px;
     line-height: 42px;
     color: #FFFFFF;
+    text-align: center;
 }
 .ab__banner-subtitle{
     max-width: 335px;

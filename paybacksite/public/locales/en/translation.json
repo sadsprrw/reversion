@@ -24,7 +24,10 @@
     "fname": "First Name",
     "sname": "Second Name",
     "case": "Outline your case",
-    "btn": "Get a free consultation"
+    "btn": "Get a free consultation",
+    "err1": "The field is required.",
+    "err2": "Invalid phone.",
+    "err3": "The e-mail address entered is invalid."
   },
 
   "rc": {
@@ -41,9 +44,7 @@
     "tocLinks": [
       {"to": "p1", "text": "What are Binary Options?"},
       {"to": "p2", "text": "Common Binary Option Types"},
-      {"to": "p3", "text": "Are Binary Options a scam or legit?"},
-      {"to": "p4", "text": "Been Scammed? Here’s what you can do next!"},
-      {"to": "p5", "text": "FAQ"}
+      {"to": "p3", "text": "Are Binary Options a scam or legit?"}
     ],
 
     "tocParagraphs": [
@@ -71,7 +72,7 @@
 
               "Very few regulated binary options brokers exist, increasing risk to your money.",
 
-              "Companies like Payback can help recover money for binary options fraud victims.",
+              "Companies like Reversion can help recover money for binary options fraud victims.",
 
               "Do your own due diligence and research each binary options trading platform as well as find reviews from various users.",
 
@@ -104,66 +105,295 @@
         "indents": [
           "Software scams in the binary options space are common and fall right into the same realm as robots. Depending on the software used for binary options (most are often done via web browser), some software is touted as ‘advanced artificial intelligence (AI)’ or ‘machine learning software,’ leading you to believe that it is an extremely sophisticated algorithm that will generate substantial gains. Many software providers report high returns - the returns the software provider is making is from selling his/her software to others, not on the success of the software in the binary options market. As with robot scams, be wary of the sales tactics and false lifestyle imagery."
         ]
-      },
+      }
+    ]
+},
+
+  "c": {
+    "title": "Bitcoin & Cryptocurrency Scams -",
+    "exp-header": "How To Avoid Cryptocurrency And Bitcoin Scams In 2021",
+    "exp-title": "No matter how hard governments try to regulate it, the Cryptocurrency industry is still alive and kicking. Since the topic is quite ambiguous to the general public, frauds use it to scam people out of their money, with what looks like a genuine investment opportunity. If you fell into a Cryptocurrency scam, please contact us now. By helping you get your money back, we might be able to stop those frauds from scamming others.",
+    "tocLinks": [
+      {"to": "p1", "text": "What is cryptocurrency?"},
+      {"to": "p2", "text": "Three important cryptocurrencies"},
+      {"to": "p3", "text": "Is cryptocurrency a scam?"}
+    ],
+
+    "tocParagraphs": [
       {
-        "name": "",
-        "header": "Binary Options trading scams",
+        "name": "p1",
+        "header": "What is cryptocurrency?",
         "indents": [
-          "The number of trading scams in the binary options space is substantial. Because some of the largest regulatory agencies around the world have banned binary options, many former (and new) brokers have had to reestablish their businesses in nations where there is little to no real regulation. The broad bans of binary options have resulted in thousands of unregistered brokers all around the globe. Brokers within the binary options space have questionable to outright fraudulent data feeds. It’s not uncommon to see bids and ask fluctuate violently within the final micro-seconds resulting in significant losses, sometimes on both sides of the trade! You can avoid some of the trading scams by using only regulated brokers, although very few are legitimate."
+          "BinaryOptions has quickly become one of the most fascinating and volatile financial asset classes in the markets. As an investment, Bitcoin has had one of the highest returns in history. Bitcoin was created when the first significant impacts of the Great Recession were felt. Bitcoin was designed to be a source of value and a medium of trade, a decentralized virtual currency with a truly fixed supply to combat the rampant money printing by central banks. Bitcoin can be decentralized because of the blockchain technology and the distributed ledger."
         ]
       },
       {
-        "name": "",
-        "header": "Binary Options signal scams",
+        "name": "p2",
+        "header": "Three important cryptocurrencies",
         "indents": [
-          "Signal scams are hands down the most prevalent form of financial fraud and scams in today’s markets. For the binary options market, signal scams involve an individual or company that offers to sell you trade ideas (signals) in exchange for a monthly fee. The signals are provided via text, email, or via their website. The most popular version of providing signals in most markets is through the chat platform Telegram. As with any financial instrument, it is best to avoid signal providers – they are only interested in making money from you as a subscriber."
+          "<h3 class='tof-sub-header'>Bitcoin</h3>",
+
+          "Bitcoin is by far the most important type of digital currency, not just in name recognition but by institutional adoption in the finance world. Bitcoin regularly fluctuates between representing 55 to 65% of the total cryptocurrency market capitalization. As an investment vehicle, Bitcoin received its first Futures contract by the CBOE (Chicago Board Options Exchange) and the CME (Chicago Mercantile Exchange) in December 2017. Perhaps the most important event for Bitcoin as an investment vehicle occurred in July 2020 when the US OCC (Office of the Comptroller of the Currency) granted all chartered banks in the US ability to provide custody services for cryptocurrencies.",
+
+          "<h3 class='tof-sub-header'>Ethereum</h3>",
+
+          "Ethereum is a second-generation blockchain and cryptocurrency. It is also the second most valuable cryptocurrency in the world. Ethereum is the most important ‘altcoin.’ Altcoins are every cryptocurrency that is not Bitcoin. Where Bitcoin is a source of value, Ethereum is more of a decentralized network platform – upon which thousands of cryptocurrency types are created using smart contracts. Ethereum has a market cap roughly valued at 1/3rd of Bitcoin. Ethereum is only the second cryptocurrency in the US to be granted a futures contract from the CME – which occurred in February 2021.",
+
+          "<h3 class='tof-sub-header'>Ripple</h3>",
+
+          "Ripple has been one of the more popular cryptocurrencies between 2018 and 2020. Ripple was intended to become a replacement for the SWIFT system for transfers payments.However, Ripple is an  excellent example of cryptocurrency fraud. While Ripple used to command the third highest market cap globally for all crypto, it came under <a href='https://www.sec.gov/news/press-release/2020-338'>heavy scrutiny by the US SEC</a> in late 2020. While litigation remains ongoing, Ripple is charged with an unregistered securities offering, insider trading, and  investors’ deceiving. Ripple’s chief officers regularly told the public they were bullish on Ripple while dumping billions on the open market. Ripples officers also sold large ‘blocks’ of Ripple to  cryptocurrency investors at deep discounts – who in turn sold those blocks on the open market for a guaranteed and quick profit. Ripple helped to make the public aware of the dangers of a virtual currency scam.",
+
+          {
+            "keypoint": true,
+            "points": [
+              "Cryptocurrencies are a brand new asset class that provides enormous investment opportunities – but substantial risks as well.",
+
+              "Beware promises of quick wealth.",
+
+              "Do your own due diligence and investigate wallets, websites, and information.",
+
+              "Avoid risking money you can’t afford to lose."
+            ]
+          }
         ]
       },
       {
-        "name": "",
-        "header": "How to Avoid Binary Options Trading Scams",
+        "name": "p3",
+        "header": "Is cryptocurrency a scam?",
         "indents": [
-          "<ul class='main__marker-list'> <li> Only use regulated brokers – for the US, the regulatory agency(s) for binary options fall under the CFTC (Commodity Futures Trading Commission) and the SEC (Securities and Exchange Commission). Legitimate brokers will openly disclose their license number and cite the national regulatory agency and website. </li> <li> Do your due diligence – read user reviews across various sources. Be wary of sites that are specific to reviewing only binary options brokers – they are more than likely just shell sites meant to push you to a particular broker or a few select brokers. </li> <li> If the broker is unregulated, check where the broker is based – it’s good to know what nation the business is headquartered in. </li> <li> If you do want to risk your capital in the binary options markets, test the broker’s  data yourself. Vet the broker and ensure that data feeds are authentic and that there are no abnormal price changes near expiry. </li> </ul>"
+          "Cryptocurrencies are the Wild West of investing and speculation. It is vital to work<a href='/article/blacklisted-brands'>with a virtual currency platform that is reputable</a> and – ideally – regulated. Thankfully, in 2020, there has bee ample time for reputable cryptocurrency exchanges to develop. Perhaps the most well known respected, and trusted is Coinbase. Other notable and trustworthy crypto exchanges are Bitstamp Kraken, Binance, and Bittrex. But don’t take just our word for it! Do your due diligence and mak that regular habit when it involves cryptocurrencies!",
+
+          "<h3 class='tof-sub-header'>Bitcoin mining scams</h3>",
+
+          "Mining is how cryptocurrencies like Bitcoin are created, a process known as Proof of Work. Mining requires significant computational power to complete highly sophisticated algorithms to record transactions on the distributed ledger. When ‘blocks’ are mined and added to the ‘chain,’ the miner is rewarded with Bitcoin. Because mining requires time, resources, power, and infrastructure, many scams seek individuals to ‘invest’ in mining projects, a form of passive income. Thankfully, this scam is less common with the advent of 3rd generation blockchains like Cardano that use a staking system versus mining – no massive power or infrastructure requirements and allows individuals the opportunity to make passive income much easier than with the legacy mining processes.",
+
+          "<h3 class='tof-sub-header'>Bitcoin wallet scams</h3>",
+
+          "Bitcoin (and all cryptocurrency) is held in digital wallets. Wallets have two keys – a private key and a public key. A public key is basically like aan address to send something to. A private key is what gives permission to spend or send your cryptocurrency. Bitcoin wallet scams are a common scam that targets new entrants to the cryptocurrency space. Because cryptocurrency is held in digital wallets, many <a href='/article/is-cryptocurrency-legit-legal-issues-of-unconventional-currencies'>cryptocurrency fraud schemes</a> have come into the space encouraging you to utilize their wallets. Some scams involve asking you to send your private key – don’t!",
+
+          "<h3 class='tof-sub-header'>Pump and Dump scams</h3>",
+
+          "A scam that is almost endemic in the cryptocurrency space are pump and dump schemes. Similar to what happens to stocks, pump and dump scams involve an individual or entity acquiring a large amount of an alt-coin and then pushing positive news (fake or real) to encourage as many people to buy as possible. Social media platforms are the primary outlet that pump and dump operators utilize. Once the price has moved up, the operators sell at the top and then let everyone else suffer the consequences of rapidly falling prices.",
+
+          "<h3 class='tof-sub-header'>Pyramid Schemes</h3>",
+
+          "If you want to learn an excellent example of a pyramid scheme in the cryptocurrency space, look up OneCoin. Pyramid schemes in cryptocurrencies are the same as Ponzi schemes in any other market; the only difference here is that the fraudsters are now capitalizing on the growth of cryptocurrencies to target you and make you believe you’ll become wealthy overnight.",
+
+          "<h3 class='tof-sub-header'>ICO Scams/Exit Scams</h3>",
+
+          "ICO stands for Initial Coin Offering. This is similar to the IPO (Initial Public Offering) process – but without the traditional regulatory process. Between 2016 and late 2018, the cryptocurrency market was slammed with, literally, tens of thousands of new altcoins entering the market, all promising to be the next Bitcoin or Ethereum. Some of these new altcoins generated millions of initial investment from individuals, and when prices spiked, the owners sold. This is similar to a pump and dump, but it’s an exit scam when it involves an ICO. While the industry is still very new, it has matured some since 2008. It’s crucial that you do your due diligence and investigate, thoroughly, any new cryptocurrency. This is especially true if you came across it on social media.",
+
+          "<h3 class='tof-sub-header'>High-Interest Return Scams</h3>",
+
+          "A growing trend in the cryptocurrency space, specifically the decentralized finance (DeFi) space, is high yield interest rates. There are many legitimate platforms that allow you to deposit or  ‘stake’ various cryptocurrencies and reward you with a high-interest rate. It is not uncommon  to see regulated and legitimate projects offer up to 10% interest on stablecoins (essentially cash) or up to 15% for Bitcoin and Ethereum deposits! But be very, very cautious about any promise of return higher than 10% to 15%. And you must read the ‘fine print’ of even legitimate and regulated  entities. There are some projects that require you to leave your deposit for up to 90-days in order to earn the highest yield."
+          ]
+      }
+    ]
+  },
+
+  "f": {
+    "title": "Forex Trading Scams -",
+    "exp-header": "Forex Scams: What To Look For And What To Avoid",
+    "exp-title": "The Forex industry is one of the scammer’s favorite grounds. Since the industry is generally known as a legitimate investment option, it is very hard for the average person to differentiate the scam brokers, from the legitimate ones. Usually, most people don’t even know they’ve been scammed, they just think they had “A bad trading day”. If you feel that the way you lost your money trading, is more than just a “bad day”, contact us now. If your Broker is a fraud, we might get your money back.",
+    "tocLinks" : [
+      {"to": "p1", "text": "What is forex trading?"},
+      {"to": "p2", "text": "Is forex trading a scam?"},
+      {"to": "p3", "text": "How to spot a forex scam"},
+      {"to": "p4", "text": "How do I recover funds from a forex scam?"},
+      {"to": "p5", "text": "FAQ"}
+    ],
+
+    "tocParagraphs": [
+      {
+        "name": "p1",
+        "header": "What is forex trading?",
+        "indents": [
+          "Forex is the single largest traded market globally, with up to five trillion traded each day and is considered decentralized because there is no central processor for trades – in other words, there is no entity that acts as a central exchange like the NASDAQ or the NYSE. Instead, orders are completed by millions of traders using millions of various forex brokers around the world.",
+
+          "Foreign currency trading is one of the most leveraged markets in the world as well. In the US, regulations limit a person to 50:1 leverage. In other countries, they have zero limits on leverage. It is not uncommon to see some non-US brokers offer 1000+:1. Due to these factors and a few others which we will discuss, this is why scams can be so prevalent within the foreign exchange market."
+        ]
+      },
+      {
+        "name": "p2",
+        "header": "Is forex trading a scam?",
+        "indents": [
+          "In the investment world, forex is the wild-west of traditional financial instruments. However, most of the participants are massive institutions like banks that help companies manage cross-currency rates for payroll or buying goods. But it is by far the most accessible and cheapest investment for anyone to make. A futures broker may require a $5,000 minimum investment; whereas many firms in the foreign exchange markets require as little as $1. Day trading stocks in the US requires a $25,000 minimum balance; forex does not require this.",
+
+          "The ease of access to significant leverage, and the fact it is open 24 hours a day all make it the most appealing market. But this also attracts many of the bad actors. Some countries regulate forex markets – but not always to the same degree as the US. Many countries have little to no regulation and allow anyone to open a brokerage account in their country. There are many, many bad brokers around the globe – so it’s often best to stick with brokers that are based in the US, EU, or UK.",
+
+          {
+            "keypoint": true,
+            "points": [
+              "Using a regulated broker ensures that: your money is safe, the data and information provided by the broker are compliant with industry standards, and the broker is operating legitimately and ethically.",
+
+              "The forex trading space is rife with services and individuals bent on defrauding new traders. Avoid bad brokers, false education programs, performance history lies, and fraudulent automated trading systems.",
+
+              "If you have been the victim of a scam in the forex space – there are options available to you, provided by our specialist at Reversion."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "p3",
+        "header": "How to spot a forex scam",
+        "indents": [
+          "The scams that exist in the investment world are many. One of the hardest things for new and aspiring traders to overcome is the vast amount of wrong information, bad actors and <a href='/article/blacklisted-brands'>blacklisted scam</a> brokers trying to take advantage of you.",
+
+          "Here are some of the different types of forex trading scams:",
+
+          "<h3 class='tof-sub-header'>Broker’s Leverage</h3>",
+
+          "<ul class='main__marker-list'> <li> The US and EU (more recently) have limits of around 50:1. </li> <li> If you see a broker offering 500:1, 1000:1, or anything beyond a conservative amount,  stay away. This is a predatory action. </li> <li> Avoid any broker that is not clear about margin requirements. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Broker’s undisclosed parameters</h3>",
+
+          "<ul class='main__marker-list'> <li> Avoid requirements for a minimum Stop Loss or Profit Target </li> <li> Avoid requirements where you must have a trade open for a certain amount of time before you can exit. </li> <li> Avoid anyone that doesn’t allow you to create your own risk management profile. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Broker withdrawal rules</h3>",
+
+          "<ul class='main__marker-list'> <li> You should be able to withdraw your money from your brokerage account at will  – but some don’t allow this. </li> <li> Avoid minimum requirements for volume traded before you can withdraw. </li> <li> Avoid anyone that doesn’t disclose their withdrawal rules. </li> <li> If a broker advertises a bonus on deposits, make sure that you can withdraw the bonus within a reasonable amount of time – it should be clear what the requirements are for you to withdraw the bonus. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Broker’s spread</h3>",
+
+          "<ul class='main__marker-list'> <li> The spread is the difference between the Bid (buying) and the Ask (selling) – This should be clearly defined or be avoided. </li> <li> Avoid brokers that don’t warn you of regular increases in the spreads, such as at the end of the day or during certain holidays. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Signal Sellers</h3>",
+
+          "<ul class='main__marker-list'> <li> Forex signal sellers are individuals who want to sell you signals or advice – they want to tell you what pairs to buy or short, when to exit for profit, where to put your stops, etc. </li> <li> Millions of signal sellers out there are all selling you on their success with messages like, “3,000 pips a week!” – a pip is how you measure movement in the exchange rate. The average pip range that the EUR/USD moves a day can vary between 30 to 50 pips. </li> <li> Avoid people or companies that promise or allude to a guarantee of profit. Avoid entities that promise unbelievable returns like: “90% win rate!” or “188 winning trades, 12 losing trades!” or “MASSIVE GAINS.” </li </ul>",
+
+          "<h3 class='tof-sub-header'>Broker spam</h3>",
+
+          "<ul class='main__marker-list'> <li> Avoid sites that have side advertisements and banners promoting a single broker. </li> <li> Avoid anyone or anything that recommends a single broker <ul> <li> People who promote a single broker generally have some agreement with them. Many non-US brokers offer various incentives for people to find new customers. They may offer the seller a cut of your deposit or a rebate on any trade you make. </li> <li> If someone tells you about a broker or if a site is promoting a broker – ask  if they have an IB (introducing broker) agreement with them– this must be disclosed in the US when asked. </li> </ul> </li </ul>",
+
+          "<h3 class='tof-sub-header'>Educational services</h3>",
+
+          "<ul class='main__marker-list'> <li> Be wary of the myriad of free or paid trading education opportunities </li> <li> Many sites look incredibly professional and may even link certification organizations without their permission. </li> <li> Check for quality educational providers from the CMT Association (Certified Market Technicians Association), IFTA (International Fellowship of Technical Analysts), or STA (Society of Technical Analysts). <ul> <li> Even by professional US brokers, a significant amount of the education provided is decades out of date. </li> </ul> </li </ul>",
+
+          "<h3 class='tof-sub-header'>Automated Trading or Artificial Intelligence (Bots or Robots)</h3>",
+
+          "<ul class='main__marker-list'> <li> It is best to avoid anyone selling forex robot trading systems </li> <li> AI systems have existed since the 1990s for retail investors– but nearly 100% of them fail. </li> <li> The current buzzword for investment scams is ‘AI.’ Avoid anyone that claims they use Artificial Intelligence. There are only two known private hedge funds that have anything close to authentic self-learning AI. They are not selling their bots to anyone. </li> <li> Think about this logically: If you created a profitable AI (virtually a money printing machine), would you ever tell anyone about it? Would you sell it? Probably not – your advantage disappears when others have access to that kind of a tool. </li> <li> Automated Trading systems are a common way fraud is committed by forex scammers. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Flashy advertising or false lifestyles</h3>",
+
+          "<ul class='main__marker-list'> <li> Avoid any service or individual who has ‘high lifestyle’ imagery, such as girls in bikinis on a yacht, Lamborghini or Ferrari in the background, massive mansion or house, or a private jet. </li> <li> A good rule to follow for any investment or speculative endeavor: if it looks or sounds too good to be true, it probably is. </li </ul>"
         ]
       },
       {
         "name": "p4",
-        "header": "Scammed and lost money in Binary Options? Here’s what you can do next!",
+        "header": "How do I recover funds from a forex scam?",
         "indents": [
-          "If you’ve found yourself to be the unfortunate victim of a binary options scam, it may seem like you have no recourse except to just take the loss and move on. Don’t let bad actors get away with stealing your money! There are ways to go after individuals and entities that have taken your money. We at Payback are experts in the recovery of funds from bad actors like binary options fraudsters.",
+          "Recovering funds in the forex trading market is difficult. The difficulty increases when you use an unregulated broker. Adding to the problem is the near impossibility of recompense from the scammers who defrauded you.",
 
-          "Our company, Payback, specialize in the retrieval of money from binary options scams. Some of the methods we utilize and have success with are chargebacks – working with you and your card company to make an authentic and valid report of fraud. Payback works closely with you, and you will work with the same caseworker throughout the process. Fill out our Success Calculator to get started and check the testimonial and reviews for yourself!"
+          "But we at Reversion have a proven track record of success in helping investors who have been the victims of a scam or fraud. We are a regulated fund recovery company that focuses on some of the more complicated financial investments: forex, binary options, cryptocurrency, and stocks.",
+
+          "In addition to our professional forex recovery services, our team of experts focuses on customer outreach and we attempt to mitigate the damage that fraudulent actors have caused to our clients.",
+
+          "<a href='/contact_us'>Contact us today for a free</a> consultation and our professionals will work with you throughout the entire process to get you maximum returns!"
         ]
       }
     ],
-    "accordion": {
-      "header": "Binary Options Scam FAQ",
-      "title1": "Are Binary Options Legal in the US?",
-      "info1": "Binary options are legal in the US and have overlapping regulatory agencies, chiefly the CFTC (Commodities Futures Trade Commission) and the SEC (Securities and Exchange Commission).",
-      "title2": "How do binary options robots work?",
-      "info2": "There are several mediums that binary options robots use – the primary is an executable piece of software, the other requires you to share account information for the robot to trade on your behalf.",
-      "title3": "What is binary options trade copying?",
-      "info3": "Binary options trade copying is a service offered in the same vein as robots and signals. Trade copying essentially connects your brokerage account to a ‘master’ account, and it will automatically trade your account for you.",
-      "title4": "I was scammed by a binary options scam. How do I get my money back?",
-      "info4": "If you were scammed out of your money due to a dishonest binary options broker or a service that lied about its performance, you still have{\"\\t\"} <a href=\"/article/if-you-get-scammed-can-you-get-your-money-back\"> options to recover some or all of your money </a>. Payback is a company that specializes in the recovery of your money."
+    "articles": {
+      "header": "Forex Scam FAQ",
+      "title1": "Is Forex a pyramid scheme?",
+      "text1": "No – but there are scams and fraudsters that create pyramid schemes. This kind of behavior exists everywhere and is endemic to all traded financial markets. If you are looking for a broker and they’re offering to put you into a ‘team’ to build a network, odds are it’s a pyramid scheme. Read our related article: <a href='/article/identify-and-avoid-pyramid-schemes'>What is a pyramid scheme and how to avoid them</a>",
+      "title2": "Who regulates the forex markets?",
+      "text2": "<a href='/article/forex-regulations-101-who-controls-foreign-exchange-brokers'>Several major regulatory bodies</a>/agencies around the globe regulate forex markets. In the US, brokers are regulated by the NFA (National Futures Association) and the CFTC (Commodities Futures Trade Commission) – but not FINRA (Financial Industry Regulatory Authority). In the UK, the main regulatory body is the FCA (Financial Conduct Authority). In the EU, all nations that make up the EU have their respective regulatory agency– but the standards that each member State must maintain are established in the MiFID (Markets in Financial Instruments Directive).",
+      "title3": "How do I know if a broker is legit?",
+      "text3": "Great question! One of the first signs that the broker you are looking at is legitimate is if they disclose that they are registered with a specific regulatory authority such as the FCA (UK) or CFTC (US). Another great way to determine legitimacy is to read reviews by current and former customers."
     }
-},
-
-  "c": {
-    "title": "Bitcoin & Cryptocurrency Scams -"
-  },
-
-  "f": {
-    "title": "Forex Trading Scams -"
   },
 
   "st": {
-    "title": "Stock Market Scams -"
+    "title": "Stock Market Scams -",
+    "exp-header": "Our Guide To Avoiding Stock Market Fraud In 2021",
+    "exp-title": "We all dream of becoming the next Warren Buffett. Who wouldn’t want to be one of the richest men in the world. We would all like to make the right investment each and every time, but that’s next to impossble to achieve. Scammers prey on those seeking to make a quick buck and they will look to lure us in with shady investment opportunities that have no basis in reality. If you suspect you’ve lost money due to a fraudulent stock trading scam then contact us now and we’ll work to get your money back.",
+    "tocLinks": [
+      {"to": "p1", "text": "How does the stock market work?"},
+      {"to": "p2", "text": "Is the stock market rigged?"},
+      {"to": "p3", "text": "Types of Securities fraud"}
+    ],
+
+    "tocParagraphs": [
+    {
+      "name": "p1",
+      "header": "How does the stock market work?",
+      "indents": [
+        "Stock markets are a form of centralized exchange where investors buy and sell ownership (stocks) of various companies. Most stock markets worldwide are highly regulated and involve legal, nationally registered, and regulated brokers to facilitate the transfer of stock from a seller to a buyer.",
+
+        "Examples of regulated stock exchanges are the US-based NYSE (New York Stock Exchange) and the NASDAQ (National Association of Securities Dealers Automated Quotations). Our ability to access the stock market has never been more effortless, and the barriers to entry continue to fall every year.",
+
+        "But this ease of access is not without its dangers. We are all susceptible to different types of investment scams in the investment and stock world, so it is incumbent on us to do our due diligence and protect ourselves and our money from becoming victims of stock fraud and stock scams."
+      ]
+    },
+    {
+      "name": "p2",
+      "header": "Is the stock market rigged?",
+      "indents": [
+        "One of the biggest questions and, for many, beliefs about the stock market is that it is rigged. Is it? The US’s stock markets are regulated by various government and non-government entities such as the SEC (Securities and Exchange Commission) and FINRA (Financial Industry Regulatory Authority). Both the SEC and FINRA have overlapping legal responsibilities that monitor the stock exchanges and the various brokers that facilitate the buying and selling of stocks. However, that doesn’t mean we can avoid all fraud and scams.",
+
+        "Current and past companies intentionally deceive individual investors and/or participate in illegal accounting and business practices, such as ENRON and Valeant Pharmaceuticals. Some fraudulent individuals create ‘too good to be true’ advertisements that result in Ponzi schemes – the worst actor in history being Bernie Madoff.",
+
+        "You even have regulated online stock brokers that do not practice their fiduciary responsibilities on behalf of their clients – a most recent example would be Robinhood during the early 2021 GameStop debacle. While there are obvious risks in the stock market and plenty of people looking to take advantage of you, the overwhelming and vast majority of brokers and exchanges operate in a legitimate, ethical and legal way.",
+
+        {
+          "keypoint": true,
+          "points": [
+            "Avoid persons or entities that approach you with phrases like ‘investment opportunity,’ ‘guaranteed return’ or anything else that sounds too good to be true.",
+
+            "Avoid high-pressure sales tactics and advertisements – if you didn’t look for the company on your own, best to avoid.",
+
+            "Do your own due diligence – trust yourself, avoid listening to others for advice on what to buy and sell. Speak with a registered financial advisor.",
+
+            "Learn the basics – Learn Dow Theory 101 and identify what a bear market is and what a bull market is. Learn about conservative and traditional investing. Learn about investing in leaders and proven successful stocks like those in the conventional basket of blue-chip stocks."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "p3",
+      "header": "Types of Securities fraud",
+      "indents": [
+        "<h3 class='tof-sub-header'>Ponzi Schemes</h3>",
+
+        "Perhaps the most well-known version of a stock fraud scheme in history is a Ponzi scheme. A Ponzi scheme involves paying investment profits to old investors with the deposits of new investors. When a new investor joins the system, it is most often at the advice of another investor unknowingly part of the Ponzi scheme. What makes Ponzi schemes so successful is the perceived legitimacy and history of returns. Ponzi schemes can exist for years or even decades.",
+
+        "In the case of Bernie Madoff, his Ponzi scheme and fraud empire lasted for over 20 years. He was so successful at this fraud that his firm even became one of the leading market makers of the stock market, and he was a former chairman of the NASDAQ! Ponzi schemes eventually fail because there is never enough new investor money to keep paying off old investors. Some of the keywords or phrases with a Ponzi scheme are ‘guaranteed income,’ ‘offshore investment,’ ‘small, private hedge fund ’ ‘secret invite-only fund,’ or any other form of ‘too good to be true’ sales pitch.",
+
+        "<h3 class='tof-sub-header'>Pump and Dump</h3>",
+
+        "Pump and Dump (sometimes referred to as P&Ds) scams are perhaps one of the classic and  persistent forms of stock fraud that exist. What makes pump and dump scams challenging  to detect is that they can often be done in a legitimate fashion. A pump and dump is essentially an event where you are targeted to buy a stock. The stock is sometimes referred to as a ‘multi-bagger,’ indicating a massive return on investment. You may  also read about how the stock is an emerging leader in its sector/industry, how it could be the next Apple or Amazon.",
+
+        "The stocks used in pump and dump are often publicly traded and listed on a regulated exchange like the NASDAQ and bought through a regulated stockbroker. The stock price is almost always between $1.00 to $10.00; how a pump and dump works is straightforward. The scammers purchase the cheap stock early then begins to campaign on its behalf and drum up support and enthusiasm. As new investors buy, the price starts to spike up and accelerate – it is at that point the originators of the scam sell and exit their positions at a significant profit and at the expense of yourself and everyone else who bought too late.",
+
+        "<h3 class='tof-sub-header'>Penny Stock Scams</h3>",
+
+        "Along with pump and dump scams, penny stock scams are among the oldest and most well-known forms of stock fraud. Penny scams and pump and dumps often work hand in hand with pump and dump scams utilizing penny stocks. Penny stock scams are often touted as ways to invest in new companies via their stock at very low-priced shares with the promise of massive returns in the future – the definition of a get rich quick scheme. The phrase ‘Penny Stock’ doesn’t necessarily mean that the stock is work pennies – today, it generally means a very low-value stock.",
+
+        "However, modern penny stock scams have increasingly used stocks that are not available  from the major regulated exchanges like the NYSE. Instead, these penny stocks are found on the ‘Pink Sheets’ or OTC markets (Over The Counter). OTC securities are not always available from regulated stockbrokers as the securities themselves must be exchanged between the company selling their stock to you directly or through another non-centralized broker/exchange.",
+
+        "<h3 class='tof-sub-header'>Stock Broker Fraud</h3>",
+
+        "Stock broker fraud is, thankfully, one of the forms of fraud that has decreased as stock markets have become more regulated. However, that doesn’t mean it doesn’t happen. The days of a stockbroker taking the old physical paper securities or deposited cash and running away are long gone. Stockbrokers who wish to do wrong by the clients today now have to resort to more shady methods.",
+
+        "One of the most prevalent (and, sometimes legal) forms of stockbroker fraud is an activity known as ‘front-running.’ Let’s say you were to call your brokerage firm and you  wanted to buy 100 shares of XYZ. Your broker, knowing that this would likely move the market, instead places an order himself before executing your order. The broker  essentially enters the market early, for himself, before completing your order and  allows your order to drive up the value of his earlier entry.",
+
+        "The major problem with front-running is it is nearly impossible to detect. With the amount of high-frequency-trading (HFT) that occurs every second, front-running is a type of fraud that only diligent and active regulators can determine. There are other tactics that stockbrokers will employ that are not necessarily fraudulent but unethical. Some types of  behavior are encouraging high-frequency day trading by new investors, undisclosed  appropriation of dividends, and unclear rules or fees associated with shorting.",
+
+        "<h3 class='tof-sub-header'>Boiler Room Scams</h3>",
+
+        "If you have seen the movie ‘The Wolf of Wallstreet’ then you have seen what a boiler room is. Jordan Belfort’s (Wolf of Wallstreet) company employed hundreds of ‘brokers’ who called  prospective investors to buy stock in individual companies – often overvalued but cheap  companies. The ‘broker’ used high energy sale tactics that made the potential investor fear they would be missing out on an opportunity of a lifetime (FOMO = Fear Of Missing Out).",
+
+        "While the days of call-center type boiler rooms like those in The Wolf of Wall Street no longer exist, that doesn’t mean the concept has gone away. It has evolved. Instead of boiler rooms, we now have subreddits (the website Reddit), private/public forums and message boards, emails, text  alerts, fraudulent websites, fake webinars, automated social media generators on Twitter, Facebook, and StockTwits (Twitter version for stock traders). Modern boiler room operations are now more prevalent than their old counterparts, and they continue to grow and become more sophisticated."
+      ]
+    }
+    ]
   },
 
   "cu": {
     "title1": "Contact us now! To get ",
-    "title2": "your money Back!"
+    "title2": "your money Back!",
+    "subheader": "If you’ve been ripped off by scammers, get in touch and our team of experts will work to get your money back",
+    "info": "You can also contact us in the following ways:"
   },
 
 
@@ -208,26 +438,26 @@
   },
 
   "mtocLinks": [
-    {"to": "p1", "text": "Learn more about Payback and the chargeback industry right here"},
+    {"to": "p1", "text": "Learn more about Reversion and the chargeback industry right here"},
     {"to": "p2", "text": "The chargeback industry"},
-    {"to": "p3", "text": "Funds recovery with Payback"},
+    {"to": "p3", "text": "Funds recovery with Reversion"},
     {"to": "p4", "text": "Recover from online trading scams"},
-    {"to": "p5", "text": "About Payback"}
+    {"to": "p5", "text": "About Reversion"}
   ],
   "mtocParagraphs": [
     {
       "name": "p1",
-      "header": "Learn more about Payback and the chargeback industry right here",
+      "header": "Learn more about Reversion and the chargeback industry right here",
       "indents": [
         "Online scams are prevalent among illegitimate shops and merchants on the internet today. It is laden with untrustworthy transactions that seek to victimize those who are vulnerable. While we guard ourselves against these dangerous tradings, there are times when they cannot be prevented.",
 
         "For instance, there are a lot of online markets and traders that can easily fool people by posing as a legitimate authority. They can be so real that not a lot of people can spot their real motives. Falling victim into this kind of scam can be really frustrating and painful, not just in our credits but also in our integrity as a buyer or a trader. While we think that all hope is lost, it’s not quite over.",
 
-        "PayBack’s funds’ recovery program has been helping consumers and users online recover what is rightfully theirs after being victimizedby trading scams, trade platform scams, and the likes.",
+        "Reversion’s funds’ recovery program has been helping consumers and users online recover what is rightfully theirs after being victimizedby trading scams, trade platform scams, and the likes.",
 
         "Funds recovery has been a prominent method of wealth recovery and scam money recovery. Due to this, there are also recovery scams that have been spreading online. With all the deceptions and frauds circulating on theinternet, you must be smart about it.",
 
-        "For a legitimate wealth recovery expert, PayBack can help you. PayBack scam recovery has helped victims all over the world to retrieve their money with their wealth recovery experts on scams. For recovery funds in the UK, they are adept at the area. To learn more about them and the trade industry, here iseverything you need to know."
+        "For a legitimate wealth recovery expert, Reversion can help you. Reversion scam recovery has helped victims all over the world to retrieve their money with their wealth recovery experts on scams. For recovery funds in the UK, they are adept at the area. To learn more about them and the trade industry, here iseverything you need to know."
       ]
     },
     {
@@ -243,17 +473,17 @@
     },
     {
       "name": "p3",
-      "header": "Funds recovery with Payback",
+      "header": "Funds recovery with Reversion",
       "indents": [
-        "PayBack offers this kind of service with wealth recovery experts and fund recovery specialists – ensuring that you get your investments back from scammers. However, what really is funds recovery?",
+        "Reversion offers this kind of service with wealth recovery experts and fund recovery specialists – ensuring that you get your investments back from scammers. However, what really is funds recovery?",
 
         "In a nutshell, funds recovery is a service that is both consultative and investigative in its approach. This is a service employed by victims that have been duped by online fraudulent crimes to retrieve their money from bogus merchants and trader scams.",
 
-        "Funds recovery services like PayBack specialize in handling internet scams online and lend a hand in providing refunds and reimbursements to the targets through the use of arguments and disputes, along with digital fingerprints track downs, analysis of cyber transactions, and an in-depth investigation.",
+        "Funds recovery services like Reversion specialize in handling internet scams online and lend a hand in providing refunds and reimbursements to the targets through the use of arguments and disputes, along with digital fingerprints track downs, analysis of cyber transactions, and an in-depth investigation.",
 
         "Companies that provide funds recovery services have a high chance of a successful crypto scam recovery, Bitcoin scam recovery, scam money recovery, and wealth recovery.",
 
-        "When PayBack receives a complaint from victims, they immediately work and review the details of the situation. For a successful recovery, funds recovery review or scam recovery review of the claims must be done, and pieces of evidence must be gathered.",
+        "When Reversion receives a complaint from victims, they immediately work and review the details of the situation. For a successful recovery, funds recovery review or scam recovery review of the claims must be done, and pieces of evidence must be gathered.",
 
         "The complaint must be valid, and the terms and conditions of the company must be followed."
       ]
@@ -266,35 +496,40 @@
 
         "These questions linger among those who have fallen target to online trading scams. Forex and Cryptocurrencies have shaped the trading markets quite differently. Nowadays, more and more people have been susceptible to these scams.",
 
-        "However, with PayBack, getting your money back quickly is not a problem.",
+        "However, with Reversion, getting your money back quickly is not a problem.",
 
         "Scams in online trading are connected to investment scams that are prevalent in the trading markets. They are often posted and advanced on social media sites, with fraud traders promising high returns along with popular endorsements from prominent people to encourage and attract people to trade and invest with them.",
 
         "They pose as professionals with legitimate-looking websites to trick people into their scams.",
 
-        "PayBack provides solace for any online trading scams. The company helps people from trade platform scams and lets victims recover money from Bitcoin scam."
+        "Reversion provides solace for any online trading scams. The company helps people from trade platform scams and lets victims recover money from Bitcoin scam."
       ]
     },
     {
       "name": "p5",
-      "header": "About Payback",
+      "header": "About Reversion",
       "indents": [
-        "PayBack LTD only has one mission: to protect people from frauds and scams online worldwide, whatever it takes. We help victims of fraud online to recover what is rightfully theirs with their wealth recovery experts, scam money recovery professionals, and fund recovery specialists.",
+        "Reversion only has one mission: to protect people from frauds and scams online worldwide, whatever it takes. We help victims of fraud online to recover what is rightfully theirs with their wealth recovery experts, scam money recovery professionals, and fund recovery specialists.",
 
         "The company focuses on <a href='/articles/blacklisted-brands'>unregulated Forex and Binary Options Brokers</a> and has already handled millions of victims around the globe with a high turnover. In July alone, we have recovered more than $300,000 funds and money from frauds." ,
 
         "Our team is composed of skilled experts and professionals with magnificent long-time experience. We help you avoid recovery scams, as we are legitimate field specialists with a great deal of knowledge and experience in dealing with the forex industry, banking internationally, and the law of cybercrime enforced on the internet.",
 
-        "As a fund recovery agency, PayBack helps people conduct safe online transactions and provide services in the area of refunds and cancellations, <a href='/forex'>forex</a> and <a href='/binary_options'>binary options scams</a>, and other types of online frauds.",
+        "As a fund recovery agency, Reversion helps people conduct safe online transactions and provide services in the area of refunds and cancellations, <a href='/forex'>forex</a> and <a href='/binary_options'>binary options scams</a>, and other types of online frauds.",
 
-        "Where recovery scams are prevalent, PayBack is the safer choice. We specialize in recovery funds in the UK and extends their services on:",
+        "Where recovery scams are prevalent, Reversion is the safer choice. We specialize in recovery funds in the UK and extends their services on:",
 
         "<div class='row'><div class='col-md-6 col-sm-12'><ul class='main__marker-list'><li><div><a href='/forex'>Online trading scams</a></div></li><li><div>Funds recovery</div></li><li><div><a href='/forex'>Trade platform scams</a></div></li><li><div>Wealth recovery expert</div></li></ul></div><div class='col-md-6 col-sm-12' style='margin: 0'><ul class='main__marker-list'><li><div><a href='/cryptocurrency'>Crypto scam recovery</a></div></li><li><div><a href='/cryptocurrency'>Recover scammed bitcoin</a></div></li><li><div>Scam money recovery</div></li></ul></div></div>",
 
         "Funds recovery reviews, as well as scam recovery reviews, are available on their website and other review sites. Furthermore, we are a certified company of TrustPilot as a funds recovery dome." ,
 
-        "If you have been victimized, you have the right to recover what you have lost. With the chargeback industry in effect and the professionals of PayBack, get back what is yours."
+        "If you have been victimized, you have the right to recover what you have lost. With the chargeback industry in effect and the professionals of Reversion, get back what is yours."
       ]
     }
-  ]
+  ],
+  "blog": {
+    "header1": "Featured Articles",
+    "header2": "All Articles",
+    "article.head": "Get a free consultation!"
+  }
 }

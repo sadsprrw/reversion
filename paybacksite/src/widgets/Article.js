@@ -43,32 +43,36 @@ const Article = () => {
                 <div className={"main__container"} style={width > 767 ? {} : {justifyContent: "center"}}>
                     <div className={"ab__right-side"}>
                         <div className={"ab__rs-wrap"}>
-                            {parse(article.text)}
+                            {i18n.language === "de" ? parse(article.de) : parse(article.text)}
                             {article.short_code === "blacklisted-brands" ? blacklist : <></>}
                         </div>
                     </div>
                     <div className={"ab__left-side"} style={width > 767 ? {} : {display: "none"}}>
-                        <div className={"ab__ls-wrap"}>
-                            <div className={"ab__banner"}>
-                                <div className={"ab__banner-title"}>
-                                    <div className={"ab-wrap"}>
-                                        <div className={"ab__banner-title-text"}>
-                                            Let's get your money back!
+                        <div className={"ab__ls-wrapper"}>
+                            <div className={"ab__ls-wrap"}>
+                                <div className={"ab__banner"}>
+                                    <div className={"ab__banner-title"}>
+                                        <div className={"ab-wrap"}>
+                                            <div className={"ab__banner-title-text"} style={i18n.language === "de" ? {fontSize: "24px"} : {}}>
+                                                <Trans i18nKey="blog.article.head"/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className={"ab__banner-subtitle"}
-                                     style={width > 1216 ? {} : {display: "none"}}>
-                                    <div className={"ab-wrap"}>
-                                        <div className={"ab__banner-subtitle-text text-center"}>
-                                            If you’ve lost money to scammers, contact us now and we’ll work with you to get your money back!
-                                        </div>
+                                    <div className={"ab__banner-subtitle"}
+                                         style={width > 1216 ? {} : {display: "none"}}>
+
+                                            <div className={"ab-wrap"}>
+                                                <div className={"ab__banner-subtitle-text text-center"} style={i18n.language === "de" ? {fontSize: "16px"} : {}}>
+                                                    <Trans i18nKey="money-back.title"/>
+                                                </div>
+                                            </div>
+
                                     </div>
-                                </div>
-                                <div className="main__mb-btn">
-                                    <Link className="yellow-btn" to="/contact_us">
-                                        Get a free consultation
-                                    </Link>
+                                    <div className="main__mb-btn">
+                                        <Link className="yellow-btn" to="/contact_us" style={i18n.language === "de" ? {fontSize: "14px"} : {}}>
+                                            <Trans i18nKey="money-back.btn"/>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +94,7 @@ const Article = () => {
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[0].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
-                                        {other_articles[0].header}
+                                        {i18n.language === "de" ? other_articles[0].header2 : other_articles[0].header}
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +104,7 @@ const Article = () => {
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[1].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
-                                        {other_articles[1].header}
+                                        {i18n.language === "de" ? other_articles[1].header2 : other_articles[1].header}
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +114,7 @@ const Article = () => {
                                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${other_articles[2].short_code}.jpg)`}}/>
                                 <div className={"la-post-info"}>
                                     <div className={"la-post-info-title"}>
-                                        {other_articles[2].header}
+                                        {i18n.language === "de" ? other_articles[2].header2 : other_articles[2].header}
                                     </div>
                                 </div>
                             </div>

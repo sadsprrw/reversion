@@ -6,7 +6,7 @@ import HowItWorks from "../widgets/HowItWorks";
 import ContactUsBanner from "../widgets/ContactUsBanner";
 import Explanation from "../widgets/Explanation";
 import Footer from "../widgets/Footer";
-
+import _ from 'lodash';
 import "../styles/Main.css"
 import Slider from "react-slick";
 
@@ -17,7 +17,7 @@ import {ParagraphGeneration, RightSideGeneration} from "../widgets/ScrollGenerat
 
 import { Link, useHistory } from 'react-router-dom';
 import useWindowDimensions from "../properities/windowProps";
-import {useTranslation} from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
 
 const Main = () => {
     const { height, width } = useWindowDimensions();
@@ -32,16 +32,13 @@ const Main = () => {
                     <div className="main__money-info-content">
                         <div className="main__money-info-descr">
                             <h3 className="main__money-info-header">
-                                Money retrieved in June 2021
+                                <Trans i18nKey="money-info.header"/>
                             </h3>
                             <div className="main__money-info-amount" style={width > 1216 ? {display: "none"} : {}}>
                                 $ 1,072,267
                             </div>
                             <div className="main__info-text">
-                                Our team of experts secures refunds on a daily basis. We assist businesses as well as
-                                individuals in their pursuit of funds lost to scammers. Our goal is to continually
-                                improve in our endeavors and we are always here to help you in your fight for what is
-                                rightfully yours.
+                                <Trans i18nKey="money-info.title"/>
                             </div>
                         </div>
                         <div className="main__money-info-number" style={width < 1216 ? {display: "none"} : {}}>
@@ -64,7 +61,7 @@ const Main = () => {
                         <div className="main__about-us-info">
                             <div className="main__about-us-descr">
                                 <h2 className="main__content-header">
-                                    Why work with us?
+                                    <Trans i18nKey="about-us.header"/>
                                 </h2>
                             </div>
                             <div className="main__about-us-img-container" style={width > 767 ? {display:"none"} : {}}>
@@ -72,14 +69,10 @@ const Main = () => {
                                     src="https://cdn-amadc.nitrocdn.com/uSrlKJDDawwYmhhBEJuIlskEJGsKAzSK/assets/static/source/rev-00c0f66/wp-content/uploads/2021/03/handshake2.svg"/>
                             </div>
                             <div className="main__about-us-descr">
-                                <p className="main__info-text">The short answer: We will never take a case we think we
-                                    can’t win. Your time is as valuable as ours, and that’s why we are completely
-                                    transparent in our evaluation of every case. If it can’t be done, we will tell you
-                                    so. But, if we will feel there is a case to answer, then we’ll get to work right
-                                    away.</p>
+                                <p className="main__info-text"><Trans i18nKey="about-us.title"/></p>
                             </div>
                             <div className="main__about-us-descr">
-                                <Link to="/about_us" className="btn-outline">About Us</Link>
+                                <Link to="/about_us" className="btn-outline"><Trans i18nKey="about-us.btn"/>s</Link>
                             </div>
                         </div>
                     </div>
@@ -89,20 +82,19 @@ const Main = () => {
                 <div className="main__container">
                     <div className="main__mb-content">
                         <div className="main__mb-header">
-                            <h3 className="main__mb-header-text">Let's get your money back!</h3>
+                            <h3 className="main__mb-header-text"><Trans i18nKey="money-back.header"/></h3>
                         </div>
                         <div className="main__mb-description">
-                            <div className="main__mb-description-text">If you’ve lost money to scammers, contact us now
-                                and we’ll work with you to get your money back!
+                            <div className="main__mb-description-text"><Trans i18nKey="money-back.title"/>
                             </div>
                         </div>
                         <div className="main__mb-btn">
-                            <Link to="/contact_us" className="yellow-btn">Get a free consultation</Link>
+                            <Link to="/contact_us" className="yellow-btn"><Trans i18nKey="money-back.btn"/></Link>
                         </div>
                     </div>
                 </div>
             </div>
-            <Explanation header={meHeader} firstParagraph={meParagraph1} secondParagraph={meParagraph2}/>
+            <Explanation header={"exp.header"} firstParagraph={"exp.title1"} secondParagraph={"exp.title2"}/>
             <div className="main__slider">
                 <div className="main__container">
                     <div className="main__slider-content">
@@ -152,19 +144,19 @@ const Main = () => {
                     <div className="main__container">
                         <div className="main__tof-left-side">
                             <div className="main__tof-ls-content">
-                                {mtocParagraphs.map((p) => {
+                                {_.map(i18n.t("mtocParagraphs", { returnObjects: true }), (p) => {
                                     return <ParagraphGeneration paragraph={p}/>
                                 })}
                             </div>
                         </div>
-                        <RightSideGeneration links={mtocLinks}/>
+                        <RightSideGeneration links={i18n.t("mtocLinks", { returnObjects: true })}/>
                     </div>
                     :
                     <div className="main__container" style={{flexDirection: "column", alignItems: "center"}}>
-                        <RightSideGeneration links={mtocLinks}/>
+                        <RightSideGeneration links={i18n.t("mtocLinks", { returnObjects: true })}/>
                         <div className="main__tof-left-side">
                             <div className="main__tof-ls-content">
-                                {mtocParagraphs.map((p) => {
+                                {_.map(i18n.t("mtocParagraphs", { returnObjects: true }), (p) => {
                                     return <ParagraphGeneration paragraph={p}/>
                                 })}
                             </div>

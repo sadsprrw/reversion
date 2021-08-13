@@ -59,6 +59,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    height: 220px;
+
 }
 .blog-post-info-title {
     margin: 0;
@@ -69,6 +71,7 @@
     word-break: break-word;
     line-height: 36px;
     color: #112152;
+    max-height: 180px;
 }
 
 .blog-la-first .blog-post-info:after{

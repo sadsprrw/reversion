@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/Main.css"
+import {Trans} from "react-i18next";
 
 const Explanation = ({header, firstParagraph, secondParagraph  }) => {
     return(
@@ -9,7 +10,7 @@ const Explanation = ({header, firstParagraph, secondParagraph  }) => {
                 <div className="main__exp-content ">
                     <div className="main__exp-header">
                         <div className="main__content-header text-center">
-                            {header}
+                            <Trans i18nKey={header}/>
                         </div>
                     </div>
                     <div className="main__exp-border">
@@ -17,10 +18,10 @@ const Explanation = ({header, firstParagraph, secondParagraph  }) => {
                     </div>
                     <div className="main__exp-description">
                         <div className="main__exp-description-1">
-                            <p className="main__info-text">{firstParagraph}</p>
+                            <p className="main__info-text"><Trans i18nKey={firstParagraph}/></p>
                         </div>
                         <div className="main__exp-description-2">
-                            <p className="main__info-text">{secondParagraph}</p>
+                            <p className="main__info-text"><Trans i18nKey={secondParagraph}/></p>
                         </div>
                     </div>
                 </div>

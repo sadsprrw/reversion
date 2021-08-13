@@ -44,19 +44,19 @@ const Header = ({state}) => {
                                     <ul className="header__sub-menu">
                                         <li><Link to="/binary_options"
                                                   className={ state === 1 ? "header__sub-menu-link active" : "header__sub-menu-link"}>
-                                            <Trans i18nKey="header.rc.bo"/></Link>
+                                            <Trans i18nKey="header.bo"/></Link>
                                         </li>
                                         <li><Link to="/cryptocurrency"
                                                   className={ state === 2 ? "header__sub-menu-link active" : "header__sub-menu-link"}>
-                                            <Trans i18nKey="header.rc.c"/></Link>
+                                            <Trans i18nKey="header.c"/></Link>
                                         </li>
                                         <li><Link to="/forex"
                                                   className={ state === 3 ? "header__sub-menu-link active" : "header__sub-menu-link"}>
-                                            <Trans i18nKey="header.rc.f"/></Link>
+                                            <Trans i18nKey="header.f"/></Link>
                                         </li>
                                         <li><Link to="/stock_trading"
                                                   className={ state === 4 ? "header__sub-menu-link active" : "header__sub-menu-link"}>
-                                            <Trans i18nKey="header.rc.st"/></Link>
+                                            <Trans i18nKey="header.st"/></Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -122,19 +122,19 @@ const Header = ({state}) => {
                                                         <ul className="bm-sub-menu">
                                                             <li><Link to="/binary_options"
                                                                       className={ state === 1 ? "bm-sub-menu-link active" : "bm-sub-menu-link"}>
-                                                                <Trans i18nKey="header.rc.bo"/></Link>
+                                                                <Trans i18nKey="header.bo"/></Link>
                                                             </li>
                                                             <li><Link to="/cryptocurrency"
                                                                       className={ state === 2 ? "bm-sub-menu-link active" : "bm-sub-menu-link"}>
-                                                                <Trans i18nKey="header.rc.c"/></Link>
+                                                                <Trans i18nKey="header.c"/></Link>
                                                             </li>
                                                             <li><Link to="/forex"
                                                                       className={ state === 3 ? "bm-sub-menu-link active" : "bm-sub-menu-link"}>
-                                                                <Trans i18nKey="header.rc.f"/></Link>
+                                                                <Trans i18nKey="header.f"/></Link>
                                                             </li>
                                                             <li><Link to="/stock_trading"
                                                                       className={ state === 4 ? "bm-sub-menu-link active" : "bm-sub-menu-link"}>
-                                                                <Trans i18nKey="header.rc.st"/></Link>
+                                                                <Trans i18nKey="header.st"/></Link>
                                                             </li>
                                                         </ul>
                                                     </Card.Body>

@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Main.css"
 import "../styles/FAQlist.css"
 import useWindowDimensions from "../properities/windowProps";
+import {Trans} from "react-i18next";
 
 
 const ContactUs = () => {
@@ -29,7 +30,7 @@ const ContactUs = () => {
                         <div className={"cu__info-ls-content"}>
                             <div className={"cu__info-ls-text-content"}>
                                 <div className={"main__text-content-header"}>
-                                    <p>You can also contact us in the following ways:</p>
+                                    <p><Trans i18nKey="cu.info"/></p>
                                 </div>
                             </div>
                             <table className="pb-table contact-us-info">

@@ -16,11 +16,8 @@ import {articles} from "../content/blog_articles";
 import ReactPaginate from 'react-paginate';
 import {Link, useHistory, useParams} from "react-router-dom";
 
-const handlePageClick = ({event, setPage}) => {
 
-}
-
-const ArticleGeneration = ({article, history}) => {
+const ArticleGeneration = ({article, history, i18n}) => {
     return(
         <div className="col-12 col-md-6 col-lg-4">
             <div className="la-post"  onClick={() => history.push({
@@ -29,21 +26,21 @@ const ArticleGeneration = ({article, history}) => {
             })}>
                 <div className={"la-post-image"} style={{backgroundImage: `url(/images/${article.short_code}.jpg)`}}/>
                 <div className={"la-post-info"}>
-                    <div className={"la-post-info-title"}>{article.header}</div>
+                    <div className={"la-post-info-title"}>{i18n.language === "de" ? article.header2 : article.header}</div>
                 </div>
             </div>
         </div>
     )
 }
 
-const ArticlesPageGeneration = ({articles, page, history}) =>{
+const ArticlesPageGeneration = ({articles, page, history, i18n}) =>{
     let _articles = []
 
     for(let i = articles.length - 12*(page - 1) - 1; i > articles.length- 1 - 12*page && i >= 0; i--)
         _articles[i] = articles[i];
 
     return  (_articles.map((a) => {
-            return <ArticleGeneration article={a} history={history}/>
+            return <ArticleGeneration article={a} history={history} i18n={i18n}/>
         }
     ).reverse())
 }
@@ -113,13 +110,13 @@ const Blog = () => {
             <div className="row">
                 <div className="col">
                     <h1 className="blog-header">
-                        All Articles
+                        <Trans i18nKey="blog.header2"/>
                     </h1>
                 </div>
             </div>
             <div className={"main__container"}>
                 <div className={"row blog-posts"}>
-                    <ArticlesPageGeneration articles={blog_article} page={page} history={history} />
+                    <ArticlesPageGeneration articles={blog_article} page={page} history={history} i18n={i18n} />
                 </div>
             </div>
             <div className={"main__container"}>

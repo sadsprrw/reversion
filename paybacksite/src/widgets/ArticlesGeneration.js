@@ -1,4 +1,4 @@
-import {Trans} from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
 import React from "react";
 import {useHistory} from "react-router-dom";
 import {articles} from "../content/blog_articles"
@@ -15,6 +15,7 @@ export function getLastArticles(article) {
 
 export const MainArticles = ({article1, article2, article3}) => {
     let history = useHistory();
+    const {t, i18n} = useTranslation();
     return(
         <div className="main__container">
         <div className="blog-latest-artcl">
@@ -22,7 +23,7 @@ export const MainArticles = ({article1, article2, article3}) => {
                     <div className="row">
                         <div className="col">
                             <h1 className="blog-header">
-                                <Trans i18nKey="blog.title"/>
+                                <Trans i18nKey="blog.header1"/>
                             </h1>
                         </div>
                     </div>
@@ -35,7 +36,7 @@ export const MainArticles = ({article1, article2, article3}) => {
                                 <div className="blog-la-post-image"
                                      style={{backgroundImage: `url(/images/${article1.short_code}.jpg)`, backgroundPosition: "center"}}/>
                                 <div className="blog-post-info">
-                                    <h4 className="blog-post-info-title">{article1.header}</h4>
+                                    <h4 className="blog-post-info-title"> {i18n.language === "de" ? article1.header2 : article1.header}</h4>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +52,7 @@ export const MainArticles = ({article1, article2, article3}) => {
                                              style={{backgroundImage: `url(/images/${article2.short_code}.jpg)`, backgroundPosition: "center"}}>
                                         </div>
                                         <div className="blog-post-info">
-                                            <h4 className="blog-post-info-title">{article2.header}</h4>
+                                            <h4 className="blog-post-info-title">{i18n.language === "de" ? article2.header2 : article2.header}</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -63,7 +64,7 @@ export const MainArticles = ({article1, article2, article3}) => {
                                         <div className="blog-la-post-image"
                                              style={{backgroundImage: `url(/images/${article3.short_code}.jpg)`, backgroundPosition: "center"}}/>
                                         <div className="blog-post-info">
-                                            <h4 className="blog-post-info-title">{article3.header}</h4>
+                                            <h4 className="blog-post-info-title">{i18n.language === "de" ? article3.header2 : article3.header}</h4>
                                         </div>
                                     </div>
                                 </div>

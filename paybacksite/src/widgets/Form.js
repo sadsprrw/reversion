@@ -5,6 +5,7 @@ import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/material.css'
 import { isValidPhoneNumber } from 'react-phone-number-input'
 import useWindowDimensions from "../properities/windowProps";
+import {Trans, useTranslation} from "react-i18next";
 
 const Form = () => {
     const { height, width } = useWindowDimensions();
@@ -70,7 +71,6 @@ const Form = () => {
                 body: JSON.stringify(formData)
             })).json();
             if(response.msg === 'success'){
-                alert('Sended');
                 setFormData({
                     firstName: '',
                     lastName: '',
@@ -86,13 +86,13 @@ const Form = () => {
         }
         else {}
     }
-
+    const {t, i18n} = useTranslation();
     return (
         <div className="main-form-rs__form">
             <div className="main-form-rs__form-header">
-                <h4 style={{color: "#112152"}}>Recover Your Money</h4>
-                <div className="main-form-rs__form-sub-header">Provide your details to secure a free
-                    consultation
+                <h4 style={{color: "#112152"}}><Trans i18nKey="form.title"/></h4>
+                <div className="main-form-rs__form-sub-header">
+                    <Trans i18nKey="form.subtitle"/>
                 </div>
             </div>
             <div className="main-form-rs__form-inner">
@@ -105,10 +105,10 @@ const Form = () => {
                                            {...formData, firstName: event.target.value}
                                        )}
                                    }
-                                   placeholder="First Name"
+                                   placeholder={i18n.t("form.fname")}
                                    className="recover-form__form-control"/>
                             {errorsData.fName === '1' ?
-                                <span className={'form-control__wrong-input'}>The field is required.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err1"/></span> : <></>}
                         </div>
                         <div className="recover-form__input-wrapper" style={ width > 1216 ? {marginLeft: "16px"} : {}}>
                             <input type="text" name="last-name" value={formData.lastName}
@@ -117,9 +117,9 @@ const Form = () => {
                                            {...formData, lastName: event.target.value}
                                        )}
                                    }
-                                   placeholder="Last Name" className="recover-form__form-control"/>
+                                   placeholder={i18n.t("form.sname")} className="recover-form__form-control"/>
                             {errorsData.lName === '1' ?
-                                <span className={'form-control__wrong-input'}>The field is required.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err1"/></span> : <></>}
                         </div>
                     </div>
                     <div className="recover-form__input-row">
@@ -135,9 +135,9 @@ const Form = () => {
                                 }
                             />
                             {errorsData.phone === '1' ?
-                                <span className={'form-control__wrong-input'}>The field is required.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err1"/></span> : <></>}
                             {errorsData.phone === '2' ?
-                                <span className={'form-control__wrong-input'}>Invalid phone.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err2"/></span> : <></>}
                         </div>
                     </div>
 
@@ -152,14 +152,14 @@ const Form = () => {
                                    }
                                    className="recover-form__form-control"/>
                             {errorsData.email === '1' ?
-                                <span className={'form-control__wrong-input'}>The field is required.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err1"/></span> : <></>}
                             {errorsData.email === '2' ?
-                                <span className={'form-control__wrong-input'}>The e-mail address entered is invalid.</span> : <></>}
+                                <span className={'form-control__wrong-input'}><Trans i18nKey="form.err3"/></span> : <></>}
                         </div>
                     </div>
                     <div className="recover-form__input-row">
                         <div className="recover-form__input-wrapper">
-                    <textarea type="text" name="message" placeholder="Outline your case"
+                    <textarea type="text" name="message" placeholder={i18n.t("form.case")}
                               value={formData.text}
                               onChange={(event) => {
                                   setFormData(
@@ -170,7 +170,7 @@ const Form = () => {
                         </div>
                     </div>
                     <div className="recover-form__submit-holder">
-                        <div onClick={() => sendForm()} className="yellow-btn">Get a free consultation</div>
+                        <div onClick={() => sendForm()} className="yellow-btn"><Trans i18nKey="form.btn"/></div>
                     </div>
                 </form>
             </div>

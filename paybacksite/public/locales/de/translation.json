@@ -24,12 +24,15 @@
     "fname": "Vorname",
     "sname": "Nachname",
     "case": "Skizzieren Sie Ihren Fall",
-    "btn": "Holen Sie sich eine kostenlose Beratung"
+    "btn": "Holen Sie sich eine kostenlose Beratung",
+    "err1": "Dieses Feld ist erforderlich.",
+    "err2": "Ungültiges Telefon.",
+    "err3": "Die eingegebene E-Mail-Adresse ist ungültig."
   },
 
   "rc": {
     "title": " Holen Sie sich Ihr Geld zurück!",
-    "sub-title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit\nIhnen zusammenarbeiten, um Ihr Geld zurückzubekommen!"
+    "sub-title": "Wenn Sie Geld an Betrüger verloren haben, kontaktieren Sie uns jetzt und wir werden mit Ihnen zusammenarbeiten, um Ihr Geld zurückzubekommen!"
   },
 
   "key_points": "Wichtige Punkte",
@@ -37,13 +40,11 @@
   "bo": {
     "title": "Betrug mit binären Optionen - ",
     "exp-header": "Betrug mit binären Optionen: Betrug im Jahr 2021 vermeiden",
-    "exp-title": "Tausende von betrügerischen Brokern für binäre Optionen erscheinen jedes Jahr und es ist\nunsere Mission, zurückzuschlagen. Wenn Sie von Ihrem Broker betrogen wurden, kontaktieren\nSie uns bitte so schnell wie möglich. Je früher wir sie konfrontieren, desto eher können wir Ihr\nGeld zurückbekommen.",
+    "exp-title": "Tausende von betrügerischen Brokern für binäre Optionen erscheinen jedes Jahr und es ist unsere Mission, zurückzuschlagen. Wenn Sie von Ihrem Broker betrogen wurden, kontaktieren Sie uns bitte so schnell wie möglich. Je früher wir sie konfrontieren, desto eher können wir Ihr Geld zurückbekommen.",
     "tocLinks": [
       {"to": "p1", "text": "Was sind binäre Optionen?"},
       {"to": "p2", "text": "Gängige binäre Optionstypen"},
-      {"to": "p3", "text": "Sind binäre Optionen ein Betrug oder legitim?"},
-      {"to": "p4", "text": "Been Scammed? Here’s what you can do next!"},
-      {"to": "p5", "text": "FAQ"}
+      {"to": "p3", "text": "Sind binäre Optionen ein Betrug oder legitim?"}
     ],
 
     "tocParagraphs": [
@@ -51,9 +52,9 @@
         "name": "p1",
         "header": "Was sind binäre Optionen?",
         "indents": [
-          "Binäre Optionen sind eine Art von Finanzprodukt, das als exotische Option eingestuft wird. Der\nHandel mit binären Optionen mag wie ein neuer spekulativer Markt erscheinen, aber er\nexistiert seit 1974. Er wurde von einem der größten Derivatemärkte weltweit, CBOE (Chicago\nBoard Options Exchange), geschaffen. Erst 2008 wurden binäre Optionen in erster Linie der\nÖffentlichkeit zugänglich, und viele Unternehmen kopierten die ursprüngliche Auflistung der\nCBOE-Anlagentypen.",
+          "Binäre Optionen sind eine Art von Finanzprodukt, das als exotische Option eingestuft wird. Der Handel mit binären Optionen mag wie ein neuer spekulativer Markt erscheinen, aber er existiert seit 1974. Er wurde von einem der größten Derivatemärkte weltweit, CBOE (Chicago Board Options Exchange), geschaffen. Erst 2008 wurden binäre Optionen in erster Linie der Öffentlichkeit zugänglich, und viele Unternehmen kopierten die ursprüngliche Auflistung der CBOE-Anlagentypen.",
 
-          "Binäre Optionen sind eine Art von Option, mit der Sie erraten können, ob die Option im Geld\nverfällt – das war&#39;s. Einige unregulierte Broker für binäre Optionen ermöglichen das Erraten von\nErgebnissen aus dem Geld. Es wird eine einfache Ja- oder Nein-Wette abgeschlossen, daher der\nName Binär. Zeitgenössische binäre Optionen haben Verfallszeiten zwischen einer Woche und\neinigen Minuten, wobei sich die meisten modernen Plattformen für binäre Optionen auf\nVerfallszeiten von weniger als einem Tag spezialisiert haben."
+          "Binäre Optionen sind eine Art von Option, mit der Sie erraten können, ob die Option im Geld verfällt – das war&#39;s. Einige unregulierte Broker für binäre Optionen ermöglichen das Erraten von Ergebnissen aus dem Geld. Es wird eine einfache Ja- oder Nein-Wette abgeschlossen, daher der Name Binär. Zeitgenössische binäre Optionen haben Verfallszeiten zwischen einer Woche und einigen Minuten, wobei sich die meisten modernen Plattformen für binäre Optionen auf Verfallszeiten von weniger als einem Tag spezialisiert haben."
         ]
       },
       {
@@ -62,18 +63,18 @@
         "indents": [
           "Es gibt drei primäre binäre Call/Put-Optionen:",
 
-          "<ul class='main__marker-list'> <li> <div> Hoch/Niedrig-Binäroption </div> Sie wetten, ob der Preis über einem bestimmten Preis oder unter einem bestimmten Preis\nschließt </li> <li> <div> Berührung/keine Berührung </div> Sie wetten, ob der Preis mindestens einmal vor Ablauf der Option ein definiertes Preisniveau\nerreicht oder nicht. Es spielt keine Rolle, ob er über oder unter dem Preis schließt, nur dass er\ndieses Preisniveau vor dem Verfall erreicht hat. </li> <li> <div> Grenze </div> Sie wetten, dass der Preis ein bestimmtes Niveau über oder unter dem aktuell gehandelten\nPreis nicht erreichen wird. Sie möchten beispielsweise darauf wetten, dass XYZ über einen\nbestimmten Zeitraum nicht über 2,00 USD und nicht unter 1,00 USD gehandelt wird – wenn die\nPreise zwischen diesen beiden Werten bleiben, gewinnen Sie. </li></ul>",
+          "<ul class='main__marker-list'> <li> <div> Hoch/Niedrig-Binäroption </div> Sie wetten, ob der Preis über einem bestimmten Preis oder unter einem bestimmten Preis schließt </li> <li> <div> Berührung/keine Berührung </div> Sie wetten, ob der Preis mindestens einmal vor Ablauf der Option ein definiertes Preisniveau erreicht oder nicht. Es spielt keine Rolle, ob er über oder unter dem Preis schließt, nur dass er dieses Preisniveau vor dem Verfall erreicht hat. </li> <li> <div> Grenze </div> Sie wetten, dass der Preis ein bestimmtes Niveau über oder unter dem aktuell gehandelten Preis nicht erreichen wird. Sie möchten beispielsweise darauf wetten, dass XYZ über einen bestimmten Zeitraum nicht über 2,00 USD und nicht unter 1,00 USD gehandelt wird – wenn die Preise zwischen diesen beiden Werten bleiben, gewinnen Sie. </li></ul>",
 
           {
             "keypoint": true,
             "points": [
-              "Binäre Optionen sind ein extrem volatiler und fragwürdiger Spekulationsmarkt, da sowohl die\nEU als auch das Vereinigte Königreich binäre Optionen in den letzten drei Jahren verboten\nhaben.",
+              "Binäre Optionen sind ein extrem volatiler und fragwürdiger Spekulationsmarkt, da sowohl die EU als auch das Vereinigte Königreich binäre Optionen in den letzten drei Jahren verboten haben.",
 
-              "Es gibt nur sehr wenige regulierte Broker für binäre Optionen, was das Risiko für Ihr Geld\nerhöht.",
+              "Es gibt nur sehr wenige regulierte Broker für binäre Optionen, was das Risiko für Ihr Geld erhöht.",
 
-              "Unternehmen wie Payback können helfen, Geld für Opfer von Betrug mit binären Optionen\nzurückzubekommen.",
+              "Unternehmen wie Reversion können helfen, Geld für Opfer von Betrug mit binären Optionen zurückzubekommen.",
 
-              "Führen Sie Ihre eigene Due Diligence durch und recherchieren Sie jede Handelsplattform für\nbinäre Optionen sowie finden Sie Bewertungen von verschiedenen Benutzern.",
+              "Führen Sie Ihre eigene Due Diligence durch und recherchieren Sie jede Handelsplattform für binäre Optionen sowie finden Sie Bewertungen von verschiedenen Benutzern.",
 
               "Riskieren Sie nie mehr, als Sie sich leisten können zu verlieren."
             ]
@@ -84,45 +85,315 @@
         "name": "p3",
         "header": "Sind binäre Optionen ein Betrug oder legitim?",
         "indents": [
-          "Binäre Optionen sind überwiegend ein Betrug und ein illegitimer Markt. Wenn Sie die\nverschiedenen rechtlichen Unterschiede zwischen den Finanzvorschriften der USA,\nGroßbritanniens und der EU berücksichtigen, werden Sie vielleicht überrascht sein, dass die\nMärkte für binäre Optionen in den USA legal sind, aber jetzt in der EU und im Vereinigten\nKönigreich illegal sind. Tatsächlich sind die Verbote, die auf den Märkten für binäre Optionen in\nder EU und im Vereinigten Königreich verhängt wurden, noch ganz neu – 2018 für erstere und\n2019 für letztere.",
+          "Binäre Optionen sind überwiegend ein Betrug und ein illegitimer Markt. Wenn Sie die verschiedenen rechtlichen Unterschiede zwischen den Finanzvorschriften der USA, Großbritanniens und der EU berücksichtigen, werden Sie vielleicht überrascht sein, dass die Märkte für binäre Optionen in den USA legal sind, aber jetzt in der EU und im Vereinigten Königreich illegal sind. Tatsächlich sind die Verbote, die auf den Märkten für binäre Optionen in der EU und im Vereinigten Königreich verhängt wurden, noch ganz neu – 2018 für erstere und 2019 für letztere.",
 
-          "Ein wichtiger Grund für das Verbot von binären Optionen in der EU war die zweifelhafte Natur\nder CySEC (Cyprus Securities and Exchange Commission), die einer großen Anzahl unethischer\nBroker für binäre Optionen eine nationale behördliche Genehmigung erteilt hat.",
+          "Ein wichtiger Grund für das Verbot von binären Optionen in der EU war die zweifelhafte Natur der CySEC (Cyprus Securities and Exchange Commission), die einer großen Anzahl unethischer Broker für binäre Optionen eine nationale behördliche Genehmigung erteilt hat.",
 
-          "Das hohe regulatorische Umfeld der USA macht die Teilnahme an binären Optionen aus\nCompliance-Sicht geringfügig sicherer, beseitigt jedoch nicht den inhärenten zu hohen\nRisikocharakter von binären Optionen. Es gibt vielleicht keinen Markt im Bereich der\nFinanzmärkte, den professionelle Spekulanten und Anleger mehr verspotten als den Markt für\nbinäre Optionen. Wissen Sie, dass binäre Optionen eher Glücksspiel als Spekulation sind und\ndass es sich um ein echtes Nullsummeninstrument handelt."
+          "Das hohe regulatorische Umfeld der USA macht die Teilnahme an binären Optionen aus Compliance-Sicht geringfügig sicherer, beseitigt jedoch nicht den inhärenten zu hohen Risikocharakter von binären Optionen. Es gibt vielleicht keinen Markt im Bereich der Finanzmärkte, den professionelle Spekulanten und Anleger mehr verspotten als den Markt für binäre Optionen. Wissen Sie, dass binäre Optionen eher Glücksspiel als Spekulation sind und dass es sich um ein echtes Nullsummeninstrument handelt."
         ]
       },
       {
         "name": "",
         "header": "Roboterbetrug mit binären Optionen",
         "indents": [
-          "Wenn Sie ein Daytrader oder ein aufstrebender Daytrader sind und mit einigen der größten\nspekulativen und hochfrequenten Handelsmärkte der Welt wie Forex oder Futures vertraut\nsind, sind Sie wahrscheinlich mit der Verbreitung von Robotern (allgemein als &quot;Bots&quot; bekannt)\nvertraut. . Roboter für binäre Optionen werden oft verkauft, um Ihr Konto zu verwalten. Dies\nbeinhaltet die Weitergabe Ihrer Kontoinformationen oder einer API, um es einer Person oder\neinem automatisierten System zu ermöglichen, Trades in Ihrem Namen auszuführen.\nRoboterbetrug mit binären Optionen beinhaltet viele Hochdruck-Verkaufstaktiken, falsche\nAussagen über die Kapitalrendite und Erfolgsraten sowie Grafiken, die einen wohlhabenden\nLebensstil als Ergebnis der Verwendung ihres Systems darstellen."
+          "Wenn Sie ein Daytrader oder ein aufstrebender Daytrader sind und mit einigen der größten spekulativen und hochfrequenten Handelsmärkte der Welt wie Forex oder Futures vertraut sind, sind Sie wahrscheinlich mit der Verbreitung von Robotern (allgemein als &quot;Bots&quot; bekannt) vertraut. . Roboter für binäre Optionen werden oft verkauft, um Ihr Konto zu verwalten. Dies beinhaltet die Weitergabe Ihrer Kontoinformationen oder einer API, um es einer Person oder einem automatisierten System zu ermöglichen, Trades in Ihrem Namen auszuführen. Roboterbetrug mit binären Optionen beinhaltet viele Hochdruck-Verkaufstaktiken, falsche Aussagen über die Kapitalrendite und Erfolgsraten sowie Grafiken, die einen wohlhabenden Lebensstil als Ergebnis der Verwendung ihres Systems darstellen."
         ]
       },
       {
         "name": "",
         "header": "Softwarebetrug mit binären Optionen",
         "indents": [
-          "Software-Betrügereien im Bereich der binären Optionen sind weit verbreitet und fallen direkt in\nden gleichen Bereich wie Roboter. Abhängig von der Software, die für binäre Optionen\nverwendet wird (die meisten werden über einen Webbrowser ausgeführt), wird einige Software\nals „fortgeschrittene künstliche Intelligenz (KI)“ oder „Software für maschinelles Lernen“\nangepriesen, was Sie glauben lässt, dass es sich um einen äußerst ausgeklügelten Algorithmus\nhandelt, der wird erhebliche Gewinne erzielen. Viele Softwareanbieter berichten von hohen\nRenditen - die Renditen, die der Softwareanbieter erzielt, beziehen sich auf den Verkauf seiner\nSoftware an andere."
+          "Software-Betrügereien im Bereich der binären Optionen sind weit verbreitet und fallen direkt in den gleichen Bereich wie Roboter. Abhängig von der Software, die für binäre Optionen verwendet wird (die meisten werden über einen Webbrowser ausgeführt), wird einige Software als „fortgeschrittene künstliche Intelligenz (KI)“ oder „Software für maschinelles Lernen“ angepriesen, was Sie glauben lässt, dass es sich um einen äußerst ausgeklügelten Algorithmus handelt, der wird erhebliche Gewinne erzielen. Viele Softwareanbieter berichten von hohen Renditen - die Renditen, die der Softwareanbieter erzielt, beziehen sich auf den Verkauf seiner Software an andere."
         ]
       }
     ]
   },
 
   "c": {
-    "title": "Bitcoin & Cryptocurrency Scams -"
+    "title": "Bitcoin & Cryptocurrency Scams -",
+    "exp-header": "Wie man Kryptowährung und Bitcoin-Betrug im Jahr 2021 vermeidet",
+    "exp-title": "Egal wie sehr Regierungen versuchen, es zu regulieren, die Cryptocurrency-Industrie ist immer noch am Leben. Da das Thema für die breite Öffentlichkeit ziemlich mehrdeutig ist, verwenden Betrüger es, um Menschen um ihr Geld zu betrügen, mit etwas, das wie eine echte Investitionsmöglichkeit aussieht. Wenn Sie in einen Cryptocurrency-Betrug geraten sind, kontaktieren Sie uns bitte jetzt. Indem wir Ihnen helfen, Ihr Geld zurückzubekommen, können wir möglicherweise verhindern, dass diese Betrüger andere betrügen.",
+    "tocLinks": [
+      {"to": "p1", "text": "Was ist Kryptowährung?"},
+      {"to": "p2", "text": "Drei wichtige Kryptowährungen"},
+      {"to": "p3", "text": "Ist Kryptowährung ein Betrug?"}
+    ],
+
+    "tocParagraphs": [
+      {
+        "name": "p1",
+        "header": "Was ist Kryptowährung?",
+        "indents": [
+          "Kryptowährung hat sich schnell zu einer der faszinierendsten und volatilsten Finanzanlageklassen auf den Märkten entwickelt. Als Investition hat Bitcoin eine der höchsten Renditen in der Geschichte erzielt. Bitcoin wurde geschaffen, als die ersten signifikanten Auswirkungen der Großen Rezession zu spüren waren. Bitcoin wurde entwickelt, um eine Quelle des Wertes und ein Handelsmedium zu sein, eine dezentrale virtuelle Währung mit einem wirklich festen Angebot, um das zügellose Gelddrucken der Zentralbanken zu bekämpfen. Bitcoin kann aufgrund der Blockchain-Technologie und des verteilten Ledgers dezentralisiert werden."
+        ]
+      },
+      {
+        "name": "p2",
+        "header": "Drei wichtige Kryptowährungen",
+        "indents": [
+          "<h3 class='tof-sub-header'>Bitcoin</h3>",
+
+          "Bitcoin ist bei weitem die wichtigste Art von digitaler Währung, nicht nur in Bezug auf die Namenserkennung, sondern auch durch die institutionelle Akzeptanz in der Finanzwelt. Bitcoin schwankt regelmäßig zwischen 55 und 65% der gesamten Marktkapitalisierung der Kryptowährung. Als Anlagevehikel erhielt Bitcoin im Dezember 2017 seinen ersten Futures-Kontrakt von der CBOE (Chicago Board Options Exchange) und der CME (Chicago Mercantile Exchange). Das vielleicht wichtigste Ereignis für Bitcoin als Anlagevehikel ereignete sich im Juli 2020, als das US OCC (Office of the Comptroller of the Currency) allen gecharterten Banken in den USA die Möglichkeit gab, Depotdienstleistungen für Kryptowährungen anzubieten.",
+
+          "<h3 class='tof-sub-header'>Ethereum</h3>",
+
+          "Ethereum ist eine Blockchain und Kryptowährung der zweiten Generation. Es ist auch die zweitbelechwächste Kryptowährung der Welt. Ethereum ist der wichtigste &quot;Altcoin&quot;. Altcoins sind jede Kryptowährung, die nicht Bitcoin ist. Wo Bitcoin eine Wertquelle ist, ist Ethereum eher eine dezentrale Netzwerkplattform - auf der Tausende von Kryptowährungstypen mit intelligenten Verträgen erstellt werden. Ethereum hat eine Marktkapitalisierung, die ungefähr bei 1/3 von Bitcoin liegt. Ethereum ist erst die zweite Kryptowährung in den USA, der ein Futures- Kontrakt von der CME gewährt wurde - was im Februar 2021 geschah.",
+
+          "<h3 class='tof-sub-header'>Ripple</h3>",
+
+          "Ripple war zwischen 2018 und 2020 eine der beliebtesten Kryptowährungen. Ripple sollte ein Ersatz für das SWIFT-System für Überweisungen werden. Ripple ist jedoch ein hervorragendes Beispiel für Kryptowährungsbetrug. Während Ripple früher die dritthöchste Marktkapitalisierung weltweit für alle Kryptos hatte, wurde es Ende 2020 von der <a href='https://www.sec.gov/news/press-release/2020-338'> US-amerikanischen SEC stark unter die Lupe genommen.</a> Während der Rechtsstreit noch andauert, wird Ripple wegen eines nicht registrierten Wertpapierangebots, Insiderhandel und Täuschung der Anleger angeklagt. Die Chief Officers von Ripple sagten der Öffentlichkeit regelmäßig, dass sie bei Ripple bullisch seien, während sie Milliarden auf dem freien Markt abladen. Ripples- Offiziere verkauften auch große &quot;Blöcke&quot; von Ripple an Kryptowährungsinvestoren mit tiefen Rabatten - die wiederum diese Blöcke auf dem offenen Markt für einen garantierten und schnellen Gewinn verkauften. Ripple trug dazu bei, die Öffentlichkeit auf die Gefahren eines virtuellen Währungsbetrugs aufmerksam zu machen.",
+
+          {
+            "keypoint": true,
+            "points": [
+              "Kryptowährungen sind eine brandneue Anlageklasse, die enorme Anlagemöglichkeiten bietet – aber auch erhebliche Risiken.",
+
+              "Hüten Sie sich vor Versprechungen von schnellem Reichtum.",
+
+              "Führen Sie Ihre eigene Due Diligence durch und untersuchen Sie Brieftaschen, Websites und Informationen.",
+
+              "Vermeiden Sie es, Geld zu riskieren, das Sie sich nicht leisten können zu verlieren."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "p3",
+        "header": "Ist Kryptowährung ein Betrug?",
+        "indents": [
+          "Kryptowährungen sind der Wilde Westen des Investierens und Spekulierens. Es ist wichtig, mit <a href='/article/blacklisted-brands'>mit einer virtuellen Währungsplattform zu arbeiten, die seriös </a> und – idealerweise – reguliert ist. Glücklicherweise gab es im Jahr 2020 genügend Zeit für die Entwicklung seriöser Kryptowährungsbörsen. Die vielleicht bekannteste, angesehenste und vertrauenswürdigste ist Coinbase. Andere bemerkenswerte und vertrauenswürdige Krypto-Börsen sind Bitstamp, Kraken, Binance und Bittrex. Aber nehmen Sie nicht nur unser Wort dafür! Machen Sie Ihre Due Diligence und machen Sie diese regelmäßige Gewohnheit, wenn es um Kryptowährungen geht!",
+
+          "<h3 class='tof-sub-header'>Bitcoin-Mining-Betrügereien</h3>",
+
+          "Mining ist, wie Kryptowährungen wie Bitcoin erstellt werden, ein Prozess, der als Proof of Work bekannt ist. Mining erfordert erhebliche Rechenleistung, um hochentwickelte Algorithmen zur Aufzeichnung von Transaktionen im verteilten Ledger zu vervollständigen. Wenn &quot;Blöcke&quot; abgebaut und der &quot;Kette&quot; hinzugefügt werden, wird der Miner mit Bitcoin belohnt. Da bergbau zeit, ressourcen, energie und infrastrukturvergnämtlich ist, suchen viele Betrügereien nach Einzelpersonen, um in Bergbauprojekte zu &quot;investieren&quot;, eine Form des passiven Einkommens. Glücklicherweise ist dieser Betrug mit dem Aufkommen von Blockchains der 3. Generation wie Cardano, die ein Abstecksystem im Vergleich zum Mining verwenden, weniger verbreitet - keine massiven Strom- oder Infrastrukturanforderungen und ermöglicht Einzelpersonen die Möglichkeit, passives Einkommen viel einfacher zu machen als mit den Legacy-Mining- Prozessen.",
+
+          "<h3 class='tof-sub-header'>Bitcoin Wallet Betrug</h3>",
+
+          "Bitcoin (und alle Kryptowährungen) werden in digitalen Geldbörsen gehalten. Wallets haben zwei Schlüssel – einen privaten Schlüssel und einen öffentlichen Schlüssel. Ein öffentlicher Schlüssel ist im Grunde wie eine Adresse, an die etwas gesendet werden soll. Ein privater Schlüssel gibt die Erlaubnis, Ihre Kryptowährung auszugeben oder zu senden. Bitcoin-Wallet-Betrügereien sind ein häufiger Betrug, der auf neue Marktteilnehmer im Kryptowährungsraum abzielt. Da Kryptowährung in digitalen Geldbörsen gehalten wird, sind viele <a href='/article/is-cryptocurrency-legit-legal-issues-of-unconventional-currencies'>Kryptowährungsbetrugsschemata</a> in den Raum gekommen, die Sie ermutigen, ihre Brieftaschen zu verwenden. Bei einigen Betrügereien werden Sie aufgefordert, Ihren privaten Schlüssel zu senden - tun Sie es nicht!",
+
+          "<h3 class='tof-sub-header'>Pump and Dump Betrug</h3>",
+
+          "Ein Betrug, der im Kryptowährungsraum fast endemisch ist, sind Pump-and- Dump-Schemata. Ähnlich wie bei Aktien, bei Pump- und Dump-Betrügereien erwirbt eine Natürliche oder Einperson eine große Menge einer Alt-Coin und schiebt dann positive Nachrichten (gefälscht oder echt) voran, um so viele Menschen wie möglich zum Kauf zu ermutigen. Social-Media-Plattformen sind das primäre Outlet, das Pumpen- und Deponiebetreiber nutzen. Sobald der Preis gestiegen ist, verkaufen die Betreiber an der Spitze und lassen dann alle anderen die Folgen schnell fallender Preise erleiden.",
+
+          "<h3 class='tof-sub-header'>Pyramidensysteme</h3>",
+
+          "Wenn Sie ein hervorragendes Beispiel für ein Pyramidensystem im Kryptowährungsraum lernen möchten, suchen Sie nach OneCoin. Pyramidensysteme in Kryptowährungen sind die gleichen wie Ponzi- Systeme in jedem anderen Markt; Der einzige Unterschied hier ist, dass die Betrüger jetzt vom Wachstum der Kryptowährungen profitieren, um Sie ins Visier zu nehmen und Sie glauben zu lassen, dass Sie über Nacht reich werden.",
+
+          "<h3 class='tof-sub-header'>ICO Scams/Exit Scams</h3>",
+
+          "ICO steht für Initial Coin Offering. Dies ähnelt dem IPO-Prozess (Initial Public Offering) – jedoch ohne den traditionellen Regulierungsprozess. Zwischen 2016 und Ende 2018 wurde der Kryptowährungsmarkt buchstäblich mit Zehntausenden neuer Altcoins auf den Markt gebracht, die alle versprachen, der nächste Bitcoin oder Ethereum zu sein. Einige dieser neuen Altcoins generierten Millionen von Anfangsinvestitionen von Einzelpersonen, und als die Preise stiegen, verkauften die Besitzer. Dies ähnelt einem Pump and Dump, aber es ist ein Exit-Betrug, wenn es sich um ein ICO handelt. Während die Branche noch sehr neu ist, ist sie seit 2008 etwas gereift. Es ist wichtig, dass Sie Ihre Due Diligence durchführen und jede neue Kryptowährung gründlich untersuchen. Dies gilt insbesondere, wenn Sie in den sozialen Medien darauf gestoßen sind.",
+
+          "<h3 class='tof-sub-header'>Hochverzinsliche Renditebetrügereien</h3>",
+
+          "Ein wachsender Trend im Kryptowährungsraum, insbesondere im dezentralen Finanzbereich (DeFi), sind die Hochzinszinsen. Es gibt viele legitime Plattformen, die es Ihnen ermöglichen, verschiedene Kryptowährungen einzuzahlen oder zu &quot;setzen&quot; und Sie mit einem hohen Zinssatz zu belohnen. Es ist nicht ungewöhnlich, dass regulierte und legitime Projekte bis zu 10% Zinsen auf Stablecoins (im Wesentlichen Bargeld) oder bis zu 15% für Bitcoin- und Ethereum- Einlagen bieten! Aber seien Sie sehr, sehr vorsichtig mit jedem Versprechen einer Rendite von mehr als 10% bis 15%. Und Sie müssen das &quot;Kleingedruckte&quot; selbst legitimer und regulierter Unternehmen lesen. Es gibt einige Projekte, bei denen Sie Ihre Einzahlung für bis zu 90 Tage belassen müssen, um die höchste Rendite zu erzielen."
+        ]
+      }
+    ]
   },
 
   "f": {
-    "title": "Forex Trading Scams -"
+    "title": "Forex Trading Scams -",
+    "exp-header": "Forex Scams: Worauf Sie achten und was Sie vermeiden sollten",
+    "exp-title": "Die Forex-Industrie ist einer der Lieblingsgründe des Betrügers. Da die Branche allgemein als legitime Anlageoption bekannt ist, ist es für die durchschnittliche Person sehr schwierig, die Betrugsbroker von den legitimen zu unterscheiden. Normalerweise wissen die meisten Leute nicht einmal, dass sie betrogen wurden, sie denken nur, dass sie &quot;einen schlechten Handelstag&quot; hatten. Wenn Sie das Gefühl haben, dass die Art und Weise, wie Sie Ihr Geld beim Handel verloren haben, mehr als nur ein &quot;schlechter Tag&quot; ist, kontaktieren Sie uns jetzt. Wenn Ihr Broker ein Betrug ist, erhalten wir möglicherweise Ihr Geld zurück.",
+    "tocLinks" : [
+      {"to": "p1", "text": "Was ist Forex-Handel?"},
+      {"to": "p2", "text": "Ist Forex-Handel ein Betrug?"},
+      {"to": "p3", "text": "Wie man einen Forex-Betrug erkennt"},
+      {"to": "p4", "text": "Wie kann ich Geld von einem Forex-Betrug zurückgewinnen?"},
+      {"to": "p5", "text": "FAQ"}
+    ],
+
+    "tocParagraphs": [
+      {
+        "name": "p1",
+        "header": "Was ist Forex-Handel?",
+        "indents": [
+          "Forex ist der weltweit größte gehandelte Markt mit bis zu fünf Billionen gehandelten Pro Tag und gilt als dezentralisiert, da es keinen zentralen Prozessor für Trades gibt - mit anderen Worten, es gibt keine Entität, die als zentrale Börse wie die NASDAQ oder die NYSE fungiert. Stattdessen werden Aufträge von Millionen von Händlern mit Millionen von verschiedenen Forex-Brokern auf der ganzen Welt abgeschlossen.",
+
+          "Der Devisenhandel ist auch einer der am stärksten gehebelten Märkte der Welt. In den USA begrenzen die Vorschriften eine Person auf eine Hebelwirkung von 50:1. In anderen Ländern haben sie null Grenzen für die Hebelwirkung. Es ist nicht ungewöhnlich, dass einige Nicht-US-Broker 1000 + : 1 anbieten. Aufgrund dieser Faktoren und einiger anderer Faktoren, die wir besprechen werden, können Betrügereien auf dem Devisenmarkt so weit verbreitet sein."
+        ]
+      },
+      {
+        "name": "p2",
+        "header": "Ist Forex-Handel ein Betrug?",
+        "indents": [
+          "In der Investmentwelt ist Forex der Wildwest der traditionellen Finanzinstrumente. Die meisten Teilnehmer sind jedoch massive Institutionen wie Banken, die Unternehmen bei der Verwaltung währungsübergreifender Kurse für die Gehaltsabrechnung oder den Kauf von Waren unterstützen. Aber es ist bei weitem die zugänglichste und billigste Investition für jedermann. Ein Futures- Broker kann eine Mindestinvestition von 5.000 US Dollar erfordern. während viele Unternehmen auf den Devisenmärkten nur 1 US Dollar benötigen. Day-Trading- Aktien in den USA erfordern ein Mindestguthaben von 25.000 US Dollar; Forex erfordert dies nicht.",
+
+          "Der einfache Zugang zu einer erheblichen Hebelwirkung und die Tatsache, dass es 24 Stunden am Tag geöffnet ist, machen es zum attraktivsten Markt. Aber das zieht auch viele der schlechten Schauspieler an. Einige Länder regulieren die Devisenmärkte – aber nicht immer in gleichem Maße wie die USA. Viele Länder haben wenig bis gar keine Regulierung und erlauben es jedem, ein Brokerage- Konto in ihrem Land zu eröffnen. Es gibt viele, viele schlechte Broker auf der ganzen Welt - daher ist es oft am besten, bei Brokern zu bleiben, die in den USA, der EU oder Großbritannien ansässig sind.",
+
+          {
+            "keypoint": true,
+            "points": [
+              "Die Verwendung eines regulierten Brokers stellt sicher, dass: Ihr Geld sicher ist, die vom Broker bereitgestellten Daten und Informationen den Industriestandards entsprechen und der Broker legitim und ethisch arbeitet.",
+
+              "Der Forex-Handelsraum ist voll von Dienstleistungen und Einzelpersonen, die darauf aus sind, neue Händler zu betrügen. Vermeiden Sie schlechte Broker, falsche Bildungsprogramme, Lügen über die Leistungshistorie und betrügerische automatisierte Handelssysteme.",
+
+              "Wenn Sie Opfer eines Betrugs im Forex-Bereich geworden sind, stehen Ihnen Optionen zur Verfügung, die von unserem Spezialisten bei Reversion zur Verfügung gestellt werden."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "p3",
+        "header": "Wie man einen Forex-Betrug erkennt",
+        "indents": [
+          "Die Betrügereien, die es in der Investmentwelt gibt, sind zahl zahl. Eines der schwierigsten Dinge für neue und aufstrebende Trader, die es zu überwinden gilt, ist die große Menge an falschen Informationen, schlechten Akteuren und betrügerischen Brokern <a href='/article/blacklisted-brands'>auf der schwarzen Liste</a>, die versuchen, Sie auszunutzen.",
+
+          "Hier sind einige der verschiedenen Arten von Forex-Trading-Betrug:",
+
+          "<h3 class='tof-sub-header'>Hebelwirkung des Brokers</h3>",
+
+          "<ul class='main__marker-list'> <li> Die USA und die EU (in jüngerer Zeit) haben Grenzwerte von etwa 50:1. </li> <li> Wenn Sie einen Broker sehen, der 500: 1, 1000: 1 oder etwas über einen konservativen Betrag hinaus anbietet, bleiben Sie weg. Dies ist eine räuberische Aktion. </li> <li> Vermeiden Sie jeden Broker, der sich nicht über die Margin- Anforderungen im Klaren ist. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Nicht offengelegte Parameter des Brokers</h3>",
+
+          "<ul class='main__marker-list'> <li> Vermeiden Sie Anforderungen für ein minimales Stop-Loss- oder Gewinnziel </li> <li> Vermeiden Sie Anforderungen, bei denen Sie einen Trade für eine bestimmte Zeit offen haben müssen, bevor Sie aussteigen können. </li> <li> Vermeiden Sie alle, die es Ihnen nicht erlauben, Ihr eigenes Risikomanagementprofil zu erstellen. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Auszahlungsregeln für Broker</h3>",
+
+          "<ul class='main__marker-list'> <li> Sie sollten in der Lage sein, Ihr Geld nach Belaubung von Ihrem Brokerage-Konto abzuheben - aber einige erlauben dies nicht. </li> <li> Vermeiden Sie Mindestanforderungen für das gehandelte Volumen, bevor Sie abheben können. </li> <li> Vermeiden Sie jeden, der seine Auszahlungsregeln nicht offenlegt. </li> <li> Wenn ein Broker einen Bonus auf Einzahlungen bewirbt, stellen Sie sicher, dass Sie den Bonus innerhalb einer angemessenen Zeit abheben können - es sollte klar sein, was die Voraussetzungen für Sie sind, um den Bonus abzuheben. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Spread des Brokers</h3>",
+
+          "<ul class='main__marker-list'> <li> Der Spread ist die Differenz zwischen dem Bid (Kauf) und dem Ask (Verkauf) – Dies sollte klar definiert oder vermieden werden. </li> <li> Vermeiden Sie Broker, die Sie nicht vor regelmäßigen Erhöhungen der Spreads warnen, z. B. am Ende des Tages oder an bestimmten Feiertagen. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Verkäufer signalisieren</h3>",
+
+          "<ul class='main__marker-list'> <li> Forex-Signalverkäufer sind Personen, die Ihnen Signale oder Ratschläge verkaufen möchten - sie möchten Ihnen sagen, welche Paare Sie kaufen oder shorten sollen, wann Sie für Profit aussteigen sollten, wo Sie Ihre Stopps setzen sollten usw. </li> <li> Millionen von Signalverkäufern da draußen verkaufen Ihnen alle ihren Erfolg mit Botschaften wie &quot;3.000 Pips pro Woche!&quot; - ein Pip ist, wie Sie die Bewegung des Wechselkurses messen. Der durchschnittliche Pip- Bereich, den der EUR/USD pro Tag bewegt, kann zwischen 30 und 50 Pips variieren. </li> <li> Vermeiden Sie Personen oder Unternehmen, die eine Gewinngarantie versprechen oder darauf anspielen. Vermeiden Sie Entitäten, die unglaubliche Renditen versprechen, wie: &quot;90% Gewinnrate!&quot; oder &quot;188 gewinnende Trades, 12 verlierende Trades!&quot; oder &quot;MASSIVE GEWINNE&quot;. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Broker spam</h3>",
+
+          "<ul class='main__marker-list'> <li> Vermeiden Sie Websites, die Nebenwerbung und Banner haben, die einen einzelnen Broker bewerben. </li> <li> Vermeiden Sie jeden oder alles, was einen einzelnen Broker empfiehlt <ul> <li> Menschen, die einen einzelnen Broker fördern, haben in der Regel eine gewisse Übereinstimmung mit ihnen. Viele Nicht-US-Broker bieten verschiedene Anreize für Menschen, neue Kunden zu finden. Sie können dem Verkäufer eine Kürzung Ihrer Einzahlung oder einen Rabatt auf jeden von Ihnen getätigten Handel anbieten. </li> <li> Wenn Ihnen jemand von einem Broker erzählt oder wenn eine Website einen Broker bewirbt - fragen Sie, ob er eine IB-Vereinbarung (Introducing Broker) mit ihm hat - muss dies in den USA auf Nachfrage offengelegt werden. </li> </ul> </li </ul>",
+
+          "<h3 class='tof-sub-header'>Pädagogische Dienstleistungen</h3>",
+
+          "<ul class='main__marker-list'> <li> Seien Sie vorsichtig bei den unzähligen kostenlosen oder bezahlten Handelsausbildungsmöglichkeiten </li> <li> Viele Websites sehen unglaublich professionell aus und können sogar Zertifizierungsorganisationen ohne deren Erlaubnis verlinken. </li> <li> Suchen Sie nach qualitativ hochwertigen Bildungsanbietern der CMT Association (Certified Market Technicians Association), IFTA (International Fellowship of Technical Analysts) oder STA (Society of Technical Analysts). <ul> <li> Selbst von professionellen US-Brokern ist ein erheblicher Teil der angebotenen Ausbildung Jahrzehnte veraltet. </li> </ul> </li </ul>",
+
+          "<h3 class='tof-sub-header'>Automatisierter Handel oder künstliche Intelligenz (Bots oder Roboter)</h3>",
+
+          "<ul class='main__marker-list'> <li> Es ist am besten, jeden zu vermeiden, der Forex-Roboter- Handelssysteme verkauft </li> <li> KI-Systeme gibt es seit den 1990er Jahren für Privatanleger – aber fast 100% von ihnen scheitern. </li> <li> Das aktuelle Schlagwort für Investitionsbetrug ist &quot;KI&quot;. Vermeiden Sie jeden, der behauptet, dass er künstliche Intelligenz verwendet. Es gibt nur zwei bekannte private Hedgefonds, die auch nur annähernd über authentische selbstlernende KI verfügen. Sie verkaufen ihre Bots an niemanden. </li> <li> Denken Sie logisch darüber nach: Wenn Sie eine profitable KI (praktisch eine Gelddruckmaschine) schaffen würden, würden Sie jemals jemandem davon erzählen? Würden Sie es verkaufen? Wahrscheinlich nicht – Ihr Vorteil verschwindet, wenn andere Zugang zu dieser Art von Werkzeug haben. </li> <li> Automatisierte Handelssysteme sind eine häufige Art und Weise, wie Betrug von Forex-Betrügern begangen wird. </li </ul>",
+
+          "<h3 class='tof-sub-header'>Auffällige Werbung oder falscher Lebensstil</h3>",
+
+          "<ul class='main__marker-list'> <li> Vermeiden Sie jeden Service oder jede Person, die &quot;High Lifestyle&quot; - Bilder hat, wie Mädchen in Bikinis auf einer Yacht, Lamborghini oder Ferrari im Hintergrund, massive Villa oder Haus oder ein Privatjet. </li> <li>Eine gute Regel, die für jede Investition oder jedes spekulative Unterfangen zu befolgen ist: Wenn es zu gut aussieht oder klingt, um wahr zu sein, ist es wahrscheinlich so. </li </ul>"
+        ]
+      },
+      {
+        "name": "p4",
+        "header": "Wie kann ich Geld von einem Forex-Betrug zurückgewinnen?",
+        "indents": [
+          "Die Wiederherstellung von Geldern auf dem Forex-Handelsmarkt ist schwierig. Die Schwierigkeit steigt, wenn Sie einen unregulierten Broker verwenden. Zu dem Problem kommt hinzu, dass es fast unmöglich ist, von den Betrügern, die Sie betrogen haben, eine Entschädigung zu erhalten.",
+
+          "Aber wir bei Reversion haben eine nachgewiesene Erfolgsbilanz bei der Unterstützung von Investoren, die Opfer eines Betrugs oder Betrugs geworden sind. Wir sind ein reguliertes Fondsrückgewinnungsunternehmen, das sich auf einige der komplizierteren Finanzanlagen konzentriert: Forex, binäre Optionen, Kryptowährung und Aktien.",
+
+          "Zusätzlich zu unseren professionellen Forex-Wiederherstellungsdiensten konzentriert sich unser Expertenteam auf die Kundenbetreuung und wir versuchen, den Schaden, den betrügerische Akteure unseren Kunden zugefügt haben, zu mildern.",
+
+          "<a href='/contact_us'>Kontaktieren Sie uns noch heute für eine kostenlose Beratung</a> und unsere Fachleute werden während des gesamten Prozesses mit Ihnen zusammenarbeiten, um Ihnen maximale Renditen zu erzielen!"
+        ]
+      }
+    ],
+    "articles": {
+      "header": "Forex Betrug FAQ",
+      "title1": "Ist Forex ein Schneeballsystem?",
+      "text1": "Nein – aber es gibt Betrüger und Betrüger, die Schneeballsysteme schaffen. Diese Art von Verhalten existiert überall und ist auf allen gehandelten Finanzmärkten endemisch. Wenn Sie nach einem Broker suchen und sie anbieten, Sie in ein &quot;Team&quot; zu stecken, um ein Netzwerk aufzubauen, stehen die Chancen gut, dass es sich um ein Pyramidensystem handelt. Lesen Sie unseren verwandten Artikel: <a href='/article/identify-and-avoid-pyramid-schemes'>Was ist ein Schneeballsystem und wie man sie vermeidet</a>",
+      "title2": "Wer reguliert die Devisenmärkte? ",
+      "text2": "<a href='/article/forex-regulations-101-who-controls-foreign-exchange-brokers'>Mehrere große Aufsichtsbehörden</a>/Agenturen auf der ganzen Welt regulieren die Forex-Märkte. In den USA werden Broker von der NFA (National Futures Association) und der CFTC (Commodities Futures Trade Commission) reguliert – nicht aber von der FINRA (Financial Industry Regulatory Authority). Im Vereinigten Königreich ist die wichtigste Regulierungsbehörde die FCA (Financial Conduct Authority). In der EU haben alle Nationen, aus denen die EU besteht, ihre jeweilige Regulierungsbehörde – aber die Standards, die jeder Mitgliedstaat einhalten muss, sind in der MiFID (Markets in Financial Instruments Directive) festgelegt.",
+      "title3": "Woher weiß ich, ob ein Broker legitim ist? ",
+      "text3": "Gute Frage! Eines der ersten Anzeichen dafür, dass der Broker, den Sie betrachten, legitim ist, ist, wenn er offenlegt, dass er bei einer bestimmten Regulierungsbehörde wie der FCA (UK) oder CFTC (US) registriert ist. Eine weitere gute Möglichkeit, die Legitimität zu bestimmen, besteht darin, Bewertungen von aktuellen und ehemaligen Kunden zu lesen."
+    }
   },
 
   "st": {
-    "title": "Stock Market Scams -"
+    "title": "Börsenbetrug -",
+    "exp-header": "Unser Leitfaden zur Vermeidung von Börsenbetrug im Jahr 2021",
+    "exp-title": "Wir alle träumen davon, der nächste Warren Buffett zu werden. Wer möchte nicht einer der reichsten Männer der Welt sein. Wir alle würden gerne jedes Mal die richtige Investition tätigen, aber das ist fast unmöglich zu erreichen. Betrüger machen Ausfesselung derer, die ein schnelles Geld verdienen wollen, und sie werden versuchen, uns mit zwielichtigen Investitionsmöglichkeiten anzulocken, die in der Realität keine Grundlage haben. Wenn Sie vermuten, dass Sie aufgrund eines betrügerischen Aktienhandelsbetrugs Geld verloren haben, kontaktieren Sie uns jetzt und wir werden daran arbeiten, Ihr Geld zurückzubekommen.",
+    "tocLinks": [
+      {"to": "p1", "text": "Wie funktioniert der Aktienmarkt?"},
+      {"to": "p2", "text": "Ist der Aktienmarkt manipuliert?"},
+      {"to": "p3", "text": "Arten von Wertpapierbetrug"}
+    ],
+
+    "tocParagraphs": [
+      {
+        "name": "p1",
+        "header": "Wie funktioniert der Aktienmarkt?",
+        "indents": [
+          "Aktienmärkte sind eine Form der zentralisierten Börse, an der Anleger Eigentum (Aktien) verschiedener Unternehmen kaufen und verkaufen. Die meisten Aktienmärkte weltweit sind stark reguliert und umfassen legale, national registrierte und regulierte Broker, um die Übertragung von Aktien von einem Verkäufer zu einem Käufer zu erleichtern.",
+
+          "Beispiele für regulierte Börsen sind die IN den USA ansässige NYSE (New York Stock Exchange) und die NASDAQ (National Association of Securities Dealers Automated Quotations). Unsere Fähigkeit, Zugang zur Börse zu erhalten, war noch nie so mühelos, und die Eintrittsbarrieren sinken jedes Jahr weiter.",
+
+          "Aber diese Zugänglichkeit ist nicht ohne Gefahren. Wir alle sind anfällig für verschiedene Arten von Anlagebetrug in der Anlage- und Aktienwelt, daher obliegt es uns, unsere Sorgfaltspflicht zu erfüllen und uns und unser Geld davor zu schützen, Opfer von Aktienbetrug und Aktienbetrug zu werden."
+        ]
+      },
+      {
+        "name": "p2",
+        "header": "Ist der Aktienmarkt manipuliert?",
+        "indents": [
+          "Eine der größten Fragen und für viele die Überzeugungen über den Aktienmarkt ist, dass er manipuliert ist. Wirklich? Die US-Aktienmärkte werden von verschiedenen staatlichen und nichtstaatlichen Stellen wie der SEC (Securities and Exchange Commission) und der FINRA (Financial Industry Regulatory Authority) reguliert. Sowohl die SEC als auch die FINRA haben sich überschneidende rechtliche Verantwortlichkeiten, die die Börsen und die verschiedenen Broker überwachen, die den Kauf und Verkauf von Aktien erleichtern. Das bedeutet jedoch nicht, dass wir alle Betrügereien und Betrügereien vermeiden können.",
+
+          "Aktuelle und frühere Unternehmen täuschen absichtlich einzelne Investoren und/oder beteiligen sich an illegalen Buchhaltungs- und Geschäftspraktiken wie ENRON und Valeant Pharmaceuticals. Einige betrügerische Personen erstellen &quot;zu gut, um wahr zu sein&quot; Werbung, die zu Ponzi-Schemata führt - der schlechteste Schauspieler der Geschichte ist Bernie Madoff.",
+
+          "Sie haben sogar Online-Börsenmakler reguliert, die ihre treuhänderischen Verantwortlichkeiten nicht im Namen ihrer Kunden ausüben - ein jüngstes Beispiel wäre Robinhood während des GameStop-Debakels Anfang 2021. Während es offensichtliche Risiken an der Börse gibt und viele Menschen, die Sie ausnutzen möchten, arbeitet die überwältigende und überwiegende Mehrheit der Broker und Börsen auf legitime, ethische und legale Weise.",
+
+          {
+            "keypoint": true,
+            "points": [
+              "Vermeiden Sie Personen oder Unternehmen, die sich mit Phrasen wie &quot;Investitionsmöglichkeit&quot;, &quot;garantierte Rendite&quot; oder irgendetwas anderem an Sie wenden, das zu gut klingt, um wahr zu sein.",
+
+              "Vermeiden Sie Verkaufstaktiken und Werbung unter hohem Druck – wenn Sie nicht selbst nach dem Unternehmen gesucht haben, vermeiden Sie es am besten.",
+
+              "Machen Sie Ihre eigene Due Diligence - vertrauen Sie sich selbst, vermeiden Sie es, anderen zuzuhören, um Ratschläge zu erhalten, was Sie kaufen und verkaufen sollen. Sprechen Sie mit einem registrierten Finanzberater.",
+
+              "Lernen Sie die Grundlagen - Lernen Sie dow Theory 101 und identifizieren Sie, was ein Bärenmarkt ist und was ein Bullenmarkt ist. Erfahren Sie mehr über konservatives und traditionelles Investieren. Erfahren Sie mehr über Investitionen in führende und bewährte erfolgreiche Aktien wie die im herkömmlichen Korb von Blue- Chip-Aktien."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "p3",
+        "header": "Arten von Wertpapierbetrug",
+        "indents": [
+          "<h3 class='tof-sub-header'>Ponzi-Systeme</h3>",
+
+          "Die vielleicht bekannteste Version eines Aktienbetrugsschemas in der Geschichte ist ein Ponzi-Schema. Ein Ponzi-System beinhaltet die Zahlung von Anlagegewinnen an alte Investoren mit den Einlagen neuer Investoren. Wenn ein neuer Investor dem System beitritt, ist er meistens auf Anraten eines anderen Investors unwissentlich Teil des Ponzi-Systems. Was Ponzi-Systeme so erfolgreich macht, ist die wahrgenommene Legitimität und Geschichte der Renditen. Ponzi- Systeme können jahrelang oder sogar jahrzehntelang existieren.",
+
+          "Im Fall von Bernie Madoff dauerte sein Schneeballsystem und sein Betrugsimperium über 20 Jahre. Er war bei diesem Betrug so erfolgreich, dass seine Firma sogar zu einem der führenden Market Maker der Börse wurde, und er war ein ehemaliger Vorsitzender der NASDAQ! Ponzi-Systeme scheitern schließlich, weil es nie genug neues Investorengeld gibt, um alte Investoren weiter auszuzahlen. Einige der Schlüsselwörter oder Phrasen mit einem Ponzi-System sind &quot;garantiertes Einkommen&quot;, &quot;Offshore-Investition&quot;, &quot;kleiner, privater Hedgefonds&quot;, &quot;geheimer Einladungsfonds&quot; oder jede andere Form von &quot;zu gut, um wahr zu sein&quot; Verkaufsgespräch.",
+
+          "<h3 class='tof-sub-header'>Pumpe und Deponie</h3>",
+
+          "Pump and Dump (manchmal auch als P &amp; Ds bezeichnet) Betrug ist vielleicht eine der klassischen und hartnäckigen Formen von Aktienbetrug, die es gibt. Was Pump-and-Dump-Betrügereien schwierig zu erkennen macht, ist, dass sie oft auf legitime Weise durchgeführt werden können. Ein Pump and Dump ist im Wesentlichen ein Ereignis, bei dem Sie eine Aktie kaufen möchten. Die Aktie wird manchmal als &quot;Multi-Bagger&quot; bezeichnet, was auf einen massiven Return on Investment hinweist. Sie können auch darüber lesen, wie die Aktie ein aufstrebender Marktführer in ihrem Sektor / ihrer Branche ist, wie es der nächste Apple oder Amazon sein könnte.",
+
+          "Die in Pump and Dump verwendeten Aktien werden oft öffentlich gehandelt und an einer regulierten Börse wie der NASDAQ notiert und über einen regulierten Börsenmakler gekauft. Der Aktienkurs liegt fast immer zwischen 1,00 und 10,00 US$Dollar; Wie eine Pumpe und Eine Deponie funktioniert, ist einfach. Die Betrüger kaufen die billige Aktie früh und beginnen dann, in ihrem Namen zu werben und Unterstützung und Begeisterung zu wecken. Wenn neue Investoren kaufen, beginnt der Preis zu steigen und sich zu beschleunigen - an diesem Punkt verkaufen und verlassen die Urheber des Betrugs ihre Positionen mit einem erheblichen Gewinn und auf Kosten von sich selbst und allen anderen, die zu spät gekauft haben.",
+
+          "<h3 class='tof-sub-header'>Penny Stock Betrügereien</h3>",
+
+          "Neben Pump-and-Dump-Betrügereien gehören Penny-Stock-Betrügereien zu den ältesten und bekanntesten Formen des Aktienbetrugs. Penny Scams und Pump and Dumps arbeiten oft Hand in Hand mit Pump and Dump Scams, die Penny Stocks verwenden. Penny-Stock-Betrügereien werden oft als Möglichkeiten angepriesen, über ihre Aktien zu sehr günstigen Aktien in neue Unternehmen zu investieren, mit dem Versprechen massiver Renditen in der Zukunft - die Definition eines schnellen Programms, um reich zu werden. Der Ausdruck &quot;Penny Stock&quot; bedeutet nicht unbedingt, dass es sich bei der Aktie um Arbeitspfennige handelt - heute bedeutet es im Allgemeinen eine sehr niedrigwertige Aktie.",
+
+          "Moderne Penny-Stock-Betrügereien haben jedoch zunehmend Aktien verwendet, die nicht von den großen regulierten Börsen wie der NYSE erhältlich sind. Stattdessen sind diese Penny Stocks auf den &quot;Pink Sheets&quot; oder OTC- Märkten (Over The Counter) zu finden. OTC-Wertpapiere sind nicht immer bei regulierten Börsenmaklern erhältlich, da die Wertpapiere selbst zwischen dem Unternehmen, das ihre Aktien direkt an Sie verkauft, oder über einen anderen nicht zentralisierten Broker / eine andere Börse ausgetauscht werden müssen.",
+
+          "<h3 class='tof-sub-header'>Börsenmakler-Betrug</h3>",
+
+          "Börsenmaklerbetrug ist glücklicherweise eine der Formen des Betrugs, die mit der zunehmenden Regulierung der Aktienmärkte abgenommen hat. Das bedeutet jedoch nicht, dass es nicht passiert. Die Zeiten, in denen ein Börsenmakler die alten physischen Papierwertpapiere oder hinterlegtes Bargeld nahm und weglief, sind längst vorbei. Börsenmakler, die heute von den Kunden Unrecht machen wollen, müssen nun auf zwielichtigere Methoden zurückgreifen.",
+
+          "Eine der häufigsten (und manchmal legalen) Formen des Börsenmaklerbetrugs ist eine Aktivität, die als &quot;Front-Running&quot; bekannt ist. Nehmen wir an, Sie würden Ihre Maklerfirma anrufen und 100 Aktien von XYZ kaufen. Ihr Broker, der weiß, dass dies wahrscheinlich den Markt bewegen würde, platziert stattdessen selbst eine Order, bevor Er Ihre Order ausführt. Der Broker tritt im Wesentlichen früh in den Markt ein, bevor er Ihre Order abschließt, und ermöglicht es Ihrer Order, den Wert seines früheren Eintrags zu steigern.",
+
+          "Das Hauptproblem bei Frontlauf ist, dass es fast unmöglich zu erkennen ist. Mit der Menge an Hochfrequenzhandel (HFT), die jede Sekunde auftritt, ist Front- Running eine Art von Betrug, den nur fleißige und aktive Regulierungsbehörden bestimmen können. Es gibt andere Taktiken, die Börsenmakler anwenden werden, die nicht unbedingt betrügerisch, aber unethisch sind. Einige Verhaltensweisen fördern den hochfrequenten Daytrading durch neue Investoren, die nicht offengelegte Aneignung von Dividenden und unklare Regeln oder Gebühren im Zusammenhang mit Leerzeiten.",
+
+          "<h3 class='tof-sub-header'>Boiler Room Scams</h3>",
+
+          "Wenn Sie den Film &quot;Der Wolf der Wallstreet&quot; gesehen haben, dann haben Sie gesehen, was ein Heizraum ist. Jordan Belforts (Wolf of Wallstreet) Unternehmen beschäftigte Hunderte von &quot;Brokern&quot;, die potenzielle Investoren aufforderten, Aktien einzelner Unternehmen zu kaufen - oft überbewertete, aber billige Unternehmen. Der &quot;Broker&quot; verwendete hochenergetische Verkaufstaktiken, die den potenziellen Investor befürchten ließen, dass er eine Chance seines Lebens verpassen würde (FOMO = Fear Of Missing Out).",
+
+          "Während die Tage der Call-Center-Kesselräume wie die in The Wolf of Wall Street nicht mehr existieren, bedeutet das nicht, dass das Konzept verschwunden ist. Es hat sich weiterentwickelt. Anstelle von Heizräumen haben wir jetzt Subreddits (die Website Reddit), private / öffentliche Foren und Message Boards, E-Mails, Textbenachrichtigungen, betrügerische Websites, gefälschte Webinare, automatisierte Social-Media-Generatoren auf Twitter, Facebook und StockTwits (Twitter-Version für Aktienhändler). Moderne Heizraumbetriebe sind heute häufiger als ihre alten Gegenstücke, und sie wachsen weiter und werden anspruchsvoller."
+        ]
+      }
+    ]
   },
 
   "cu": {
-    "title1": "Contact us now! To get ",
-    "title2": "your money Back!"
+    "title1": "Kontaktiere uns jetzt! Zu bekommen ",
+    "title2": "Ihr Geld zurück!",
+    "subheader": "Wenn Sie von Betrügern abgezockt wurden, kontaktieren Sie uns und unser Expertenteam wird daran arbeiten, Ihr Geld zurückzubekommen",
+    "info": "Sie können uns auch auf folgende Weise kontaktieren:"
   },
 
 
@@ -162,8 +433,8 @@
   },
 
   "cu-banner": {
-    "header": "",
-    "title": ""
+    "header": "Kontaktieren Sie Uns",
+    "title": "Wenn Sie von Betrügern abgezockt wurden, kontaktieren Sie uns und unser Expertenteam wird daran arbeiten, Ihr Geld zurückzubekommen"
   },
 
   "mtocLinks": [
@@ -255,5 +526,10 @@
       "Wenn Sie Opfer geworden sind, haben Sie das Recht, das zurückzufordern, was Sie verloren haben. Mit der Rückbuchungsbranche und den Profis von Reversion erhalten Sie zurück, was Ihnen gehört."
     ]
   }
-]
+],
+  "blog": {
+    "header1": "Ausgewählte Artikel",
+    "header2": "Alle Artikel",
+    "article.head": "Holen eine kostenlose Beratung"
+  }
 }
